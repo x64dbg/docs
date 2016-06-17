@@ -6,5 +6,6 @@ Contents:
 .. toctree::
    :maxdepth: 0
    
-   initdebug
+   InitDebug
+   StopDebug
 
