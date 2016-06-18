@@ -11,16 +11,12 @@ When a breakpoint is hit, x64dbg can do the following things:
 
 1.  Increment the hit counter
 2.  Evaluate the breakpoint condition
-3.  If the condition is not satisfied, and fast resume is enabled, then the 
-
-debugger resumes.
+3.  If the condition is not satisfied, and fast resume is enabled, then the debugger resumes.
 4.  Output the default logging message if the debugger would break.
 5.  Evaluate the logging condition if it exists and output the log.
 6.  Notify the plugin that a breakpoint has been reached.
 7.  Update the trace record.
-8.  Evaluate the command condition if it exists and execute the specified 
-
-command.
+8.  Evaluate the command condition if it exists and execute the specified command.
 9.  Halt the debuggee and enter paused state.
 
 -----------
