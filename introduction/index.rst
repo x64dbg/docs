@@ -4,6 +4,7 @@ Introduction
 This is a x64/x32 debugger that is currently in active development.
 
 The debugger (currently) has three parts:
+
 * DBG
 * GUI
 * Bridge
@@ -23,3 +24,4 @@ Contents:
    Input
    Variables
    Expressions
+   ConditionalBreakpoint
