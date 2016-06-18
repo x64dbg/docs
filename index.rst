@@ -6,8 +6,8 @@ Contents:
 .. toctree::
    :maxdepth: 3
    
-   commands/index
    introduction/index
+   commands/index
 
 
 
