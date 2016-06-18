@@ -23,13 +23,7 @@ When a breakpoint is hit, x64dbg can do the following things:
 Hit counter
 -----------
 
-A hit counter records how many times a breakpoint has been reached. It will 
-
-be incremented unconditionally, even if fast resume is enabled on this 
-
-breakpoint. It may be viewed at breakpoint view and resetted with 
-
-:doc:`../commands/breakpoints-conditional/ResetBreakpointHitCount`
+A hit counter records how many times a breakpoint has been reached. It will be incremented unconditionally, even if fast resume is enabled on this breakpoint. It may be viewed at breakpoint view and resetted with :doc:`../commands/breakpoints-conditional/ResetBreakpointHitCount`
 
 -------
 Logging
@@ -41,4 +35,3 @@ The log can be formatted by x64dbg to log the current state of the program.
 See also
 --------
 :doc:`../commands/breakpoints-conditional/index`
-
