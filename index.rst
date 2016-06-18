@@ -7,6 +7,7 @@ Contents:
    :maxdepth: 3
    
    commands/index
+   introduction/index
 
 
 
