@@ -1,11 +1,12 @@
-# Introduction
+Introduction
+============
 
 This is a x64/x32 debugger that is currently in active development.
 
 The debugger (currently) has three parts:
-- DBG
-- GUI
-- Bridge
+* DBG
+* GUI
+* Bridge
 
 DBG is the debugging part of the debugger. It handles debugging (using TitanEngine) and will provide data for the GUI.
 
@@ -15,10 +16,10 @@ Bridge is the communication library for the DBG and GUI part (and maybe in the f
 
 Contents:
 
-.. toctree:
-   :maxdepth: 1
-
-   introduction/Feature-set
-   introduction/Input
-   introduction/Variables
-   introduction/Expressions
+.. toctree::
+   :maxdepth: 0
+   
+   Feature-set
+   Input
+   Variables
+   Expressions
