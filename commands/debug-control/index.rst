@@ -28,5 +28,6 @@ Contents:
    suspendallthreads
    suspendthread
    switchthread
+   TraceIntoBeyondTraceRecord
    TraceIntoConditional
    TraceOverConditional
