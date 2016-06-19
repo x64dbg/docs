@@ -14,4 +14,8 @@ Contents:
    variables/index
    miscellanous/index
    user-database/index
+   memory-operations/index
+   plugins/index
    general-purpose/index
+   script-commands/index
+   data/index
