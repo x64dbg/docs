@@ -13,4 +13,5 @@ Contents:
    breakpoints-conditional/index
    variables/index
    miscellanous/index
+   user-database/index
    general-purpose/index
