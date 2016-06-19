@@ -11,4 +11,6 @@ Contents:
    debug-control/index
    breakpoints/index
    breakpoints-conditional/index
+   variables/index
+   miscellanous/index
    general-purpose/index
