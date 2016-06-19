@@ -14,12 +14,15 @@ Contents:
    eStepInto
    eStepOut
    eStepOver
+   getcommandline
    InitDebug
    killthread
    pause
    resumeallthreads
    resumethread
    run
+   setcommandline
+   setthreadpriority
    SingleStep
    StepInto
    StepOut
@@ -28,6 +31,7 @@ Contents:
    suspendallthreads
    suspendthread
    switchthread
+   symdownload
    TraceIntoBeyondTraceRecord
    TraceIntoConditional
    TraceOverConditional
