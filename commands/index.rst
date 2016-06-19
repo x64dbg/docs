@@ -9,4 +9,5 @@ Contents:
    :maxdepth: 1
    
    debug-control/index
+   breakpoints/index
    breakpoints-conditional/index
