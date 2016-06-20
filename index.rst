@@ -4,7 +4,7 @@ Welcome to x64dbg's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    
    introduction/index
    commands/index
