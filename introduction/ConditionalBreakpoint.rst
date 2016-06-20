@@ -1,5 +1,5 @@
-Conditional Breakpoint Overview
-===============================
+Conditional Breakpoints
+=======================
 
 This section describes the conditional breakpoint capability in x64dbg.
 
@@ -7,23 +7,42 @@ This section describes the conditional breakpoint capability in x64dbg.
 Operations overview
 -------------------
 
-When a breakpoint is hit, x64dbg can do the following things:
+When a breakpoint is hit, x64dbg will do the following things:
 
-1.  Increment the hit counter
-2.  Evaluate the breakpoint condition
-3.  If the condition is not satisfied, and fast resume is enabled, then the debugger resumes.
-4.  Output the default logging message if the debugger would break.
-5.  Evaluate the logging condition if it exists and output the log.
-6.  Notify the plugin that a breakpoint has been reached.
-7.  Update the trace record.
-8.  Evaluate the command condition if it exists and execute the specified command.
-9.  Halt the debuggee and enter paused state.
+1. Increment the *hit counter*;
+
+2. If *break condition* is set, evaluate the expression (defaults to ``true``);
+
+3. If *fast resume* is set and *break condition* evaluated to ``false``:
+   
+   - Resume execution of the debuggee (skip the next steps). This will also skip executing plugin callbacks and GUI updates.
+
+4. If *log condition* is set, evaluate it (defaults to ``true``);
+
+5. If *command condition* is set, evaluate the expression (defaults to *break condition*);
+
+6. If *break condition* evaluated to ``true``:
+
+   - Print the standard log message;
+   - Execute plugin callbacks;
+
+7. If *log text* is set and *log condition* evaluated to ``true``:
+
+   - Format and print the *log text*.
+
+8. If *command text* is set and *command condition* evaluated to ``true``:
+
+   - Execute the command in *command text*.
+
+9. If *break condition* evaluated to ``true``:
+
+   - Break the debuggee and wait for the user to resume.
 
 -----------
 Hit counter
 -----------
 
-A hit counter records how many times a breakpoint has been reached. It will be incremented unconditionally, even if fast resume is enabled on this breakpoint. It may be viewed at breakpoint view and resetted with :doc:`../commands/breakpoints-conditional/ResetBreakpointHitCount`
+A hit counter records how many times a breakpoint has been reached. It will be incremented unconditionally, even if fast resume is enabled on this breakpoint. It may be viewed at breakpoint view and reset with :doc:`../commands/breakpoints-conditional/ResetBreakpointHitCount`
 
 -------
 Logging
