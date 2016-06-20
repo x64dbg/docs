@@ -24,17 +24,17 @@ This program accepts various options of input:
 
 - *Expressions*: See the expressions section for more information.
 
-- *Labels/Symbols*: user-defined labels and symbols are a valid expressions.
+- *Labels/Symbols*: User-defined labels and symbols are a valid expressions (they resolve to the address of said label/symbol).
 
 ## Module Data
 
 -  *DLL exports*: Type `GetProcAddress` and it will automatically be resolved to the actual address of the function. To explicitly define from which module to load the API, use: `[module].dll:[api]` or `[module]:[api]`. In a similar way you can resolve ordinals, try `[module]:[ordinal]`. Another macro allows you to get the loaded base of a module. When `[module]` is an empty string `:GetProcAddress` for example, the module that is currently selected in the CPU will be used.
 
--  *Loaded module bases*: If you want to access the loaded module base, you can write: `[module]:0`, `[module]:base`, `[module]:imagebase` or `[module]:header`.
+- *Loaded module bases*: If you want to access the loaded module base, you can write: `[module]:0`, `[module]:base`, `[module]:imagebase` or `[module]:header`.
 
--  *RVA/File offset*: If you want to access a module RVA you can either write `[module]:0+[rva]` or you can write `[module]:$[rva]`. If you want to convert a file offset to a VA you can use `[module]:#[offset]`. When `[module]` is an empty string `:0` for example, the module that is currently selected in the CPU will be used. 
+- *RVA/File offset*: If you want to access a module RVA you can either write `[module]:0+[rva]` or you can write `[module]:$[rva]`. If you want to convert a file offset to a VA you can use `[module]:#[offset]`. When `[module]` is an empty string `:0` for example, the module that is currently selected in the CPU will be used. 
 
--  *Module entry points*: To access a module entry point you can write `[module]:entry`, `[module]:oep` or `[module]:ep`. Notice that when there are exports with the names `entry`, `oep` or `ep` the address of these will be returned instead.
+- *Module entry points*: To access a module entry point you can write `[module]:entry`, `[module]:oep` or `[module]:ep`. Notice that when there are exports with the names `entry`, `oep` or `ep` the address of these will be returned instead.
 
    **Notice**:
    - Instead of the `:` delimiter you can also use a `.` If you need to query module information such as `[module]:imagebase` or `[module]:entry` you are advised to use a `?` as delimiter instead: `[module]?entry`. The `?` delimiter does checking for named exports later, so it will still work when there is an export called `entry` in the module.

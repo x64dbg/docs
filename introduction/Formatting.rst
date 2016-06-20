@@ -1,7 +1,7 @@
 String Formatting
 =================
 
-There is a simple string formatter built into x64dbg.
+This section explains the simple string formatter built into x64dbg.
 
 The basic syntax is ``{?expression}`` where ``?`` is the optional type of the expression. The default type is ``x``. To output ``{`` or ``}`` in the result, escape them as ``{{`` or ``}}``.
 

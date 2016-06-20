@@ -1,6 +1,6 @@
 # Expressions
 
-The debugger allows usage of basic math operations, just type an expression in the command window and the result will be displayed in the console. Apart from calculations, it allows quick variable changes using a C-like syntax.
+The debugger allows usage of basic expressions. Just type an expression in the command window and the result will be displayed in the console. Apart from calculations, it allows quick variable changes using a C-like syntax.
 
 ## Operators
 
