@@ -1,8 +1,11 @@
-# suspendallthreads[,threadsuspendall]
+# suspendallthreads/threadsuspendall
+
 Suspend all threads in the debuggee.
 
-## arguments 
+## arguments
+
 This command has no arguments.
 
-## result 
+## result
+
 This command does not set any result variables.

@@ -1,4 +1,4 @@
-﻿Jxx/IFxx
+Jxx/IFxx
 ========
 
 There are various branches that can react on the flags set by the `cmp` (and maybe other) command(s):
@@ -12,8 +12,8 @@ There are various branches that can react on the flags set by the `cmp` (and may
 
 arguments
 ---------
-  [arg1]: The label to jump to.
+\[arg1\]: The label to jump to.
 
 result
 ------
-This command does not set any result variables. 
+This command does not set any result variables.

@@ -1,8 +1,11 @@
-# resumeallthreads[,threadresumeall]
+# resumeallthreads/threadresumeall
+
 Resume all threads in the debuggee.
 
-## arguments 
+## arguments
+
 This command has no arguments.
 
-## result 
+## result
+
 This command does not set any result variables.

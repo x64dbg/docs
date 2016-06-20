@@ -1,7 +1,8 @@
 # skip
+
 Skip the next instruction. This command swallows the current exception (if present). Useful if you want to continue after an INT3 command.
 
-## arguments 
+## arguments
 
 This command has no arguments.
 

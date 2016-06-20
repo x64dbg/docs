@@ -1,12 +1,13 @@
-
-# and
-
-Binary AND two values.
-
-## arguments 
-
-  arg1: Destination.
-  arg2: Source.
-
-## result
+# and
+
+Binary AND two values.
+
+## arguments
+
+arg1: Destination.
+
+arg2: Source.
+
+## result
+
 This command does not set any result variables.
