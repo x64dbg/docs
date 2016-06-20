@@ -8,7 +8,7 @@ Apply Yara rules to a memory range.
 
 `[arg2]` Start address of the range to apply the rules to. If not specified, the disassembly selection will be used.
 
-`[arg3]` Size of the range to apply the rules  to. When not specified, the whole page will be used.
+`[arg3]` Size of the range to apply the rules to. When not specified, the whole page will be used.
 
 ## result
 

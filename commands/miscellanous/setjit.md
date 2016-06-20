@@ -1,6 +1,6 @@
 # setjit/jitset
 
-Set the Just-In-Time Debugger in Windows. In WIN64 systems there are two JIT entries: one for a x32 debugger and other for a x64 debugger. In a WIN64 system when a x32 process crash: Windows attach the x32 debugger stored in the x32-JIT entry. 
+Set the Just-In-Time Debugger in Windows. In WIN64 systems there are two JIT entries: one for a x32 debugger and other for a x64 debugger. In a WIN64 system when a x32 process crash: Windows attach the x32 debugger stored in the x32-JIT entry.
 
 Important notes:
 
@@ -12,11 +12,11 @@ Important notes:
 
 Without arguments: Set the current debugger as JIT.
 
-`arg1` 
+`arg1`
 
 1. *oldsave*: Set the current debugger as JIT and save the last JIT entry.
 
-2. *restore*: Set the old JIT entry     stored as JIT and remove it from debugger db.
+2. *restore*: Set the old JIT entry stored as JIT and remove it from debugger db.
 
 3. *old* (without arg2): Set the old JIT entry stored as new JIT.
 

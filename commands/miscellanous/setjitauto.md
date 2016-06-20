@@ -4,9 +4,9 @@ Set the Auto Just-In-Time Debugger FLAG in Windows. if this flag value its TR
 
 Important notes:
 
-- Its possible set the x32-JIT   AUTO FLAG entry from the x64 debugger (using the x32 arg).
+- Its possible set the x32-JIT AUTO FLAG entry from the x64 debugger (using the x32 arg).
 
-- Its possible set the x64-JIT   AUTO FLAG entry from the x32 debugger ONLY if the x32   debugger its running in a WIN64 System (using the x64 arg).
+- Its possible set the x64-JIT AUTO FLAG entry from the x32 debugger ONLY if the x32 debugger its running in a WIN64 System (using the x64 arg).
 
 ## arguments
 
