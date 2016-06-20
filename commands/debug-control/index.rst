@@ -17,6 +17,7 @@ Contents:
    getcommandline
    InitDebug
    killthread
+   loadlib
    pause
    resumeallthreads
    resumethread
@@ -24,6 +25,7 @@ Contents:
    setcommandline
    setthreadpriority
    SingleStep
+   skip
    StepInto
    StepOut
    StepOver
