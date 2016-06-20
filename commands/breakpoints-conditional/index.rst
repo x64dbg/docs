@@ -17,6 +17,15 @@ This section describes commands that can be used to set the various advanced pro
    SetBreakpointLog
    SetBreakpointLogCondition
    SetBreakpointName
+   GetHardwareBreakpointHitCount
+   ResetHardwareBreakpointHitCount
+   SetHardwareBreakpointCommand
+   SetHardwareBreakpointCommandCondition
+   SetHardwareBreakpointCondition
+   SetHardwareBreakpointFastResume
+   SetHardwareBreakpointLog
+   SetHardwareBreakpointLogCondition
+   SetHardwareBreakpointName
 
 **See also:**
 

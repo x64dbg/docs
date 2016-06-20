@@ -1,6 +1,6 @@
-# ResetBreakpointHitCount
+# ResetHardwareBreakpointHitCount
 
-Resets the hit counter of a software breakpoint.
+Resets the hit counter of a hardware breakpoint.
 
 ## arguments
 

@@ -1,6 +1,6 @@
-# GetBreakpointHitCount
+# GetHardwareBreakpointHitCount
 
-Gets the hit counter of a software breakpoint.
+Gets the hit counter of a hardware breakpoint.
 
 ## arguments
 

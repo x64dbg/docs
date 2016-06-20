@@ -1,6 +1,6 @@
 # SetBreakpointFastResume
 
-Set the fast resume flag of a breakpoint. If this flag is set and the break condition doesn't evaluate to break, no GUI, plugin, logging or any other action will be performed, except for incrementing the hit counter.
+Sets the fast resume flag of a software breakpoint. If this flag is set and the break condition doesn't evaluate to break, no GUI, plugin, logging or any other action will be performed, except for incrementing the hit counter.
 
 ## arguments
 

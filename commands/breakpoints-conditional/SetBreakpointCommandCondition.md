@@ -1,6 +1,6 @@
 # SetBreakpointCommandCondition
 
-Set the command condition of a breakpoint. When command condition is not specified, the command will be executed when the debugger would break, otherwise it will be executed when the condition is satisfied.
+Sets the command condition of a software breakpoint. When command condition is not specified, the command will be executed when the debugger would break, otherwise it will be executed when the condition is satisfied.
 
 ## arguments
 
