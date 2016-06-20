@@ -26,3 +26,4 @@ This section contains all commands that do not directly fit in another section.
    sleep
    strlen
    virtualmod
+   loadlib

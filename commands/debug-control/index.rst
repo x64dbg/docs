@@ -17,7 +17,6 @@ Contents:
    getcommandline
    InitDebug
    killthread
-   loadlib
    pause
    resumeallthreads
    resumethread
