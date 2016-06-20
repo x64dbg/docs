@@ -4,7 +4,7 @@ Set a bookmark.
 
 ## arguments
 
-arg1: Address to set the bookmark at (preferably inside a module).
+`arg1` Address to set the bookmark at (preferably inside a module).
 
 ## result
 

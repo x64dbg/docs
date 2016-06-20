@@ -4,7 +4,7 @@ Set the Auto Just-In-Time Debugger FLAG in Windows. if this flag value its TR
 
 ## arguments
 
-arg1:1/ON: Set current JIT entry FLAG as     TRUE.  0/FALSE: Set current JIT entry FLAG as     FALSE.x32: Set the x32-JIT AUTO FLAG     TRUE or FALSE. It needs an arg2: can be ON/1 or OFF/0.x64: Set the x64-JIT AUTO FLAG     TRUE or FALSE. It needs an arg2: can be ON/1 or OFF/0.
+`arg1` 1/ON: Set current JIT entry FLAG as     TRUE.  0/FALSE: Set current JIT entry FLAG as     FALSE.x32: Set the x32-JIT AUTO FLAG     TRUE or FALSE. It needs an arg2: can be ON/1 or OFF/0.x64: Set the x64-JIT AUTO FLAG     TRUE or FALSE. It needs an arg2: can be ON/1 or OFF/0.
 
 ## result
 

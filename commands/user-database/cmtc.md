@@ -4,7 +4,7 @@ Delete a comment.
 
 ## arguments
 
-arg1: Address of the comment to delete.
+`arg1` Address of the comment to delete.
 
 ## result
 

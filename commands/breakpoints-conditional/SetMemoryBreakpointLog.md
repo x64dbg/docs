@@ -4,9 +4,9 @@ Sets log text when a memory breakpoint is hit. When log condition is not specifi
 
 ## arguments
 
-arg1: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
-\[arg2\]: The log format string (see introduction/formatting).
+`[arg2]` The log format string (see introduction/formatting).
 
 ## result
 

@@ -4,9 +4,9 @@ Sets the command to execute when a memory breakpoint is hit. If the command cond
 
 ## arguments
 
-arg1: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
-\[arg2\]: The command (empty when not specified).
+`[arg2]` The command (empty when not specified).
 
 ## result
 

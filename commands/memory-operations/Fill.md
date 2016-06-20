@@ -4,11 +4,11 @@ Set memory of the debuggee to a specified byte.
 
 ## arguments
 
-arg1: Memory address to start setting bytes.
+`arg1` Memory address to start setting bytes.
 
-arg2: Value (byte) to set memory with.
+`arg2` Value (byte) to set memory with.
 
-\[arg3\]: Size to set. When not specified the rest of the page is used.
+`[arg3]` Size to set. When not specified the rest of the page is used.
 
 ## result
 

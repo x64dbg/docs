@@ -4,7 +4,7 @@ Remove a DLL breakpoint.
 
 ## arguments
 
-arg1: DLL Name to remove the breakpoint from.
+`arg1` DLL Name to remove the breakpoint from.
 
 ## result
 

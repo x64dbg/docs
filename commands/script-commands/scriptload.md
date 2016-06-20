@@ -4,7 +4,7 @@ Load a script file.
 
 ## arguments
 
-arg1: Script file to load.
+`arg1` Script file to load.
 
 ## result
 

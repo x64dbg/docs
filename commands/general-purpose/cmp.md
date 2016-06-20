@@ -4,9 +4,9 @@ This command compares two expressions. Notice that when you want to check for va
 
 ## arguments
 
-arg1: First expression to compare.
+`arg1` First expression to compare.
 
-arg2: Second expression to compare.
+`arg2` Second expression to compare.
 
 ## result
 

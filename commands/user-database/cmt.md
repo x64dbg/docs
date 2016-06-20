@@ -4,9 +4,9 @@ Set a comment.
 
 ## arguments
 
-arg1: Address to set the comment at (preferably inside a module).
+`arg1` Address to set the comment at (preferably inside a module).
 
-arg2: Comment text.
+`arg2` Comment text.
 
 ## result
 

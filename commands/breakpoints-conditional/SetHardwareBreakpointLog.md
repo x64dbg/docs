@@ -4,9 +4,9 @@ Sets log text when a hardware breakpoint is hit. When log condition is not speci
 
 ## arguments
 
-arg1: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
-\[arg2\]: The log format string (see introduction/formatting).
+`[arg2]` The log format string (see introduction/formatting).
 
 ## result
 

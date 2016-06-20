@@ -4,9 +4,9 @@ Sets the fast resume flag of a memory breakpoint. If this flag is set and the br
 
 ## arguments
 
-arg1: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
-\[arg2\]: The fast resume flag. If it is 0 (default), fast resume is disabled, otherwise it is enabled
+`[arg2]` The fast resume flag. If it is 0 (default), fast resume is disabled, otherwise it is enabled
 
 ## result
 

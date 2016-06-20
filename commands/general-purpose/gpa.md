@@ -4,9 +4,9 @@ Get the address of an export inside a DLL.
 
 ## arguments
 
-arg1: Export name.
+`arg1` Export name.
 
-\[arg2\]: DLL name.
+`[arg2]` DLL name.
 
 ## result
 

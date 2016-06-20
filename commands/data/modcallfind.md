@@ -4,9 +4,9 @@ Find all inter-modular calls.
 
 ## arguments
 
-\[arg1\]: Address of/inside a memory page to find inter-modular calls in. When not specified EIP/RIP will be used.
+`[arg1]` Address of/inside a memory page to find inter-modular calls in. When not specified EIP/RIP will be used.
 
-\[arg2\]: The size of the data to search in.
+`[arg2]` The size of the data to search in.
 
 ## result
 

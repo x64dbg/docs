@@ -4,9 +4,9 @@ Attach the debugger to a running process.
 
 ## arguments
 
-\[arg1\]: Process Identifier (PID) of the running process.
+`[arg1]` Process Identifier (PID) of the running process.
 
-\[arg2\]: Handle to an Event Object to signal (this is for internal use only).
+`[arg2]` Handle to an Event Object to signal (this is for internal use only).
 
 ## result
 

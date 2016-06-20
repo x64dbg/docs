@@ -4,7 +4,7 @@ Gets the hit counter of a hardware breakpoint.
 
 ## arguments
 
-arg1: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
 ## result
 

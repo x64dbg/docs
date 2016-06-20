@@ -4,9 +4,9 @@ Add a function.
 
 ## arguments
 
-arg1: Function range start.
+`arg1` Function range start.
 
-arg2: Function range end.
+`arg2` Function range end.
 
 ## result
 

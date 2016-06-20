@@ -4,7 +4,7 @@ Get a list of all variables and their values.
 
 ## arguments
 
-\[arg1\]: Filter (USER, SYSTEM, READONLY).
+`[arg1]` Filter (USER, SYSTEM, READONLY).
 
 ## result
 

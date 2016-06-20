@@ -4,7 +4,7 @@ Delete a label.
 
 ## arguments
 
-arg1: Address of the label to delete.
+`arg1` Address of the label to delete.
 
 ## result
 

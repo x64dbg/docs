@@ -4,9 +4,9 @@ Declare a new variable.
 
 ## arguments
 
-arg1: Variable name (will be prefixed with '$' if not done).
+`arg1` Variable name (will be prefixed with '$' if not done).
 
-\[arg2\]: Initial variable value (see console input for details).
+`[arg2]` Initial variable value (see console input for details).
 
 ## result
 

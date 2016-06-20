@@ -4,7 +4,7 @@ Free memory in the debuggee (using VirtualFreeEx).
 
 ## arguments
 
-\[arg1\]: Address of the memory to free. When not specified, the value at $lastalloc is used.
+`[arg1]` Address of the memory to free. When not specified, the value at $lastalloc is used.
 
 ## result
 

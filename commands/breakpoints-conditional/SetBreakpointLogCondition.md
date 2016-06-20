@@ -4,9 +4,9 @@ Sets the logging condition of a software breakpoint. When log condition is not s
 
 ## arguments
 
-arg1: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
-\[arg2\]: The logging condition (default condition when not specified).
+`[arg2]` The logging condition (default condition when not specified).
 
 ## result
 

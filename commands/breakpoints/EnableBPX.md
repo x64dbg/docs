@@ -4,7 +4,7 @@ Enable a breakpoint set using the SetBPX command.
 
 ## arguments
 
-\[arg1\]: Name or address of the breakpoint to enable. If this argument is not specified, all breakpoints will be enabled.
+`[arg1]` Name or address of the breakpoint to enable. If this argument is not specified, all breakpoints will be enabled.
 
 ## result
 

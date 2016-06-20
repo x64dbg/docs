@@ -4,7 +4,7 @@ Switch the internal current thread to another thread (resulting in different cal
 
 ## arguments
 
-\[arg1\]: ThreadId of the thread to switch to (see the Threads tab). When not specified, the main thread is used.
+`[arg1]` ThreadId of the thread to switch to (see the Threads tab). When not specified, the main thread is used.
 
 ## result
 

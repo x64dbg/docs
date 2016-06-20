@@ -4,9 +4,9 @@ Find referenced text strings.
 
 ## arguments
 
-\[arg1\]: Address of/inside a memory page to find referenced text strings in. When not specified CIP will be used.
+`[arg1]` Address of/inside a memory page to find referenced text strings in. When not specified CIP will be used.
 
-\[arg2\]: The size of the data to search in.
+`[arg2]` The size of the data to search in.
 
 ## result
 

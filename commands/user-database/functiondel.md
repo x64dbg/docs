@@ -4,7 +4,7 @@ Delete a function.
 
 ## arguments
 
-arg1: Address inside the function range to delete.
+`arg1` Address inside the function range to delete.
 
 ## result
 

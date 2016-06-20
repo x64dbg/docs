@@ -4,7 +4,7 @@ Allocate memory in the debuggee (using VirtualAllocEx). The memory is allocated 
 
 ## arguments
 
-\[arg1\]: Size of the memory to allocate. When not specified, a default size of 0x1000 is used.
+`[arg1]` Size of the memory to allocate. When not specified, a default size of 0x1000 is used.
 
 ## result
 

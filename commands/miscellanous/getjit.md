@@ -6,7 +6,7 @@ Get the Just-In-Time Debugger in Windows. In WIN64 systems there are two JIT en
 
 without args: Get the current JIT debugger.
 
-arg2:old: Get the old JIT entry     stored.x32: Get the x32-JIT entry.x64: Get the     x64-JIT entry.
+`arg2` old: Get the old JIT entry     stored.x32: Get the x32-JIT entry.x64: Get the     x64-JIT entry.
 
 ## result
 

@@ -4,9 +4,9 @@ Binary ROL a value.
 
 ## arguments
 
-arg1: Destination.
+`arg1` Destination.
 
-arg2: Source.
+`arg2` Source.
 
 ## result
 

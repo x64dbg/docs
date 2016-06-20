@@ -4,9 +4,9 @@ Binary TEST a value.
 
 ## arguments
 
-arg1: Value to test.
+`arg1` Value to test.
 
-arg2: Tester.
+`arg2` Tester.
 
 ## result
 

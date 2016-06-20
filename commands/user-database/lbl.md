@@ -4,9 +4,9 @@ Set a label.
 
 ## arguments
 
-arg1: Address to set the label at (preferably inside a module).
+`arg1` Address to set the label at (preferably inside a module).
 
-arg2: Label text.
+`arg2` Label text.
 
 ## result
 

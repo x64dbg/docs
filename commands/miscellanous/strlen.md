@@ -4,7 +4,7 @@ Get the length of a string. This was the first command ever, left in for histori
 
 ## arguments
 
-arg1: String you want to get the length of.
+`arg1` String you want to get the length of.
 
 ## result
 

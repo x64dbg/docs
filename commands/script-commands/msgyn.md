@@ -4,7 +4,7 @@ Display a message box, asking the user to answer yes or no.
 
 ## arguments
 
-\[arg1\]: Message box text.
+`[arg1]` Message box text.
 
 ## result
 

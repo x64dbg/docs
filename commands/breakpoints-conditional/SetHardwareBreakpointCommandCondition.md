@@ -4,9 +4,9 @@ Sets the command condition of a hardware breakpoint. When command condition is n
 
 ## arguments
 
-arg1: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
-\[arg2\]: The command condition (default condition when not specified).
+`[arg2]` The command condition (default condition when not specified).
 
 ## result
 

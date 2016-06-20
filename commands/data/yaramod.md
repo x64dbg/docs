@@ -4,9 +4,9 @@ Apply Yara rules to a module.
 
 ## arguments
 
-arg1: Rules file to apply. This should be a full path.
+`arg1` Rules file to apply. This should be a full path.
 
-arg2: Name of the module to apply the rules to.
+`arg2` Name of the module to apply the rules to.
 
 ## result
 

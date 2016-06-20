@@ -4,7 +4,7 @@ Delete a bookmark.
 
 ## arguments
 
-arg1: Address of the bookmark to delete.
+`arg1` Address of the bookmark to delete.
 
 ## result
 

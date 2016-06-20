@@ -4,7 +4,7 @@ Change current directory (SetCurrentDirectory).
 
 ## arguments
 
-arg1: Path of a directory to change to.
+`arg1` Path of a directory to change to.
 
 ## result
 

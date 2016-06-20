@@ -4,7 +4,7 @@ A call works exactly the same as an uncondentional branch, but it places it's ad
 
 ## arguments
 
-arg1: The label to jump to.
+`arg1` The label to jump to.
 
 ## result
 

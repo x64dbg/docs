@@ -4,7 +4,7 @@ Disable a memory breakpoint.
 
 ## arguments
 
-\[arg1\]: Address of the memory breakpoint to disable. If this argument is not specified, all memory breakpoints will be disabled.
+`[arg1]` Address of the memory breakpoint to disable. If this argument is not specified, all memory breakpoints will be disabled.
 
 ## result
 

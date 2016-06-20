@@ -4,7 +4,7 @@ Push a value on the stack.
 
 ## arguments
 
-arg1: The value to push on the stack.
+`arg1` The value to push on the stack.
 
 ## result
 

@@ -4,7 +4,7 @@ Binary NOT a value.
 
 ## arguments
 
-arg1: Destination.
+`arg1` Destination.
 
 ## result
 

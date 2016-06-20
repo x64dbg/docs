@@ -6,7 +6,7 @@ Get the Auto Just-In-Time Debugger FLAG in Windows. if this flag value its TR
 
 without args: Get current JIT entry FLAG.
 
-arg1:x32: Get the x32-JIT     AUTO FLAG.x64: Get the x64-JIT AUTO FLAG.
+`arg1` x32: Get the x32-JIT     AUTO FLAG.x64: Get the x64-JIT AUTO FLAG.
 
 ## result
 

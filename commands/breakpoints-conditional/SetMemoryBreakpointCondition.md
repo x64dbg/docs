@@ -4,9 +4,9 @@ Sets the memory breakpoint condition. When this condition is set, it is evaluate
 
 ## arguments
 
-arg1: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
-\[arg2\]: The condition expression.
+`[arg2]` The condition expression.
 
 ## result
 

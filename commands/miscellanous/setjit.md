@@ -6,7 +6,7 @@ Set the Just-In-Time Debugger in Windows. In WIN64 systems there are two JIT ent
 
 without args: Set the current debugger as JIT.
 
-arg1:oldsave: Set the current debugger as     JIT and save the last JIT entry.restore: Set the old JIT entry     stored as JIT and remove it from debugger db.old (without arg2): Set the old     JIT entry stored as new JIT.old (with arg2): Set the arg2 as     old JIT entry stored.x32: Set the arg2 as new     x32-JIT entry.x64: Set the arg2 as new     x64-JIT entry.
+`arg1` oldsave: Set the current debugger as     JIT and save the last JIT entry.restore: Set the old JIT entry     stored as JIT and remove it from debugger db.old (without arg2): Set the old     JIT entry stored as new JIT.old (with arg2): Set the arg2 as     old JIT entry stored.x32: Set the arg2 as new     x32-JIT entry.x64: Set the arg2 as new     x64-JIT entry.
 
 ## result
 

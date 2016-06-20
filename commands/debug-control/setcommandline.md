@@ -4,7 +4,7 @@ It changes the command line data.
 
 ## arguments
 
-\[arg1\]: New command line.
+`[arg1]` New command line.
 
 ## result
 
