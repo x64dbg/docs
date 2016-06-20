@@ -4,7 +4,7 @@ Initializes the debugger. This command will load the executable (do some basic c
 
 ## arguments
 
-`[arg1]` Path to the executable file to debug. If no full path is given, the `GetCurrentDirectory` API will be called to retrieve a full path. Use quotation marks to include spaces in your path.
+`arg1` Path to the executable file to debug. If no full path is given, the `GetCurrentDirectory` API will be called to retrieve a full path. Use quotation marks to include spaces in your path.
 
 `[arg2]` Commandline to create the process with.
 

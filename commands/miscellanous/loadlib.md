@@ -4,7 +4,7 @@ Load a DLL into debugged program memory.
 
 ## arguments
 
-`[arg1]` The name of the module to load.
+`arg1` The name/path of the module to load.
 
 ## result
 
