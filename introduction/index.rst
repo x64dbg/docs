@@ -18,10 +18,10 @@ Bridge is the communication library for the DBG and GUI part (and maybe in the f
 Contents:
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
    
    Feature-set
    Input
-   Variables
    Expressions
+   Variables
    ConditionalBreakpoint

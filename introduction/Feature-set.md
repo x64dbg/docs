@@ -1,5 +1,6 @@
-# Feature set cross-reference
-This program is under active development. It supports many basic and advanced features to ease debugging.
+# Features
+
+This program is under active development. It supports many basic and advanced features to ease debugging on Windows.
 
 ## Basic features
 
