@@ -26,6 +26,15 @@ This section describes commands that can be used to set the various advanced pro
    SetHardwareBreakpointLog
    SetHardwareBreakpointLogCondition
    SetHardwareBreakpointName
+   GetMemoryBreakpointHitCount
+   ResetMemoryBreakpointHitCount
+   SetMemoryBreakpointCommand
+   SetMemoryBreakpointCommandCondition
+   SetMemoryBreakpointCondition
+   SetMemoryBreakpointFastResume
+   SetMemoryBreakpointLog
+   SetMemoryBreakpointLogCondition
+   SetMemoryBreakpointName
 
 **See also:**
 
