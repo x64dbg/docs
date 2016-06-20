@@ -11,6 +11,7 @@ This section contains commands that are used to analyze and manipulate data.
    find
    findall
    findasm
+   modcallfind
    reffind
    reffindrange
    refstr
