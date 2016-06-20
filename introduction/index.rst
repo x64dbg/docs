@@ -25,3 +25,4 @@ Contents:
    Expressions
    Variables
    ConditionalBreakpoint
+   Formatting

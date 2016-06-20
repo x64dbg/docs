@@ -48,9 +48,10 @@ A hit counter records how many times a breakpoint has been reached. It will be i
 Logging
 -------
 
-The log can be formatted by x64dbg to log the current state of the program.
+The log can be formatted by x64dbg to log the current state of the program. See :doc:`./Formatting` on how to format the log string.
 
 --------
 See also
 --------
+
 :doc:`../commands/breakpoints-conditional/index`
