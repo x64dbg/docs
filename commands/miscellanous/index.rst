@@ -14,7 +14,10 @@ This section contains all commands that do not directly fit in another section.
    dump
    getjit
    getjitauto
+   guiupdatedisable
+   guiupdateenable
    HideDebugger
+   mnemonichelp
    refadd
    refinit
    sdump
@@ -22,3 +25,4 @@ This section contains all commands that do not directly fit in another section.
    setjitauto
    sleep
    strlen
+   virtualmod
