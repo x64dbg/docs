@@ -8,7 +8,7 @@ Contents:
    
    introduction/index
    commands/index
-
+   developers/index
 
 
 Indices and tables
