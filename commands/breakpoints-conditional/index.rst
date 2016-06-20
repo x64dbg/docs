@@ -1,5 +1,5 @@
-Breakpoints (conditional) control
-=================================
+Conditional Breakpoint Control
+==============================
 
 This section describes commands that can be used to set the various advanced properties of a breakpoint.
 

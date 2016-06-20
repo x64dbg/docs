@@ -1,10 +1,13 @@
 # SetBreakpointFastResume
-Set the fast resume flag of the breakpoint. If this flag is set, no GUI, plugin, logging or any other actions except the breakpoint counter increment, will be performed is the debugger would not break due to breakpoint condition.
+
+Set the fast resume flag of a breakpoint. If this flag is set and the break condition doesn't evaluate to break, no GUI, plugin, logging or any other action will be performed, except for incrementing the hit counter.
 
 ## arguments
-[arg1]: The address of an existing software breakpoint which you want to set the flag for.
 
-[arg2]: The fast resume flag. If it is 0, fast resume is disabled, otherwise it is enabled
+arg1: The address of the breakpoint.
+
+\[arg2\]: The fast resume flag. If it is 0 (default), fast resume is disabled, otherwise it is enabled
 
 ## result
+
 This command does not set any result variables.

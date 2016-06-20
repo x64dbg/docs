@@ -1,10 +1,13 @@
 # SetBreakpointName
-Set the name of the breakpoint. It can be displayed in the breakpoints view.
+
+Set the name of a breakpoint. It will be displayed in the breakpoints view and in the log when the breakpoint is hit.
 
 ## arguments
-[arg1]: The address of an existing software breakpoint.
 
-[arg2]: The new name of it.
+arg1: The address of an existing software breakpoint.
+
+\[arg2\]: The name of the breakpoint (empty when not specified).
 
 ## result
+
 This command does not set any result variables.

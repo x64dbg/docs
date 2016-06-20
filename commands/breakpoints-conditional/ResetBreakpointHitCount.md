@@ -1,10 +1,13 @@
 # ResetBreakpointHitCount
-Resets the hit counter of the breakpoint.
+
+Resets the hit counter of a breakpoint.
 
 ## arguments
-[arg1]: The address of an existing software breakpoint.
 
-[arg2]: The new hit count.
+arg1: The address of the breakpoint.
+
+\[arg2\]: The new hit count (zero when not specified).
 
 ## result
+
 This command does not set any result variables.
