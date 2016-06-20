@@ -1,4 +1,4 @@
-# SetMemoryBreakpointCondition
+# SetMemoryBreakpointCondition/bpmcond
 
 Sets the memory breakpoint condition. When this condition is set, it is evaluated every time the breakpoint hits and the debugger would stop only if condition is not 0.
 

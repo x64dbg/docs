@@ -1,4 +1,4 @@
-# SetHardwareBreakpointName
+# SetHardwareBreakpointName/bphwname
 
 Sets the name of a hardware breakpoint. It will be displayed in the breakpoints view and in the log when the breakpoint is hit.
 

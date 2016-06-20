@@ -1,4 +1,4 @@
-# SetMemoryBreakpointLogCondition
+# SetMemoryBreakpointLogCondition/bpmlogcondition
 
 Sets the logging condition of a memory breakpoint. When log condition is not specified, log text always be logged regardless of the break condition, otherwise it will be logged when the logging condition is satisfied.
 

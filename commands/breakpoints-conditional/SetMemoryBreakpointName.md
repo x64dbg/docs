@@ -1,4 +1,4 @@
-# SetMemoryBreakpointName
+# SetMemoryBreakpointName/bpmname
 
 Sets the name of a memory breakpoint. It will be displayed in the breakpoints view and in the log when the breakpoint is hit.
 

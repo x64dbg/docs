@@ -1,4 +1,4 @@
-# SetHardwareBreakpointLog
+# SetHardwareBreakpointLog/bphwlog
 
 Sets log text when a hardware breakpoint is hit. When log condition is not specified, it will always be logged regardless of the break condition, otherwise it will be logged when the logging condition is satisfied.
 
