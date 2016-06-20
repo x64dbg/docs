@@ -36,4 +36,7 @@ Contents:
    symdownload
    TraceIntoBeyondTraceRecord
    TraceIntoConditional
+   TraceIntoIntoTraceRecord
+   TraceOverBeyondTraceRecord
    TraceOverConditional
+   TraceOverIntoTraceRecord
