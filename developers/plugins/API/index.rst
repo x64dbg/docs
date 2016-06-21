@@ -21,3 +21,4 @@ This section contains information about the `_plugin_` prefixed exports.
    registercommand
    unregistercallback
    unregistercommand
+   waituntilpaused
