@@ -19,4 +19,5 @@ This section contains information about the `_plugin_` prefixed exports.
    menuseticon
    registercallback
    registercommand
+   unregistercallback
    unregistercommand
