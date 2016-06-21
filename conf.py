@@ -37,6 +37,7 @@ extensions = [
 templates_path = ['_templates']
 
 from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 
 source_parsers = {
     '.md': CommonMarkParser,
@@ -88,7 +89,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build*', 'Thumbs.db', '.DS_Store', 'README.md', '.git']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -343,3 +344,13 @@ texinfo_documents = [
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #
 # texinfo_no_detailmenu = False
+
+github_doc_root = 'https://github.com/x64dbg/x64dbg/blob/development/'
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'url_resolver': lambda url: github_doc_root + url,
+            'enable_auto_doc_ref': True,
+            'enable_inline_math': False,
+            'enable_auto_toc_tree': False
+            }, True)
+    app.add_transform(AutoStructify)
