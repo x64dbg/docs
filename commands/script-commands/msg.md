@@ -4,7 +4,7 @@ Display a message box.
 
 ## arguments
 
-`[arg1]` Message box text.
+`[arg1]` Message box text. See [String Formatting](../../introduction/Formatting.rst).
 
 ## result
 

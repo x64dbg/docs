@@ -12,7 +12,7 @@ Contents:
    breakpoints/index
    breakpoints-conditional/index
    variables/index
-   miscellanous/index
+   misc/index
    user-database/index
    memory-operations/index
    plugins/index
