@@ -1,12 +1,13 @@
 Welcome to x64dbg's documentation!
 ==================================
 
-Contents:
+**Contents:**
 
 .. toctree::
    :maxdepth: 2
    
    introduction/index
+   gui/index
    commands/index
    developers/index
 
