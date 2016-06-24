@@ -7,6 +7,10 @@ Modules view
 
 The modules view is inside the symbols view.
 
+Relative Addressing
+-------------------
+If you double-click the address column, then relative addressing will be used. The address column will show the relative address relative to the double-clicked address.
+
 Tables
 ------
 
