@@ -8,6 +8,7 @@ This section describes commands that can be used to set the various advanced pro
 .. toctree::
    :maxdepth: 0
    
+   bpgoto
    GetBreakpointHitCount
    ResetBreakpointHitCount
    SetBreakpointCommand
