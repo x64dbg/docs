@@ -21,6 +21,8 @@ Contents:
    resumeallthreads
    resumethread
    run
+   RunToParty
+   RunToUserCode
    setcommandline
    setthreadpriority
    SingleStep
