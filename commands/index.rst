@@ -15,6 +15,7 @@ Contents:
    misc/index
    user-database/index
    memory-operations/index
+   os-control/index
    plugins/index
    general-purpose/index
    script-commands/index
