@@ -38,7 +38,9 @@ Parameters
     :CB_DEBUGEVENT:  , //callbackInfo\: PLUG_CB_DEBUGEVENT*
     :CB_MENUENTRY:  , //callbackInfo\: PLUG_CB_MENUENTRY*
     :CB_WINEVENT:  , //callbackInfo\: PLUG_CB_WINEVENT* 
-    :CB_WINEVENTGLOBAL:  //callbackInfo\: PLUG_CB_WINEVENTGLOBAL* 
+    :CB_WINEVENTGLOBAL:  , //callbackInfo\: PLUG_CB_WINEVENTGLOBAL*
+    :CB_LOADDB:  , //callbackInfo\: PLUG_CB_LOADSAVEDB*
+    :CB_SAVEDB:   //callbackInfo\: PLUG_CB_LOADSAVEDB*
 
 :cbPlugin: Callback with the following typdef:
 
