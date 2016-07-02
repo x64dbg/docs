@@ -7,4 +7,5 @@ This section describes the usage of the program's graphical interface.
 .. toctree::
    :maxdepth: 2
    
+   translations
    tips
