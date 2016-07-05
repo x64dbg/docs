@@ -4,7 +4,7 @@ Sets the name of a hardware breakpoint. It will be displayed in the breakpoints 
 
 ## arguments
 
-`arg1` The address of an existing software breakpoint.
+`arg1` The address of an existing hardware breakpoint.
 
 `[arg2]` The name of the breakpoint (empty when not specified).
 
