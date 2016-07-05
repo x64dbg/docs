@@ -4,7 +4,7 @@ Sets the name of a memory breakpoint. It will be displayed in the breakpoints vi
 
 ## arguments
 
-`arg1` The address of an existing software breakpoint.
+`arg1` The address of an existing memory breakpoint.
 
 `[arg2]` The name of the breakpoint (empty when not specified).
 
