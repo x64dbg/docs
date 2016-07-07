@@ -30,6 +30,8 @@ You can use the following operators in your expression. They are processed in th
 
 12. *logical or*: `0||3` (resolves to 1 if true, 0 if false).
 
+13. *logical implication*: `0->1` (resolved to 1 if true, 0 if false).
+
 ## Quick-Assigning
 
 Changing memory, a variable, register or flag can be easily done using a C-like syntax:
