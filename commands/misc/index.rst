@@ -14,6 +14,7 @@ This section contains all commands that do not directly fit in another section.
    disasm
    dump
    exhandlers
+   exinfo
    getjit
    getjitauto
    guiupdatedisable
