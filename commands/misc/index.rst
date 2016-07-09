@@ -21,6 +21,7 @@ This section contains all commands that do not directly fit in another section.
    guiupdateenable
    HideDebugger
    mnemonichelp
+   mnemonicbrief
    refadd
    refinit
    sdump
