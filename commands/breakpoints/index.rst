@@ -23,4 +23,3 @@ This section contains various breakpoint-related commands.
    SetBPXOptions
    SetHardwareBreakpoint
    SetMemoryBPX
-   ToggleBPX
