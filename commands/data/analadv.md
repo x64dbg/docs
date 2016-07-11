@@ -1,11 +1,11 @@
-# analyse_nukem/analyze_nukem/anal_nukem
+# analadv
 
-Do function analysis using nukem's algorithm.
+Do function analysis and xref analysis.
 
 ## arguments
 
 This command has no arguments.
 
-## result
+## results
 
 This command does not set any result variables.
