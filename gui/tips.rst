@@ -25,3 +25,8 @@ Code page
 ---------
 
 You can use the codepage dialog(in the context menu of the dump view) to select a code page. UTF-16LE is the codepage that matches windows unicode encoding. You can use UTF-16LE code page to view strings in a unicode application.
+
+Change Window Title
+-------------------
+
+You can rename the windows of x64dbg by renaming "x64dbg.exe" or "x32dbg.exe" to another name. You should also rename the "x64dbg.ini" or "x32dbg.ini" to keep it the same name as the debugger.
