@@ -20,3 +20,4 @@ Contents:
    general-purpose/index
    script-commands/index
    data/index
+   watch/index
