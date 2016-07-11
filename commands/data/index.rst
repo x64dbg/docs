@@ -8,6 +8,7 @@ This section contains commands that are used to analyze and manipulate data.
    :maxdepth: 1
    
    analyse
+   analyse_nukem
    find
    findall
    findasm
