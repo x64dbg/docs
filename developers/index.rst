@@ -8,3 +8,4 @@ This section contains documentation intended to help developers to write code re
    :maxdepth: 2
    
    plugins/index
+   functions/index
