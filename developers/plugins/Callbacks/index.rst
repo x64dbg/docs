@@ -16,7 +16,7 @@ In general AVOID time-consuming operations inside callbacks, do these in separat
 .. toctree::
    :maxdepth: 1
    
-   plugcbinitdeug
+   plugcbinitdebug
    plugcbstopdebug
    plugcbcreateprocess
    plugcbexitprocess
