@@ -1,25 +1,18 @@
-========================
+===================
 BridgeGetDbgVersion 
-========================
+===================
 
 ::
 
-
+	int BridgeGetDbgVersion();
 
 ----------
 Parameters
 ----------
-
-
-
-
-
-::
-
-
+This function has no parameters.
 
 -------------
 Return Values
 -------------
-This function does not return a value.
+Return an integer value representing the version of the x64dbg.
 
