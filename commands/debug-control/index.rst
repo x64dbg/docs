@@ -16,6 +16,7 @@ Contents:
    eStepOver
    getcommandline
    InitDebug
+   InstrUndo
    killthread
    pause
    resumeallthreads
