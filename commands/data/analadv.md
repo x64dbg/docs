@@ -1,6 +1,6 @@
 # analadv
 
-Do function analysis and xref analysis.
+Do function analysis, embedded data analysis and xref analysis.
 
 ## arguments
 
