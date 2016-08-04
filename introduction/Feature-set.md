@@ -1,6 +1,6 @@
 # Features
 
-This program is under active development. It supports many basic and advanced features to ease debugging on Windows.
+This program is currently under active development. It supports many basic and advanced features to ease debugging on Windows.
 
 ## Basic features
 
@@ -44,6 +44,7 @@ This program is under active development. It supports many basic and advanced fe
 *  IDA-like sidebar with jump arrows
 *  IDA-like instruction token highlighter (highlight registers, commands, etc.)
 *  Fully customizable color scheme and short-cut keys
+*  Control flow graph
 *  Integrated mnemonic help
 *  Code folding
-
+*  Easy integration with custom tools (favourites menu)

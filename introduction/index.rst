@@ -23,6 +23,7 @@ Contents:
    Feature-set
    Input
    Expressions
+   Expression-functions
    Variables
    ConditionalBreakpoint
    Formatting
