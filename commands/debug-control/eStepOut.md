@@ -1,6 +1,6 @@
 # eStepOut/ertr
 
-Return from function by calling eStepOver until the current instruction is a RET. This command skips first-change exception.
+Return from function by calling eStepOver until the current instruction is a RET. This command **passes all first-chance exceptions to the debuggee**.
 
 ## arguments
 

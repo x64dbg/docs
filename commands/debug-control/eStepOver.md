@@ -1,6 +1,6 @@
 # eStepOver/estep/esto/est
 
-Step over calls, skipping first-chance exceptions. When the instruction at EIP/RIP isn't a call, a StepInto is performed.
+Step over calls, **passing all first-chance exceptions to the debuggee**. When the instruction at EIP/RIP isn't a call, a `eStepInto` is performed.
 
 ## arguments
 

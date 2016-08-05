@@ -1,6 +1,6 @@
 # eStepInto/esti
 
-Single Step (using Trap-Flag), skipping first-chance exceptions.
+Single Step (using Trap-Flag), **passing all first-chance exceptions to the debuggee**.
 
 ## arguments
 

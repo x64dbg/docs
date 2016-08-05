@@ -1,6 +1,6 @@
 # erun/ego/er/eg
 
-Free the lock and allow the program to run, skipping first-chance exceptions.
+Free the lock and allow the program to run, **passing all first-chance exceptions to the debuggee**.
 
 ## arguments
 
