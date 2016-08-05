@@ -6,39 +6,42 @@ Contents:
 .. toctree::
    :maxdepth: 0
    
-   AttachDebugger
-   DebugContinue
-   DetachDebugger
-   erun
-   eSingleStep
-   eStepInto
-   eStepOut
-   eStepOver
-   getcommandline
    InitDebug
-   InstrUndo
-   killthread
-   pause
-   resumeallthreads
-   resumethread
+   StopDebug
+   AttachDebugger
+   DetachDebugger
    run
+   erun
+   serun
+   pause
+   StepInto
+   eStepInto
+   seStepInto
+   StepOver
+   eStepOver
+   seStepOver
+   SingleStep
+   eSingleStep
+   eStepOut
+   StepOut
+   TraceIntoConditional
+   TraceOverConditional
+   TraceIntoBeyondTraceRecord
+   TraceOverBeyondTraceRecord
+   TraceIntoIntoTraceRecord
+   TraceOverIntoTraceRecord
    RunToParty
    RunToUserCode
-   setcommandline
-   setthreadpriority
-   SingleStep
+   DebugContinue
    skip
-   StepInto
-   StepOut
-   StepOver
-   StopDebug
-   suspendallthreads
-   suspendthread
+   InstrUndo
+   setcommandline
+   getcommandline
    switchthread
+   suspendthread
+   resumethread
+   killthread
+   suspendallthreads
+   resumeallthreads
+   setthreadpriority
    symdownload
-   TraceIntoBeyondTraceRecord
-   TraceIntoConditional
-   TraceIntoIntoTraceRecord
-   TraceOverBeyondTraceRecord
-   TraceOverConditional
-   TraceOverIntoTraceRecord
