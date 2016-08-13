@@ -6,7 +6,7 @@ This program is currently under active development. It supports many basic and a
 
 *  Full-featured debugging of DLL and EXE files (TitanEngine)
 *  32-bit and 64-bit Windows support from Windows XP to Windows 10
-*  Built-in assembler (XEDParse/Keystone)
+*  Built-in assembler (XEDParse/[Keystone](http://www.keystone-engine.org/))
 *  Fast disassembler (Capstone)
 *  C-like expression parser
 *  Logging
@@ -32,8 +32,8 @@ This program is currently under active development. It supports many basic and a
 ## Advanced features
 
 *  Decompiler (Snowman)
-*  Yara Pattern Matching
-*  Import reconstructor integrated (Scylla)
+*  [Yara Pattern Matching](http://yara.readthedocs.io)
+*  Import reconstructor integrated ([Scylla](https://github.com/NtQuery/Scylla))
 *  Analysis
 *  Conditional breakpoints and tracing with great flexibility.
 *  Collect data while tracing

@@ -22,5 +22,6 @@ This section contains commands that are used to analyze and manipulate data.
    reffindrange
    refstr
    savedata
+   setmaxfindresult
    yara
    yaramod

@@ -32,6 +32,7 @@ This section contains all commands that do not directly fit in another section.
    refadd
    refinit
    sdump
+   scriptdll
    setjit
    setjitauto
    sleep
