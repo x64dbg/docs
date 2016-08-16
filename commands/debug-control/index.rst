@@ -44,4 +44,5 @@ Contents:
    suspendallthreads
    resumeallthreads
    setthreadpriority
+   setthreadname
    symdownload
