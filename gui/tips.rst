@@ -21,6 +21,11 @@ Highlight mode
 
 Don't know how to hightlight a register? Press Ctrl+H (or click "Highlight mode" menu on the disassembly view). When the red border is shown, click on the register(or command, immediate or any token), then that token will be hightlighted with an underline.
 
+Middle mouse button
+-------------------
+
+In disassembly view, pressing middle mouse button will copy the selected address to the clipboard.
+
 Code page
 ---------
 
