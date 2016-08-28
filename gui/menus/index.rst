@@ -11,3 +11,5 @@ This section describes menus in the GUI.
    
    File
    Debug
+   Plugins
+   Favourites

@@ -8,5 +8,6 @@ This section describes the usage of the program's graphical interface.
    :maxdepth: 2
    
    menus/index
+   views/index
    translations
    tips
