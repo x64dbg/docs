@@ -21,3 +21,4 @@ Contents:
    script-commands/index
    data/index
    watch/index
+   analysis/index
