@@ -15,6 +15,7 @@ This section describes commands that can be used to set the various advanced pro
    SetBreakpointCommandCondition
    SetBreakpointCondition
    SetBreakpointFastResume
+   SetBreakpointSingleshoot
    SetBreakpointLog
    SetBreakpointLogCondition
    SetBreakpointName
@@ -25,6 +26,7 @@ This section describes commands that can be used to set the various advanced pro
    SetHardwareBreakpointCommandCondition
    SetHardwareBreakpointCondition
    SetHardwareBreakpointFastResume
+   SetHardwareBreakpointSingleshoot
    SetHardwareBreakpointLog
    SetHardwareBreakpointLogCondition
    SetHardwareBreakpointName
@@ -35,6 +37,7 @@ This section describes commands that can be used to set the various advanced pro
    SetMemoryBreakpointCommandCondition
    SetMemoryBreakpointCondition
    SetMemoryBreakpointFastResume
+   SetMemoryBreakpointSingleshoot
    SetMemoryBreakpointLog
    SetMemoryBreakpointLogCondition
    SetMemoryBreakpointName
