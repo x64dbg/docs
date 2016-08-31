@@ -18,7 +18,7 @@ You can use the following operators in your expression. They are processed in th
 
 4. *addition/subtraction*: ``1+3`` (addition), ``5-2`` (subtraction).
 
-5. *left/right shift*: ``1<<2`` (shift left, shl for unsigned, sal for signed), ``10>>1`` (shift right, shl for unsigned, sal for signed). 
+5. *left/right shift/rotate*: ``1<<2`` (shift left, shl for unsigned, sal for signed), ``10>>1`` (shift right, shl for unsigned, sal for signed), ``1<<<2`` (rotate left), ``1>>>2`` (rotate right).
 
 6. *smaller (equal)/bigger (equal)*: ``4<10``, ``3>6``, ``1<=2``, ``6>=7`` (resolves to 1 if true, 0 if false).
 
