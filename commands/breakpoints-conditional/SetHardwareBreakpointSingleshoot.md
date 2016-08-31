@@ -6,7 +6,7 @@ Sets the singleshoot flag of a hardware breakpoint. If this flag is set the brea
 
 `arg1` The address of the breakpoint.
 
-`[arg2]` The singleshoot flag. If it is 0 (default), fast resume is disabled, otherwise it is enabled
+`[arg2]` The singleshoot flag. If it is 0 (default), singleshoot is disabled, otherwise it is enabled
 
 ## result
 
