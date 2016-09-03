@@ -37,6 +37,7 @@ Contents:
    InstrUndo
    setcommandline
    getcommandline
+   createthread
    switchthread
    suspendthread
    resumethread
