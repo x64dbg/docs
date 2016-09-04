@@ -27,3 +27,4 @@ This section contains various commands that are used for calculations etc.
    sub
    test
    xor
+   swap
