@@ -10,4 +10,4 @@ arg1:  The entry of the new thread.
 
 ## results
 
-This command does not set any result variables.
+`$result` will be set to the thread id of the new thread.
