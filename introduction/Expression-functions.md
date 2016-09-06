@@ -29,6 +29,7 @@ You may use functions in an expression. The following functions are defined by t
 * `bswap(value)` : Byte-swap `value`.
 * `ternary(condition, val1, val2)` : If condition is nonzero, return `val1`, otherwise return `val2`.
 * `mem.valid(addr)` : True if `addr` is a valid memory address.
+* `GetTickCount()` : Tick count of x64dbg.
 
 ## Disassembly
 
