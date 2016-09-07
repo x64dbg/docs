@@ -1,8 +1,6 @@
 # refadd
 
-Add an entry to the reference view. You # need
-
-to call 'refinit' before using refadd.
+Add an entry to the reference view. You need to call 'refinit' before using refadd.
 
 ## arguments
 
