@@ -37,6 +37,7 @@ You may use functions in an expression. The following functions are defined by t
 * `dis.iscond(addr)` : True if the instruction at `addr` is a conditional branch.
 * `dis.isbranch(addr)` : True if the instruction at `addr` is a branch (jcc/call).
 * `dis.isret(addr)` : True if the instruction at `addr` is a `ret`.
+* `dis.ismem(addr)` : True if the instruction has a memory operand.
 * `dis.branchdest(addr)` : Branch destination of the instruction at `addr` (what it follows if you press enter on it).
 * `dis.branchexec(addr)` : True if the branch at `addr` is going to execute.
 * `dis.imm(addr)` : Immediate value of the instruction at `addr`.
