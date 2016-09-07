@@ -1,4 +1,4 @@
-# DataQword
+# DataQword/dq
 
 Mark data at address as Qword.
 
