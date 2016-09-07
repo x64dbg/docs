@@ -1,4 +1,4 @@
-# DataUnknown
+# DataDword/dw
 
 Mark data at address as Dword.
 

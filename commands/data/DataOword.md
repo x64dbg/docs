@@ -1,4 +1,4 @@
-# DataUnknown
+# DataOword
 
 Mark data at address as Oword.
 

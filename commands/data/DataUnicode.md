@@ -1,4 +1,4 @@
-# DataUnknown
+# DataUnicode/du
 
 Mark data at address as Unicode.
 

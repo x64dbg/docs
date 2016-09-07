@@ -1,4 +1,4 @@
-# DataUnknown
+# DataFword
 
 Mark data at address as Fword.
 

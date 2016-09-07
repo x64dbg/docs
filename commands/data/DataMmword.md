@@ -1,4 +1,4 @@
-# DataUnknown
+# DataMmword
 
 Mark data at address as Mmword.
 

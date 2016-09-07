@@ -1,4 +1,4 @@
-# DataUnknown
+# DataLongdouble/DataReal10
 
 Mark data at address as Long double.
 

@@ -1,4 +1,4 @@
-# DataUnknown
+# DataWord/dw
 
 Mark data at address as Word.
 

@@ -1,4 +1,4 @@
-# DataUnknown
+# DataDouble/DataReal8
 
 Mark data at address as Double.
 

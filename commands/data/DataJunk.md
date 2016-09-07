@@ -1,4 +1,4 @@
-# DataUnknown
+# DataJunk
 
 Mark data at address as Junk.
 
