@@ -17,6 +17,7 @@ This section contains all commands that do not directly fit in another section.
    DisableLog
    disasm
    dump
+   memmapdump
    EnableLog
    exhandlers
    exinfo
