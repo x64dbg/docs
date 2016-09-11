@@ -4,7 +4,7 @@ Execute a script DLL.
 
 ## arguments
 
-`arg1`: The filename and path of the script DLL.
+`arg1`: The filename and path of the script DLL. If a full path is not provided x64dbg will look in the `scripts` directory for the DLL.
 
 ## results
 
