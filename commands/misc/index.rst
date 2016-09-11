@@ -24,6 +24,7 @@ This section contains all commands that do not directly fit in another section.
    FoldDisassembly
    getjit
    getjitauto
+   GetTickCount
    graph
    guiupdatedisable
    guiupdateenable
