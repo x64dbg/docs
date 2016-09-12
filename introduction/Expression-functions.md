@@ -8,28 +8,38 @@ You may use functions in an expression. The following functions are defined by t
 * `dump.sel()` : Get the selected address in the dump view.
 * `stack.sel()` : Get the selected address in the stack view.
 
-## Program Information
-
-* `mod.base(addr)` : Get the base address of the module `addr`.
-* `mod.entry(addr)` : Get the entry address of the module `addr`.
-* `mod.party(addr)` : Get the party of the module `addr`. `0` is user module, `1` is system module.
-* `mod.size(addr)` : Get the size of the module `addr`.
-* `mod.hash(addr)` : Get the hash of the module `addr`.
-* `peb()` : Get PEB address.
-* `teb()` : Get TEB address.
-* `tid()` : Get the current thread ID.
-
 ## Source
 
 * `src.disp(addr)` : Get displacement of `addr` relative to last source line.
 * `src.line(addr)` : Get the source line number of `addr`.
 
+## Modules
+
+* `mod.party(addr)` : Get the party of the module `addr`. `0` is user module, `1` is system module.
+* `mod.base(addr)` : Get the base address of the module `addr`.
+* `mod.size(addr)` : Get the size of the module `addr`.
+* `mod.hash(addr)` : Get the hash of the module `addr`.
+* `mod.entry(addr)` : Get the entry address of the module `addr`.
+
+## Process Information
+
+* `peb()` : Get PEB address.
+* `teb()` : Get TEB address.
+* `tid()` : Get the current thread ID.
+
 ## General Purpose
 
 * `bswap(value)` : Byte-swap `value`.
 * `ternary(condition, val1, val2)` : If condition is nonzero, return `val1`, otherwise return `val2`.
-* `mem.valid(addr)` : True if `addr` is a valid memory address.
 * `GetTickCount()` : Tick count of x64dbg.
+
+## Memory
+
+* `mem.valid(addr)` : True if `addr` is a valid memory address.
+* `mem.base(addr)` : Returns the base of the memory page (can change depending on your memory map mode).
+* `mem.size(addr)` : Returns the size of the memory page (can change depending on your memory map mode).
+* `mem.iscode(addr)` : True if `addr` is a page that is executable.
+* `mem.decodepointer(ptr)` : Equivalent to the `DecodePointer` API, only works on Vista+.
 
 ## Disassembly
 
