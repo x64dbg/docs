@@ -36,10 +36,10 @@ You may use functions in an expression. The following functions are defined by t
 ## Memory
 
 * `mem.valid(addr)` : True if `addr` is a valid memory address.
-* `mem.base(addr)` : Returns the base of the memory page (can change depending on your memory map mode).
-* `mem.size(addr)` : Returns the size of the memory page (can change depending on your memory map mode).
+* `mem.base(addr)` : Returns the base of the memory page of `addr` (can change depending on your memory map mode).
+* `mem.size(addr)` : Returns the size of the memory page of `addr` (can change depending on your memory map mode).
 * `mem.iscode(addr)` : True if `addr` is a page that is executable.
-* `mem.decodepointer(ptr)` : Equivalent to the `DecodePointer` API, only works on Vista+.
+* `mem.decodepointer(ptr)` : Equivalent to calling the `DecodePointer` API on `ptr`, only works on Vista+.
 
 ## Disassembly
 
