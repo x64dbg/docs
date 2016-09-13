@@ -1,10 +1,10 @@
-# SetBPX/bp/bpx
+﻿# SetBPX/bp/bpx
 
 Set an INT3 (SHORT/LONG) or UD2 breakpoint and optionally assign a name to it.
 
 ## arguments
 
-`arg1` Address to put a breakpoint on. This can be an API name [not implemented].
+`arg1` Address to put a breakpoint on. This can be an API name.
 
 `[arg2]` Name of the breakpoint, use quotation marks to include spaces. This name can be used by the EnableBPX, DisableBPX and DeleteBPX functions as alias, but is mainly intended to provide a single line of information about the currently-hit breakpoint. When arg2 equals to a valid type (arg3) the type is used and arg2 is ignored.
 

@@ -20,6 +20,16 @@ This section describes commands that can be used to set the various advanced pro
    SetBreakpointLogCondition
    SetBreakpointName
    SetBreakpointSilent
+   ResetExceptionBreakpointHitCount
+   SetExceptionBreakpointCommand
+   SetExceptionBreakpointCommandCondition
+   SetExceptionBreakpointCondition
+   SetExceptionBreakpointFastResume
+   SetExceptionBreakpointSingleshoot
+   SetExceptionBreakpointLog
+   SetExceptionBreakpointLogCondition
+   SetExceptionBreakpointName
+   SetExceptionBreakpointSilent
    GetHardwareBreakpointHitCount
    ResetHardwareBreakpointHitCount
    SetHardwareBreakpointCommand

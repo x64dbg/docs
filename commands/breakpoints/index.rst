@@ -9,17 +9,21 @@ This section contains various breakpoint-related commands.
    
    bplist
    DeleteBPX
+   DeleteExceptionBPX
    DeleteHardwareBreakpoint
    DeleteMemoryBPX
    DisableBPX
+   DisableExceptionBPX
    DisableHardwareBreakpoint
    DisableMemoryBreakpoint
    EnableBPX
+   EnableExceptionBPX
    EnableHardwareBreakpoint
    EnableMemoryBreakpoint
    LibrarianRemoveBreakPoint
    LibrarianSetBreakPoint
    SetBPX
    SetBPXOptions
+   SetExceptionBPX
    SetHardwareBreakpoint
    SetMemoryBPX
