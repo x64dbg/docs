@@ -1,4 +1,4 @@
-﻿# DisableBPX/bpd/bd
+﻿# DisableExceptionBPX
 
 Disable an exception breakpoint set using the SetExceptionBPX command.
 
