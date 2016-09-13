@@ -1,6 +1,6 @@
 ﻿# SetExceptionBPX
 
-Set an exception breakpoint.
+Set an exception breakpoint. If an exception breakpoint is active, all the exceptions with the same chance and code will be captured as a breakpoint event and will not be handled by the default exception handling policy.
 
 ## arguments
 
