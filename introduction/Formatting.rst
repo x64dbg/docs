@@ -3,7 +3,7 @@ String Formatting
 
 This section explains the simple string formatter built into x64dbg.
 
-The basic syntax is ``{?expression}`` where ``?`` is the optional type of the expression. The default type is ``x``. To output ``{`` or ``}`` in the result, escape them as ``{{`` or ``}}``.
+The basic syntax is ``{?:expression}`` where ``?`` is the optional type of the expression. The default type is ``x``. To output ``{`` or ``}`` in the result, escape them as ``{{`` or ``}}``.
 
 -----
 Types
@@ -21,4 +21,4 @@ Examples
 --------
 
 - ``rax: {rax}`` formats to ``rax: 4C76``
-- ``password: {s[4*ecx+0x402000]}`` formats to ``password: L"s3cret"``
+- ``password: {s:[4*ecx+0x402000]}`` formats to ``password: L"s3cret"``
