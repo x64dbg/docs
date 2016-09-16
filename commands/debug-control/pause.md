@@ -1,6 +1,6 @@
 # pause
 
-Pause the debuggee.
+Pause the debuggee or stop animation if animation is in progress.
 
 ## arguments
 

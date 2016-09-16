@@ -13,3 +13,4 @@ This section describes menus in the GUI.
    Debug
    Plugins
    Favourites
+   Options

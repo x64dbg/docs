@@ -38,7 +38,7 @@ Enter an address. The debugger will then place a software breakpoint at that add
 Pause
 -----
 
-Try to pause the debuggee when it is running. The command for this action is :doc:`../../commands/debug-control/pause`.
+Try to pause the debuggee when it is running, or try to stop animation. The command for this action is :doc:`../../commands/debug-control/pause`.
 
 -------
 Restart
@@ -88,6 +88,12 @@ Trace into until condition
 
 Enter an expression. The debugger will execute the command :doc:`../../commands/debug-control/TraceIntoConditional`. Also see :doc:`../../introduction/Expressions` for the legal expression format.
 
+------------
+Animate into
+------------
+
+Execute :doc:`../../commands/debug-control/StepInto` command at a steady frequency automatically.
+
 ---------
 Step Over
 ---------
@@ -124,17 +130,39 @@ Trace over until condition
 
 Enter an expression. The debugger will execute the command :doc:`../../commands/debug-control/TraceOverConditional`. Also see :doc:`../../introduction/Expressions` for the legal expression format.
 
+------------
+Animate over
+------------
+
+Execute :doc:`../../commands/debug-control/StepOver` command at a steady frequency automatically.
+
 -------------------
 Execute till return
 -------------------
 
 Step over the instructions, until the current instruction pointed to by ``EIP`` or ``RIP`` is ``ret`` instruction.
 
+The command for this action is :doc:`../../commands/debug-control/StepOut`.
+
+-------------------------------------
+Execute till return (pass exceptions)
+-------------------------------------
+
+Step over the instructions, until the current instruction pointed to by ``EIP`` or ``RIP`` is ``ret`` instruction. This instruction passes first-chance exceptions to the debuggee but swallows second-chance exceptions.
+
+The command for this action is :doc:`../../commands/debug-control/eStepOut`.
+
 ---------------------
 Skip next instruction
 ---------------------
 
 Execute the command :doc:`../../commands/debug-control/skip`.
+
+---------------
+Animate command
+---------------
+
+Pop up a dialog to enter a command, and execute that command at a steady frequency.
 
 ------------
 Trace Record
