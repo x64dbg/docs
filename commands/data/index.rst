@@ -1,6 +1,6 @@
 Data
 ====
-This section contains commands that are used to analyze and manipulate data.
+This section contains commands that are used to manipulate data.
 
 **Contents:**
 
@@ -10,6 +10,7 @@ This section contains commands that are used to analyze and manipulate data.
    find
    findall
    findasm
+   imageinfo
    modcallfind
    reffind
    reffindrange

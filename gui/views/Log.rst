@@ -28,6 +28,11 @@ Disable Logging/Enable Logging
 
 Disables or enables log output. When the logging is disabled, no more messages will output to the log.
 
+Auto scroll
+-----------
+
+Enables or disables auto-scrolling. When enabled, the log view will scroll to the bottom as new log messages are coming in.
+
 Redirect Log
 ------------
 
