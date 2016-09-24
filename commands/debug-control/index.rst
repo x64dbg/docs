@@ -1,7 +1,7 @@
 Debug Control
 =============
 
-Contents:
+**Contents:**
 
 .. toctree::
    :maxdepth: 0

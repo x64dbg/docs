@@ -59,6 +59,14 @@ You may use functions in an expression. The following functions are defined by t
 * `tr.enabled(addr)` : True if the trace record is enabled at `addr`.
 * `tr.hitcount(addr)` : Number of hits on the trace record at `addr`.
 
+## Byte/Word/Dword/Qword/Ptr
+
+* `ReadByte,Byte,byte(addr)` : Read a byte from `addr` and return the value.
+* `ReadWord,Word,word(addr)` : Read a word (2 bytes) from `addr` and return the value.
+* `ReadDword,Dword,dword(addr)` : Read a dword (4 bytes) from `addr` and return the value.
+* `ReadQword,Qword,qword(addr)` : Read a qword (8 bytes) from `addr` and return the value (only available on x64).
+* `ReadPtr,ReadPointer,ptr,Pointer,pointer(addr)` : Read a pointer (4/8 bytes) from `addr` and return the value.
+
 ## Plugins
 
-Plugins can register their own expression functions. See the documentation of your plugin for details.
+Plugins can register their own expression functions. See the plugin documentation for more details.

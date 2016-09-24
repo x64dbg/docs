@@ -3,7 +3,7 @@ Commands
 
 This is the documentation of x64dbg commands.
 
-Contents:
+**Contents:**
 
 .. toctree::
    :maxdepth: 1

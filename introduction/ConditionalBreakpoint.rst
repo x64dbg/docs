@@ -13,7 +13,7 @@ When a breakpoint is hit, x64dbg will do the following things:
 
 2. Set the system variable ``$breakpointcounter`` to the value of *hit counter*.
 
-3. If *break condition* is set, evaluate the expression (defaults to ``true``);
+3. If *break condition* is set, evaluate the :doc:`expression <./Expressions>` (defaults to ``true``);
 
 4. If *fast resume* is set and *break condition* evaluated to ``false``:
    
@@ -21,7 +21,7 @@ When a breakpoint is hit, x64dbg will do the following things:
 
 5. If *log condition* is set, evaluate it (defaults to ``true``);
 
-6. If *command condition* is set, evaluate the expression (defaults to *break condition*);
+6. If *command condition* is set, evaluate the :doc:`expression <./Expressions>` (defaults to *break condition*);
 
 7. If *break condition* evaluated to ``true``:
 
@@ -65,3 +65,5 @@ See also
 --------
 
 :doc:`../commands/breakpoints-conditional/index`
+:doc:`./Expressions`
+:doc:`./Expression-functions`
