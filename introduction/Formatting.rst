@@ -21,4 +21,4 @@ Examples
 --------
 
 - ``rax: {rax}`` formats to ``rax: 4C76``
-- ``password: {s:[4*ecx+0x402000]}`` formats to ``password: L"s3cret"``
+- ``password: {s:4*ecx+0x402000}`` formats to ``password: L"s3cret"``
