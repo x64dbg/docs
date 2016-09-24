@@ -64,6 +64,6 @@ You should not use commands that can change the running state of the debuggee (s
 See also
 --------
 
-:doc:`../commands/breakpoints-conditional/index`
-:doc:`./Expressions`
-:doc:`./Expression-functions`
+- :doc:`../commands/breakpoints-conditional/index`
+- :doc:`./Expressions`
+- :doc:`./Expression-functions`
