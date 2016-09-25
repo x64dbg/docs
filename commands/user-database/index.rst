@@ -20,3 +20,4 @@ This section contains commands that manipulate the user database (comments, labe
    lblc
    loaddb
    savedb
+   cleardb
