@@ -41,3 +41,4 @@ This section contains all commands that do not directly fit in another section.
    strlen
    virtualmod
    loadlib
+   grs
