@@ -6,7 +6,7 @@ Add a command in the favourites menu.
 
 `arg1`: The command to add.
 
-`\[arg2\]`: The optional shortcut key for the command.
+`[arg2]`: The optional shortcut key for the command.
 
 ## results
 

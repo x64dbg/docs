@@ -4,7 +4,7 @@ Step a specified number of instructions using the Trap-Flag, **passing all first
 
 ## arguments
 
-`[arg1]` The number of instructions to executre (this can be any valid expression). When not specified, an `eStepInto` is performed.
+`[arg1]` The number of instructions to execute (this can be any valid expression). When not specified, an `eStepInto` is performed.
 
 ## result
 

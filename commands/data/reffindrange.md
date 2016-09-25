@@ -4,7 +4,7 @@ Find references to a certain range of values.
 
 ## arguments
 
-`[arg1]` Start of the range (will be included in the results when found).
+`arg1` Start of the range (will be included in the results when found).
 
 `[arg2]` End of range (will be included in the results when found). When not specified the first argument will be used.
 

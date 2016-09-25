@@ -4,9 +4,9 @@ Set the watchdog mode of a watch item.
 
 ## arguments
 
-arg1: The id of the watch item.
+`arg1`: The id of the watch item.
 
-\[arg2\]: The watchdog mode. Possible values:
+`[arg2]`: The watchdog mode. Possible values:
 
 * disabled : Watchdog is disableed.
 * changed : Watchdog is triggered when the value is changed.

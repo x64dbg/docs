@@ -8,3 +8,5 @@ This section contains debugger-embedded plugin commands.
    :maxdepth: 0
    
    StartScylla
+   plugload
+   plugunload

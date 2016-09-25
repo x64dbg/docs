@@ -4,7 +4,7 @@ Pop a value from the stack.
 
 ## arguments
 
-`[arg1]` The destination.
+`[arg1]` The destination. When not specified it will just increase CSP.
 
 ## result
 

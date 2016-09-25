@@ -4,7 +4,7 @@ Query whether the privilege is enabled on the debuggee.
 
 ## arguments
 
-arg1: The name of the privilege. Example:"SeDebugPrivilege".
+`arg1`: The name of the privilege. Example: `SeDebugPrivilege`.
 
 ## results
 

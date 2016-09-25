@@ -4,7 +4,7 @@ Output the brief help information about an assembly mnemonic to the log.
 
 ## arguments
 
-`[arg1]` the mnemonic name
+`arg1` the mnemonic name
 
 ## result
 

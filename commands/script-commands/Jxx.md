@@ -12,7 +12,7 @@ There are various branches that can react on the flags set by the `cmp` (and may
 
 arguments
 ---------
-`[arg1]` The label to jump to.
+`arg1` The label to jump to.
 
 result
 ------
