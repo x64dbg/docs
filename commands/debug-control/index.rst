@@ -22,8 +22,8 @@ Debug Control
    seStepOver
    SingleStep
    eSingleStep
-   eStepOut
    StepOut
+   eStepOut
    TraceIntoConditional
    TraceOverConditional
    TraceIntoBeyondTraceRecord
