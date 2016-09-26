@@ -10,5 +10,5 @@ Avoid calling user32 functions without precautions here, there will be a recursi
     {
         MSG* message;
         long* result;
-        bool retval; //only set this to true, never to false
+        bool retval; //only set this to true if you want Qt to ignore the event.
     };
