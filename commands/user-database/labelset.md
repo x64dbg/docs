@@ -1,4 +1,4 @@
-# lbl/lblset/labelset
+# labelset/lbl/lblset
 
 Set a label.
 

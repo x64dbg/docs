@@ -1,6 +1,6 @@
-# savedb/dbsave
+# argumentclear
 
-Save the program database from memory to disk.
+Delete all arguments in all modules.
 
 ## arguments
 

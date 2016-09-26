@@ -14,3 +14,9 @@ This section contains commands that are used for analysis.
    analxrefs
    analrecur
    analadv
+   virtualmod
+   symdownload
+   imageinfo
+   GetRelocSize
+   exhandlers
+   exinfo

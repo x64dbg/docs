@@ -16,3 +16,4 @@ This section contains various commands that are only used or available in a scri
    pause
    ret
    scriptload
+   scriptdll

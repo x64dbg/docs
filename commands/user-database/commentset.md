@@ -1,4 +1,4 @@
-# cmt/cmtset/commentset
+# commentset/cmt/cmtset
 
 Set a comment.
 

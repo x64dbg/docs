@@ -1,15 +1,16 @@
-Watch
-=====
+Watch Control
+=============
+
 This section describes the commands that control the watch view.
 
 **Contents:**
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    AddWatch
-   CheckWatchdog
    DelWatch
    SetWatchdog
    SetWatchExpression
    SetWatchName
+   CheckWatchdog

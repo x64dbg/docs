@@ -5,19 +5,27 @@ This section contains commands that manipulate the user database (comments, labe
 .. toctree::
    :maxdepth: 0
    
-   bookmark
-   bookmarkc
-   bookmarklist
-   cmt
-   cmtc
+   
+   dbsave
+   dbload
+   dbclear
+   commentset
+   commentdel
    commentlist
+   commentclear
+   labelset
+   labeldel
+   labellist
+   labelclear
+   bookmarkset
+   bookmarkdel
+   bookmarklist
+   bookmarkclear
    functionadd
-   functionclear
    functiondel
    functionlist
-   labellist
-   lbl
-   lblc
-   loaddb
-   savedb
-   cleardb
+   functionclear
+   argumentadd
+   argumentdel
+   argumentlist
+   argumentclear

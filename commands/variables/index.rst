@@ -7,7 +7,6 @@ This section contains commands that can manipulate variables.
 .. toctree::
    :maxdepth: 0
    
-   mov
    var
    vardel
    varlist

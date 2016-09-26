@@ -16,7 +16,7 @@ This is the documentation of x64dbg commands.
    thread-control/index
    memory-operations/index
    operating-system-control/index
-   watch/index
+   watch-control/index
    variables/index
    data/index
    user-database/index
@@ -24,4 +24,5 @@ This is the documentation of x64dbg commands.
    types/index
    plugins/index
    script/index
+   gui/index
    misc/index

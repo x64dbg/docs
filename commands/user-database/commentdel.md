@@ -1,4 +1,4 @@
-# cmtc/cmtdel/commentdel
+# commentdel/cmtc/cmtdel
 
 Delete a comment.
 

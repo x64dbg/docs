@@ -1,4 +1,4 @@
-# bookmark/bookmarkset
+# bookmarkset/bookmark
 
 Set a bookmark.
 

@@ -1,4 +1,4 @@
-# bookmarkc/bookmarkdel
+# bookmarkdel/bookmarkc
 
 Delete a bookmark.
 

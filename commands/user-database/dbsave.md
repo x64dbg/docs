@@ -1,6 +1,6 @@
-# cleardb/dbclear
+# dbsave/savedb
 
-Clear the program database from memory (not from disk).
+Save the program database from memory to disk.
 
 ## arguments
 

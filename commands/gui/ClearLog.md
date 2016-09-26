@@ -1,10 +1,10 @@
-# lblc/lbldel/labeldel
+# ClearLog/cls/lc/lclr
 
-Delete a label.
+Clear the log window.
 
 ## arguments
 
-`arg1` Address of the label to delete.
+This command has no arguments.
 
 ## result
 

@@ -1,6 +1,6 @@
-# cls/lc/lclr
+# commentclear
 
-Clear the log window.
+Delete all comments in all modules.
 
 ## arguments
 

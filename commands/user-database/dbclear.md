@@ -1,6 +1,6 @@
-# loaddb/dbload
+# dbclear/cleardb
 
-Load the program database from disk in memory.
+Clear the program database from memory (not from disk).
 
 ## arguments
 

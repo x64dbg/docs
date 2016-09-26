@@ -11,12 +11,10 @@ This section contains commands that are used to analyze and manipulate data.
    find
    findall
    findasm
-   imageinfo
-   modcallfind
    reffind
    reffindrange
    refstr
-   savedata
-   setmaxfindresult
+   modcallfind
    yara
    yaramod
+   setmaxfindresult

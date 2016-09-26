@@ -12,3 +12,4 @@ This section contains commands to manipulate memory inside the debuggee.
    free
    getpagerights
    setpagerights
+   savedata

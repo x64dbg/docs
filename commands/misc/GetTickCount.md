@@ -1,4 +1,4 @@
-# GetTickCount
+# gettickcount/tickcount/gtc
 
 Get the milliseconds since the system starts up.
 

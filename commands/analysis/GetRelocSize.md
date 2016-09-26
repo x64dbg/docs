@@ -1,4 +1,4 @@
-# grs/GetRelocSize
+# GetRelocSize/grs
 
 Get the correct size of a relocation table. This is useful while unpacking and restoring the original relocation table.
 
