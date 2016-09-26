@@ -10,6 +10,7 @@ This section contains commands that are used to analyze and manipulate data.
    
    find
    findall
+   findallmem
    findasm
    reffind
    reffindrange

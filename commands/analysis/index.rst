@@ -20,3 +20,4 @@ This section contains commands that are used for analysis.
    GetRelocSize
    exhandlers
    exinfo
+   traceexecute
