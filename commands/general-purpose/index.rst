@@ -7,25 +7,24 @@ This section contains various commands that are used for calculations etc.
 .. toctree::
    :maxdepth: 0
    
-   add
-   and
-   cmp
-   dec
-   div
-   gpa
    inc
+   dec
+   add
+   sub
    mul
+   div
+   and
+   or
+   xor
    neg
    not
-   or
-   pop
-   push
+   bswap
    rol
    ror
    shl
    shr
    sar
-   sub
+   push
+   pop
    test
-   xor
-   bswap
+   cmp

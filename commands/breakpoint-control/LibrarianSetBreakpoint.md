@@ -1,4 +1,4 @@
-# LibrarianSetBreakPoint/bpdll
+# LibrarianSetBreakpoint/bpdll
 
 Set a singleshoot breakpoint on DLL load/unload.
 

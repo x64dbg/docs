@@ -8,17 +8,20 @@ This is the documentation of x64dbg commands.
 .. toctree::
    :maxdepth: 1
    
-   debug-control/index
-   breakpoints/index
-   breakpoints-conditional/index
-   variables/index
-   misc/index
-   user-database/index
-   memory-operations/index
-   os-control/index
-   plugins/index
    general-purpose/index
-   script-commands/index
-   data/index
+   debug-control/index
+   breakpoint-control/index
+   conditional-breakpoint-control/index
+   tracing/index
+   thread-control/index
+   memory-operations/index
+   operating-system-control/index
    watch/index
+   variables/index
+   data/index
+   user-database/index
    analysis/index
+   types/index
+   plugins/index
+   script/index
+   misc/index

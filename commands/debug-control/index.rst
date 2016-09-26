@@ -14,6 +14,7 @@ Debug Control
    erun
    serun
    pause
+   DebugContinue
    StepInto
    eStepInto
    seStepInto
@@ -24,26 +25,5 @@ Debug Control
    eSingleStep
    StepOut
    eStepOut
-   TraceIntoConditional
-   TraceOverConditional
-   TraceIntoBeyondTraceRecord
-   TraceOverBeyondTraceRecord
-   TraceIntoIntoTraceRecord
-   TraceOverIntoTraceRecord
-   RunToParty
-   RunToUserCode
-   DebugContinue
    skip
    InstrUndo
-   setcommandline
-   getcommandline
-   createthread
-   switchthread
-   suspendthread
-   resumethread
-   killthread
-   suspendallthreads
-   resumeallthreads
-   setthreadpriority
-   setthreadname
-   symdownload

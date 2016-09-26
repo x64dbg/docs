@@ -42,3 +42,7 @@ This section contains all commands that do not directly fit in another section.
    virtualmod
    loadlib
    grs
+   setcommandline
+   getcommandline
+   symdownload
+   gpa

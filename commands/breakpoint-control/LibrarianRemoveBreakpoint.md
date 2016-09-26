@@ -1,4 +1,4 @@
-# LibrarianRemoveBreakPoint/bcdll
+# LibrarianRemoveBreakpoint/bcdll
 
 Remove a DLL breakpoint.
 

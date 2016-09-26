@@ -1,4 +1,4 @@
-# handleclose
+# handleclose/closehandle
 
 Close a remote handle so that its system resources can be released.
 
