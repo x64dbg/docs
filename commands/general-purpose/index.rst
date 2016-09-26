@@ -24,6 +24,7 @@ This section contains various commands that are used for calculations etc.
    ror
    shl
    shr
+   sar
    sub
    test
    xor

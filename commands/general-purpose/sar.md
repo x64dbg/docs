@@ -1,6 +1,6 @@
-# shl/sal
+# sar
 
-Binary SHL/SAL (signed/unsigned shift left) a value.
+Binary SAR (signed shift right) a value.
 
 ## arguments
 

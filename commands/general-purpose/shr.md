@@ -1,6 +1,6 @@
 # shr
 
-Binary SHR a value.
+Binary SHR (unsigned shift right) a value.
 
 ## arguments
 
