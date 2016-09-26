@@ -7,6 +7,10 @@ This program accepts various options of input:
 - *Variables*: Variables optionally start with a `$` and can only store one DWORD (QWORD on x64).
 
 - *Registers*: All registers (of all sizes) can be used as variables.
+  **REMARKS**:
+  - The variable names for most registers are the same as the names for them, except for the following registers: 
+     - **x87 Control Word Flag**: The flags for this register is named like this: `_x87CW_UM`
+  - In addition to the registers in the architecture, x64dbg provides the following registers: `CAX` , `CBX` , `CCX` , `CDX` , `CSP` , `CBP` , `CSI` , `CDI` , `CIP`. These registers are mapped to 32-bit registers on 32-bit platform, and to 64-bit registers on 64-bit platform. For example, `CIP` is `EIP` on 32-bit platform, and is `RIP` on 64-bit platform. This feature is intended to support architecture-independent code.
 
 - *Memory locations*: You can read/write from/to a memory location by using one of the following expressions:
    - `[addr]` read a DWORD/QWORD from `addr`.
@@ -40,4 +44,3 @@ This program accepts various options of input:
    - Instead of the `:` delimiter you can also use a `.` If you need to query module information such as `[module]:imagebase` or `[module]:entry` you are advised to use a `?` as delimiter instead: `[module]?entry`. The `?` delimiter does checking for named exports later, so it will still work when there is an export called `entry` in the module.
 
 **Input for arguments can always be done in any of the above forms, except if stated otherwise.**
-

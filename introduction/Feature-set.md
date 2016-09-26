@@ -6,7 +6,7 @@ This program is currently under active development. It supports many basic and a
 
 *  Full-featured debugging of DLL and EXE files (TitanEngine)
 *  32-bit and 64-bit Windows support from Windows XP to Windows 10
-*  Built-in assembler (XEDParse/[Keystone](http://www.keystone-engine.org/))
+*  Built-in assembler (XEDParse/[Keystone](http://www.keystone-engine.org/)/asmjit)
 *  Fast disassembler (Capstone)
 *  C-like expression parser
 *  Logging
@@ -45,6 +45,6 @@ This program is currently under active development. It supports many basic and a
 *  IDA-like instruction token highlighter (highlight registers, commands, etc.)
 *  Fully customizable color scheme and short-cut keys
 *  Control flow graph
-*  Integrated mnemonic help
+*  Integrated mnemonic and registers help
 *  Code folding
 *  Easy integration with custom tools (favourites menu)

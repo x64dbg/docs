@@ -17,3 +17,6 @@ There are a few reserved variables:
 *  `$pid`: Process ID of the debugged executable.
 *  `$hp`/`$hProcess`: Debugged executable handle.
 *  `$lastalloc`: Last result of the `alloc` command.
+*  `$breakpointcondition` : Controls the pause behaviour in the conditional breakpoint command.
+*  `$breakpointcounter` : The hit counter of the breakpoint, set before the condition of the conditional breakpoint is evaluated.
+*  `$breakpointlogcondition` : The log condition of the conditional breakpoint. It cannot be used to control the logging behavoiur.
