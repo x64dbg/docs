@@ -4,10 +4,10 @@ This program is currently under active development. It supports many basic and a
 
 ## Basic features
 
-*  Full-featured debugging of DLL and EXE files (TitanEngine)
+*  Full-featured debugging of DLL and EXE files ([TitanEngine Community Edition](https://bitbucket.org/titanengineupdate/titanengine-update))
 *  32-bit and 64-bit Windows support from Windows XP to Windows 10
-*  Built-in assembler (XEDParse/[Keystone](http://www.keystone-engine.org/)/asmjit)
-*  Fast disassembler (Capstone)
+*  Built-in assembler ([XEDParse](https://github.com/x64dbg/XEDParse)/[Keystone](http://www.keystone-engine.org)/[asmjit](https://github.com/asmjit))
+*  Fast disassembler ([Capstone](https://github.com/aquynh/capstone))
 *  C-like expression parser
 *  Logging
 *  Notes
@@ -23,7 +23,7 @@ This program is currently under active development. It supports many basic and a
 *  Dynamic stack view
 *  Executable patching
 *  Dynamically recognize modules and strings
-*  User database (JSON) for comments, labels, bookmarks, etc.
+*  User database ([JSON](http://www.digip.org/jansson)) for comments, labels, bookmarks, etc.
 *  Basic debug symbol (PDB) support
 *  Extendable, debuggable scripting language for automation
 *  Plugin support with growing API
@@ -31,11 +31,11 @@ This program is currently under active development. It supports many basic and a
 
 ## Advanced features
 
-*  Decompiler (Snowman)
-*  [Yara Pattern Matching](http://yara.readthedocs.io)
+*  Decompiler ([snowman](https://derevenets.com))
+*  [Yara](http://virustotal.github.io/yara/) pattern matching
 *  Import reconstructor integrated ([Scylla](https://github.com/NtQuery/Scylla))
 *  Analysis
-*  Conditional breakpoints and tracing with great flexibility.
+*  Conditional breakpoints and tracing with great flexibility
 *  Collect data while tracing
 
 ## GUI features
