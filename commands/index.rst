@@ -18,7 +18,7 @@ This is the documentation of x64dbg commands.
    operating-system-control/index
    watch-control/index
    variables/index
-   data/index
+   searching/index
    user-database/index
    analysis/index
    types/index

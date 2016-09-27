@@ -1,7 +1,7 @@
-Data
-====
+Searching
+=========
 
-This section contains commands that are used to analyze and manipulate data.
+This section contains commands that are used to search data.
 
 **Contents:**
 
