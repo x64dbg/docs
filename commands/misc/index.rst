@@ -10,7 +10,7 @@ This section contains all commands that do not directly fit in another section.
    
    strlen
    chd
-   GetTickCount
+   gettickcount
    sleep
    HideDebugger
    loadlib
