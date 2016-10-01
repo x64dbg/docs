@@ -10,6 +10,14 @@ Also remember that you cannot use any of the provided pointers out of the callba
 
 In general AVOID time-consuming operations inside callbacks, do these in separate threads.
 
+You can register a callback with :doc:`../API/registercallback` function. The type definition for the callbacks is:
+
+::
+
+    void CBPLUGIN(
+    CBTYPE bType //event type (useful when you use the same function for multiple events
+    void* callbackInfo //pointer to a structure of information (see below)
+    ); 
 
 **Contents:**
 
