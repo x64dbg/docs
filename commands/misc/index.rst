@@ -8,7 +8,6 @@ This section contains all commands that do not directly fit in another section.
 .. toctree::
    :maxdepth: 1
    
-   strlen
    chd
    HideDebugger
    loadlib

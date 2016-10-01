@@ -86,7 +86,7 @@ Step into, until another source line is reached. The command for this menu entry
 Trace into until condition
 --------------------------
 
-Enter an expression. The debugger will execute the command :doc:`../../commands/debug-control/TraceIntoConditional`. Also see :doc:`../../introduction/Expressions` for the legal expression format.
+Enter an expression. The debugger will execute the command :doc:`../../commands/tracing/TraceIntoConditional`. Also see :doc:`../../introduction/Expressions` for the legal expression format.
 
 ------------
 Animate into
@@ -122,13 +122,13 @@ Step over, until another source line is reached. The command for this menu entry
 Run to User Code
 ----------------
 
-Execute the command :doc:`../../commands/debug-control/RunToUserCode`.
+Execute the command :doc:`../../commands/tracing/RunToUserCode`.
 
 --------------------------
 Trace over until condition
 --------------------------
 
-Enter an expression. The debugger will execute the command :doc:`../../commands/debug-control/TraceOverConditional`. Also see :doc:`../../introduction/Expressions` for the legal expression format.
+Enter an expression. The debugger will execute the command :doc:`../../commands/tracing/TraceOverConditional`. Also see :doc:`../../introduction/Expressions` for the legal expression format.
 
 ------------
 Animate over

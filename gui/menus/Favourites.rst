@@ -9,8 +9,8 @@ Currently, three types of entries may be inserted into this menu: Tool, Script a
 
 You can also add entries to this menu via the following commands:
 
-:doc:`../../commands/misc/AddFavouriteCommand`
+:doc:`../../commands/gui/AddFavouriteCommand`
 
-:doc:`../../commands/misc/AddFavouriteTool`
+:doc:`../../commands/gui/AddFavouriteTool`
 
-:doc:`../../commands/misc/AddFavouriteToolShortcut`
+:doc:`../../commands/gui/AddFavouriteToolShortcut`

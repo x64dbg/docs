@@ -46,7 +46,7 @@ When a breakpoint is hit, x64dbg will do the following things:
 Hit counter
 -----------
 
-A hit counter records how many times a breakpoint has been reached. It will be incremented unconditionally, even if fast resume is enabled on this breakpoint. It may be viewed at breakpoint view and reset with :doc:`../commands/breakpoints-conditional/ResetBreakpointHitCount`
+A hit counter records how many times a breakpoint has been reached. It will be incremented unconditionally, even if fast resume is enabled on this breakpoint. It may be viewed at breakpoint view and reset with :doc:`../commands/conditional-breakpoint-control/ResetBreakpointHitCount`
 
 -------
 Logging
@@ -64,6 +64,6 @@ You should not use commands that can change the running state of the debuggee (s
 See also
 --------
 
-- :doc:`../commands/breakpoints-conditional/index`
+- :doc:`../commands/conditional-breakpoint-control/index`
 - :doc:`./Expressions`
 - :doc:`./Expression-functions`

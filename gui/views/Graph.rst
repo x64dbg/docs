@@ -1,7 +1,7 @@
 Graph
 =====
 
-Graph view contains the control flow graph. When you use :doc:`../../commands/misc/graph` command or context menu in the disassembly view, it will show the control flow graph here.
+Graph view contains the control flow graph. When you use :doc:`../../commands/gui/graph` command or context menu in the disassembly view, it will show the control flow graph here.
 
 There is two modes to show the control flow graph: Normal mode and overview mode.
 
