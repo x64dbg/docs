@@ -27,3 +27,16 @@ This section contains commands that are used to manipulate data types.
    DataCode
    DataJunk
    DataMiddle
+   AddType
+   AddStruct
+   AddUnion
+   AddMember
+   AppendMember
+   AddFunction
+   AddArg
+   AppendArg
+   SizeofType
+   VisitType
+   ClearTypes
+   RemoveType
+   EnumTypes
