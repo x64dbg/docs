@@ -4,7 +4,7 @@ Set if the stack should be frozen.
 
 ## arguments
 
-`arg1` : '0' for unfrozen, '1' for frozen.
+`arg1` '0' for unfrozen, '1' for frozen.
 
 ## result
 

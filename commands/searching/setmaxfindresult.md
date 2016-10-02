@@ -4,7 +4,7 @@ Set the maximum number of occurences found.
 
 ## arguments
 
-`arg1`: The maximum number of occurences. The default value is 5000.
+`arg1` The maximum number of occurences. The default value is 5000.
 
 ## results
 

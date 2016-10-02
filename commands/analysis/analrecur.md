@@ -4,7 +4,7 @@ Do single function analysis.
 
 ## arguments
 
-`arg1`: The base address of the function to analyze.
+`arg1` The base address of the function to analyze.
 
 ## results
 

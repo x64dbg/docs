@@ -11,9 +11,9 @@ SetBreakpointFastResume arg1, 0
 
 ## arguments
 
-`arg1`: The address of the breakpoint.
+`arg1` The address of the breakpoint.
 
-`arg2`: The new address to execute if the breakpoint is reached.
+`arg2` The new address to execute if the breakpoint is reached.
 
 ## results
 

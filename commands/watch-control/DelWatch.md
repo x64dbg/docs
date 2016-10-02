@@ -4,7 +4,7 @@ Delete a watch item.
 
 ## arguments
 
-`arg1`: The id of the watch item to delete.
+`arg1` The id of the watch item to delete.
 
 ## result
 

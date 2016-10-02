@@ -4,7 +4,7 @@ Get the correct size of a relocation table. This is useful while unpacking and r
 
 ## arguments
 
-`arg1`: The address of the relocation table to analyze.
+`arg1` The address of the relocation table to analyze.
 
 ## results
 

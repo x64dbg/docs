@@ -4,7 +4,7 @@ Revoke the privilege.
 
 ## arguments
 
-`arg1`: The name of the privilege. Example: `SeDebugPrivilege`
+`arg1` The name of the privilege. Example: `SeDebugPrivilege`
 
 ## results
 

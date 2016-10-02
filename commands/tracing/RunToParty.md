@@ -4,7 +4,7 @@ Run the program until the program reaches somewhere belonging to the party numbe
 
 ## arguments
 
-`arg1`: The party number. This value cannot be an expression.
+`arg1` The party number. This value cannot be an expression.
 
 ## results
 
