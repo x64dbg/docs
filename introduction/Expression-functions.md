@@ -32,7 +32,6 @@ You may use functions in an expression. The following functions are defined by t
 * `bswap(value)` : Byte-swap `value`.
 * `ternary(condition, val1, val2)` : If condition is nonzero, return `val1`, otherwise return `val2`.
 * `GetTickCount()` : Tick count of x64dbg.
-* `Sleep(ms)` : Delay execution with `ms` millisecond (using Sleep), returns ms slept.
 
 ## Memory
 
