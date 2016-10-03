@@ -10,5 +10,6 @@ This section describes the usage of the program's graphical interface.
    menus/index
    views/index
    settings/index
+   dialogs/index
    translations
    tips
