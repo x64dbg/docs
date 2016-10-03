@@ -9,14 +9,14 @@ This section contains information about the Bridge functions of x64dbg.
 .. toctree::
    :maxdepth: 1
 
-   bridgealloc 
-   bridgefree 
-   bridgegetdbgversion 
-   bridgeinit 
-   bridgesettingflush 
-   bridgesettingget 
-   bridgesettinggetuint 
-   bridgesettingread 
-   bridgesettingset 
-   bridgesettingsetuint 
-   bridgestart 
+   BridgeAlloc
+   BridgeFree
+   BridgeGetDbgVersion
+   BridgeInit
+   BridgeSettingFlush
+   BridgeSettingGet
+   BridgeSettingGetUint
+   BridgeSettingRead
+   BridgeSettingSet
+   BridgeSettingSetUint
+   BridgeStart

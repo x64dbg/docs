@@ -1,6 +1,7 @@
 Functions
 =========
-This section describes the developerr functions for x64dbg.
+
+This section describes functions in the bridge. Many are currently undocumented, help if you can!
 
 **Contents:**
 
