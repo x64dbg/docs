@@ -9,7 +9,6 @@ This section contains all commands that do not directly fit in another section.
    :maxdepth: 1
    
    chd
-   zzz
    HideDebugger
    loadlib
    asm
