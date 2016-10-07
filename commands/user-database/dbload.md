@@ -1,10 +1,10 @@
 # dbload/loaddb
 
-Load the program database from disk in memory.
+Load a program database from disk in memory.
 
 ## arguments
 
-This command has no arguments.
+`[arg1]` Path to load the database from. If specified your current data will not be automatically cleared (import). If not specified all your data will be cleared and the current program database is reloaded from disk.
 
 ## result
 

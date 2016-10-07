@@ -1,10 +1,10 @@
 # dbsave/savedb
 
-Save the program database from memory to disk.
+Save a program database from memory to disk.
 
 ## arguments
 
-This command has no arguments.
+`[arg1]` Path to save the database to. If not specified your current program database is used.
 
 ## result
 
