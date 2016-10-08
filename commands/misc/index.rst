@@ -22,4 +22,3 @@ This section contains all commands that do not directly fit in another section.
    setcommandline
    mnemonichelp
    mnemonicbrief
-   zzz
