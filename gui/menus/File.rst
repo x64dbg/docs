@@ -36,7 +36,23 @@ Detach
 
 This action will detach the debugger from the debuggee, allowing the debuggee to run without being controlled by the debugger. You cannot execute this action when you are not debugging.
 
-The command for this action is :doc:`../../commands/debug-control/DetachDebugger`
+The command for this action is :doc:`../../commands/debug-control/DetachDebugger`.
+
+---------------
+Import database
+---------------
+
+This allows you to import a database.
+
+The relevant command for this action is :doc:`../../commands/user-database/dbload`.
+
+---------------
+Export database
+---------------
+
+This allows you to export an uncompressed database.
+
+The relevant command for this action is :doc:`../../commands/user-database/dbsave`.
 
 ----
 Exit
