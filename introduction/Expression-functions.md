@@ -53,6 +53,8 @@ You may use functions in an expression. The following functions are defined by t
 * `dis.imm(addr)` : Immediate value of the instruction at `addr`.
 * `dis.brtrue(addr)` : Branch destination of the instruction at `addr`.
 * `dis.brfalse(addr)` : Address of the next instruction if the instruction at `addr` is a conditional branch.
+* `dis.next(addr)` : Address of the next instruction from `addr`.
+* `dis.prev(addr)` : Address of the previous instruction from `addr`.
 
 ## Trace record
 
