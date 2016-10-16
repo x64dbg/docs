@@ -4,11 +4,11 @@ Find references to GUID. The referenced GUID must be registered in the system, o
 
 ## arguments
 
-\[arg1\]: The base of the memory range. If not specified, `RIP` or `EIP` will be used.
+`[arg1]` The base of the memory range. If not specified, `RIP` or `EIP` will be used.
 
-\[arg2\]: The size of the memory range.
+`[arg2]` The size of the memory range.
 
-\[arg3\]: The region to search. `0` is current region(specified with arg1 and arg2). `1` is current module(the module specified with arg1). `2` is all modules.
+`[arg3]` The region to search. `0` is current region (specified with arg1 and arg2). `1` is current module (the module specified with arg1). `2` is all modules.
 
 ## results
 
