@@ -46,3 +46,5 @@ You can register a callback with :doc:`../API/registercallback` function. The ty
    plugcbwinevent
    plugcbwineventglobal
    plugcbloadsavedb
+   plugcbfiltersymbol
+   plugcbtraceexecute

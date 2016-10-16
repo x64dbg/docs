@@ -40,7 +40,9 @@ Parameters
     :CB_WINEVENT:  , //callbackInfo\: PLUG_CB_WINEVENT* 
     :CB_WINEVENTGLOBAL:  , //callbackInfo\: PLUG_CB_WINEVENTGLOBAL*
     :CB_LOADDB:  , //callbackInfo\: PLUG_CB_LOADSAVEDB*
-    :CB_SAVEDB:   //callbackInfo\: PLUG_CB_LOADSAVEDB*
+    :CB_SAVEDB:  , //callbackInfo\: PLUG_CB_LOADSAVEDB*
+    :CB_FILTERSYMBOL:  , //callbackInfo\: PLUG_CB_FILTERSYMBOL*
+    :CB_TRACEEXECUTE:  , //callbackInfo\: PLUG_CB_TRACEEXECUTE*
 
 :cbPlugin: Callback with the following typdef:
 
