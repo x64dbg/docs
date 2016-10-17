@@ -16,6 +16,7 @@ This section contains information about the `_plugin_` prefixed functions export
    menuaddseparator
    menuclear
    menuentryseticon
+   menuentrysetchecked
    menuseticon
    registercallback
    registercommand

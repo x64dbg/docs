@@ -1,20 +1,20 @@
-_plugin_menuentryseticon
-========================
-This function sets an icon to a menu entry.
+_plugin_menuentrysetchecked
+===========================
+This function sets the checked state of a menu entry.
 
 ::
 
-    void _plugin_menuentryseticon (
+    void _plugin_menuentrysetchecked (
     int pluginHandle, //plugin handle
     int hEntry, //handle of the menu entry
-    const ICONDATA* icon //icon data
+    bool checked //new checked state
     ); 
 
 Parameters
 ----------
 :pluginHandle: Handle of the calling plugin.
 :hEntry: Menu handle from a previously-added child menu or from the main plugin menu.
-:icon: Icon data. See `bridgemain.h` for a definition.
+:checked: New checked state.
 
 Return Values
 -------------
