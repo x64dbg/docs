@@ -23,3 +23,4 @@ This section contains information about the `_plugin_` prefixed functions export
    unregistercallback
    unregistercommand
    waituntilpaused
+   hash
