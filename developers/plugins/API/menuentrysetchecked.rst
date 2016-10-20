@@ -1,6 +1,6 @@
 _plugin_menuentrysetchecked
 ===========================
-This function sets the checked state of a menu entry.
+This function sets the checked state of a menu entry. Notice that this function sets a menu item as checkable and thus it will toggle per default on click. If you want different behavior, make sure to call this function on every click with your desired state.
 
 ::
 
