@@ -47,6 +47,7 @@ You may use functions in an expression. The following functions are defined by t
 * `dis.iscond(addr)` : True if the instruction at `addr` is a conditional branch.
 * `dis.isbranch(addr)` : True if the instruction at `addr` is a branch (jcc/call).
 * `dis.isret(addr)` : True if the instruction at `addr` is a `ret`.
+* `dis.iscall(addr)` : True if the instruction at `addr` is a `call`.
 * `dis.ismem(addr)` : True if the instruction has a memory operand.
 * `dis.branchdest(addr)` : Branch destination of the instruction at `addr` (what it follows if you press enter on it).
 * `dis.branchexec(addr)` : True if the branch at `addr` is going to execute.
@@ -68,6 +69,11 @@ You may use functions in an expression. The following functions are defined by t
 * `ReadDword,Dword,dword(addr)` : Read a dword (4 bytes) from `addr` and return the value.
 * `ReadQword,Qword,qword(addr)` : Read a qword (8 bytes) from `addr` and return the value (only available on x64).
 * `ReadPtr,ReadPointer,ptr,Pointer,pointer(addr)` : Read a pointer (4/8 bytes) from `addr` and return the value.
+
+## Functions
+
+* `func.start` : Start of the function `addr` is part of, zero otherwise.
+* `func.end` : End of the function `addr` is part of, zero otherwise.
 
 ## Plugins
 
