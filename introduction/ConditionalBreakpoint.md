@@ -17,9 +17,10 @@ When a breakpoint is hit, x64dbg will do the following things:
   - Print the standard log message;
   - Execute plugin callbacks.
 - If *log text* is set and *log condition* evaluated to `true`:
-  - Format and print the *log text*.
+  - Format and print the *log text* (see [String Formatting](./Formatting.rst)).
 - If *command text* is set and *command condition* evaluated to `true`:
-  - Set the system variable `$breakpointcondition` to the *break condition* (True : 1, False : 0). Set the system variable `$breakpointlogcondition` to the *log condition* (True : 1, False : 0);
+  - Set the system variable `$breakpointcondition` to the *break condition*;
+  - Set the system variable `$breakpointlogcondition` to the *log condition*;
   - Execute the command in *command text*;
   - The *break condition* will be set to the value of `$breakpointcondition`. So if you modify this system variable in the script, you will be able to control whether the debuggee would break.
 - If *break condition* evaluated to `true`:
@@ -42,4 +43,4 @@ You should not use commands that can change the running state of the debuggee (s
 - [Conditional Breakpoint Control](../commands/conditional-breakpoint-control/index.rst)
 - [Expressions](./Expressions.rst)
 - [Expression Functions](./Expression-functions.md)
-
+- [String Formatting](./Formatting.rst)

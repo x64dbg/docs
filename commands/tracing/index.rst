@@ -14,3 +14,5 @@ Tracing
    TraceOverIntoTraceRecord
    RunToParty
    RunToUserCode
+   TraceSetLog
+   TraceSetCommand

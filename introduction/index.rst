@@ -14,4 +14,5 @@ This section explains the basics of x64dbg. **Make sure to fully read this!**
    Expression-functions
    Variables
    ConditionalBreakpoint
+   ConditionalTracing
    Formatting
