@@ -19,7 +19,7 @@ When a breakpoint is hit, x64dbg will do the following things:
    
    - Resume execution of the debuggee (skip the next steps). This will also skip executing plugin callbacks and GUI updates.
 
-5. If *log condition* is set, evaluate it (defaults to ``true``);
+5. If *log condition* is set, evaluate the :doc:`expression <./Expressions>` (defaults to ``true``);
 
 6. If *command condition* is set, evaluate the :doc:`expression <./Expressions>` (defaults to *break condition*);
 
