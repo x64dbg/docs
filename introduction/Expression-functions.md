@@ -48,7 +48,9 @@ You may use functions in an expression. The following functions are defined by t
 * `dis.isbranch(addr)` : True if the instruction at `addr` is a branch (jcc/call).
 * `dis.isret(addr)` : True if the instruction at `addr` is a `ret`.
 * `dis.iscall(addr)` : True if the instruction at `addr` is a `call`.
-* `dis.ismem(addr)` : True if the instruction has a memory operand.
+* `dis.ismem(addr)` : True if the instruction at `addr` has a memory operand.
+* `dis.isnop(addr)` : True if the instruction at `addr` is equivalent to a NOP.
+* `dis.isunusual(addr)` : True if the instruction at `addr` is unusual.
 * `dis.branchdest(addr)` : Branch destination of the instruction at `addr` (what it follows if you press enter on it).
 * `dis.branchexec(addr)` : True if the branch at `addr` is going to execute.
 * `dis.imm(addr)` : Immediate value of the instruction at `addr`.
