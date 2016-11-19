@@ -22,6 +22,12 @@ Shortcuts
 
 Show the **Shortcuts** dialog. You can customize the shortcut keys for most of the operations.
 
+---------------
+Customize Menus
+---------------
+
+Show the "Customize menus" dialog. You can click on the nodes to expand the corresponding menu and check or uncheck the menu items. Checked item will appear in "More commands" section of the menu, to shorten the menu displayed. You can check all menu entries that you don't use.
+
 -------
 Topmost
 -------

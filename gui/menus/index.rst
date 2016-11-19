@@ -14,3 +14,4 @@ This section describes menus in the GUI.
    Plugins
    Favourites
    Options
+   Help
