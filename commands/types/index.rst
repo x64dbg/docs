@@ -40,3 +40,4 @@ This section contains commands that are used to manipulate data types.
    ClearTypes
    RemoveType
    EnumTypes
+   LoadTypes
