@@ -13,3 +13,4 @@ This section describes the usage of the program's graphical interface.
    dialogs/index
    translations
    tips
+   unusualinst
