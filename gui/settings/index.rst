@@ -11,3 +11,4 @@ This section describes the settings dialog and each setting in the dialog. All t
    
    Events
    Exceptions
+   GUI

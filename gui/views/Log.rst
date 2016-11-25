@@ -1,7 +1,9 @@
 Log
 ===
 
-This view includes all the log messages. It has the following context menu:
+This view includes all the log messages. When an address is output in the log message, it will be shown as a hyperlink. You can click on it to follow it in disassembly or in dump, depending on its memory access rights.
+
+The log view has the following context menu:
 
 Clear
 -----
