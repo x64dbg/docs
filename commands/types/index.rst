@@ -41,3 +41,4 @@ This section contains commands that are used to manipulate data types.
    RemoveType
    EnumTypes
    LoadTypes
+   ParseTypes

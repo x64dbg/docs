@@ -1,4 +1,4 @@
-# mnemonichelp
+# mnemonicbrief
 
 Output the brief help information about an assembly mnemonic to the log.
 
