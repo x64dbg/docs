@@ -29,7 +29,9 @@ if(DbgArgumentGet(0x00401000, &start, &end))
   GuiAddLogMessage(message);
 }
 else
+{
   GuiAddLogMessage("Argument start and end addresses couldn't be get\r\n");
+}
 ```
 
 ## Related functions
