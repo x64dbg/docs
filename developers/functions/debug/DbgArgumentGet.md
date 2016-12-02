@@ -23,11 +23,11 @@ The function return TRUE if the start and end addresses are found or FALSE other
 ```c++
 duint start;
 duint end;
-char message[MAX_PATH];
+std::string message;
 
 if(DbgArgumentGet(0x00401000, &start, &end))
 {
-  sprintf_s(message, MAX_PATH, "Argument range: %08X-%08X\r\n", start, end);
+  sprintf_s(message.c_str(), MAX_PATH, "Argument range: %08X-%08X\r\n", start, end);
   GuiAddLogMessage(message);
 }
 else
