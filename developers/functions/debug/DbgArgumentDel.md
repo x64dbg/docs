@@ -1,25 +1,30 @@
 # DbgArgumentDel
 
-Function description.
+This function deletes a previous setted argument at the specified address.
 
 ```c++
-Function definition.
+bool DbgArgumentDel(duint addr);
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`addr` Address of the argument to delete.
 
 ## Return Value
 
-Return value description.
+The function return TRUE if argument is successfully deleted or FALSE otherwise.
 
 ## Example
 
 ```c++
-Example code.
+if(DbgArgumentDel(0x00401013))
+  GuiAddLogMessage("Argument successfully deleted\r\n");
+else
+  GuiAddLogMessage("Argument couldn't be deleted\r\n");
 ```
 
 ## Related functions
 
-- List of related functions
+- DbgArgumentAdd
+- DbgArgumentGet
+- DbgArgumentOverlaps
