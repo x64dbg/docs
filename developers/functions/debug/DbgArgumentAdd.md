@@ -1,4 +1,4 @@
-  # DbgArgumentAdd
+# DbgArgumentAdd
 
 This function will add an argument to the specified address range.
 
