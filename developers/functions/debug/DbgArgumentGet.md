@@ -27,9 +27,9 @@ if(DbgArgumentGet(0x00401000, &start, &end))
 {
   sprintf_s(message, MAX_PATH, "Argument range: %08X-%08X\r\n", start, end);
   GuiAddLogMessage(message);
+}
 else
   GuiAddLogMessage("Argument start and end addresses couldn't be get\r\n");
-}
 ```
 
 ## Related functions
