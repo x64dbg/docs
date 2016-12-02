@@ -9,12 +9,14 @@ bool DbgArgumentGet(duint addr, duint* start, duint* end);
 ## Parameters
 
 `addr` Address of the argument to fetch.
+
 `start` Pointer to a duint variable that will hold the start address of the argument.
+
 `end` Pointer to a duint variable that will hold the end address of the argument.
 
 ## Return Value
 
-The function return TRUE if the argument start and end addresses are found or FALSE otherwise. If TRUE the variables start and end will hold the fetched values.
+The function return TRUE if the start and end addresses are found or FALSE otherwise. If TRUE, the variables `start` and `end` will hold the fetched values.
 
 ## Example
 
