@@ -15,6 +15,7 @@ Types
 - ``s`` **s**\ tring pointer: ``this is a string``
 - ``x`` he\ **x**: ``3C28A``
 - ``a`` **a**\ ddress info: ``00401010 <module.EntryPoint>``
+- ``i`` **i**\ nstruction text: ``jmp 0x77ac3c87``
 
 --------
 Examples
