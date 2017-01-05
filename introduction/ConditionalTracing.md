@@ -8,18 +8,18 @@ When a trace step is hit, x64dbg will do the following things:
 
 - Increment the *trace counter*;
 - Set the system variable `$tracecounter` to the value of *trace counter*;
-- If *break condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `false`);
+- If *break condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `0`);
 - Execute plugin callbacks (allowing plugins to change the *break condition*);
-- If *log condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `true`);
+- If *log condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
 - If *command condition* is set, evaluate the [expression](./Expressions.rst) (defaults to *break condition*);
-- If *log text* is set and *log condition* evaluated to `true`:
+- If *log text* is set and *log condition* evaluated to `1`:
   - Format and print the *log text* (see [String Formatting](./Formatting.rst)).
-- If *command text* is set and *command condition* evaluated to `true`:
+- If *command text* is set and *command condition* evaluated to `1`:
   - Set the system variable `$tracecondition` to the *break condition*;
   - Set the system variable `$tracelogcondition` to the *log condition*;
   - Execute the command in *command text*;
   - The *break condition* will be set to the value of `$tracecondition`. So if you modify this system variable in the script, you will be able to control whether the debuggee would break.
-- If *break condition* evaluated to `true`:
+- If *break condition* evaluated to `1`:
   - Print the standard log message; 
   - Break the debuggee and wait for the user to resume.
 
