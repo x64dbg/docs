@@ -12,16 +12,21 @@ When a trace step is hit, x64dbg will do the following things:
 - Execute plugin callbacks (allowing plugins to change the *break condition*);
 - If *log condition* is set, evaluate the [expression](Expressions) (defaults to `1`);
 - If *command condition* is set, evaluate the [expression](Expressions) (defaults to *break condition*);
+- If *switch condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `false`)
 - If *log text* is set and *log condition* evaluated to `1`:
   - Format and print the *log text* (see [String Formatting](Formatting)).
 - If *command text* is set and *command condition* evaluated to `1`:
   - Set the system variable `$tracecondition` to the *break condition*;
   - Set the system variable `$tracelogcondition` to the *log condition*;
+  - Set the system variable `$traceswitchcondition` to the *switch condition*;
   - Execute the command in *command text*;
   - The *break condition* will be set to the value of `$tracecondition`. So if you modify this system variable in the script, you will be able to control whether the debuggee would break.
+  - The *switch condition* will be set to the value of `$traceswitchcondition`. So if you modify this system variable in the script, you will be able to control whether the step type is switched.
 - If *break condition* evaluated to `1`:
   - Print the standard log message; 
   - Break the debuggee and wait for the user to resume.
+- If *switch condition* evaluated to `true`:
+  - Switch (invert) the step type. If you are tracing *in* it will switch to *out* (and the other way around). This allows you to for example not trace into system module calls with the condition `mod.party(dis.branchdest(cip)) == 1` or not trace into certain calls.
 
 ## Logging
 
