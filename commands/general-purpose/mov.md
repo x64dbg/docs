@@ -6,7 +6,7 @@ Set a variable.
 
 `arg1` Variable name (optionally prefixed with a $) to set. When the variable does not exist, it will be created.
 
-`arg2` Value to store in the variable.
+`arg2` Value to store in the variable. If you use `#11 22 33#` it will write the bytes `11 22 33` in the process memory at `arg1`.
 
 ## result
 
