@@ -8,12 +8,12 @@ When a trace step is hit, x64dbg will do the following things:
 
 - Increment the *trace counter*;
 - Set the system variable `$tracecounter` to the value of *trace counter*;
-- If *break condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `0`);
+- If *break condition* is set, evaluate the [expression](Expressions) (defaults to `0`);
 - Execute plugin callbacks (allowing plugins to change the *break condition*);
-- If *log condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
-- If *command condition* is set, evaluate the [expression](./Expressions.rst) (defaults to *break condition*);
+- If *log condition* is set, evaluate the [expression](Expressions) (defaults to `1`);
+- If *command condition* is set, evaluate the [expression](Expressions) (defaults to *break condition*);
 - If *log text* is set and *log condition* evaluated to `1`:
-  - Format and print the *log text* (see [String Formatting](./Formatting.rst)).
+  - Format and print the *log text* (see [String Formatting](Formatting)).
 - If *command text* is set and *command condition* evaluated to `1`:
   - Set the system variable `$tracecondition` to the *break condition*;
   - Set the system variable `$tracelogcondition` to the *log condition*;
@@ -25,11 +25,11 @@ When a trace step is hit, x64dbg will do the following things:
 
 ## Logging
 
-The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.rst) on how to format the log string.
+The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting) on how to format the log string.
 
 ## Trace record
 
-If you use one of the trace record-based tracing options, the initial evaluation of *break condition* includes the type of trace record tracing that you specified. The normal *break condition* can be used to break before the trace record condition is satisfied. If you want to include trace record in your condition for full control, you can use the [expression functions](./Expression-functions.md).
+If you use one of the trace record-based tracing options, the initial evaluation of *break condition* includes the type of trace record tracing that you specified. The normal *break condition* can be used to break before the trace record condition is satisfied. If you want to include trace record in your condition for full control, you can use the [expression functions](./Expression-functions).
 
 ## Notes
 
@@ -37,7 +37,7 @@ You should not use commands that can change the running state of the debuggee (s
 
 ## See also
 
-- [Tracing](../commands/tracing/index.rst)
-- [Expressions](./Expressions.rst)
-- [Expression Functions](./Expression-functions.md)
-- [String Formatting](./Formatting.rst)
+- [Tracing](../commands/tracing/index)
+- [Expressions](Expressions)
+- [Expression Functions](Expression-functions)
+- [String Formatting](Formatting)

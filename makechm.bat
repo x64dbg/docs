@@ -1,5 +1,5 @@
 @echo off
-if "%VSVARSALLPATH%"=="" set VSVARSALLPATH=c:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat
+if "%VSVARSALLPATH%"=="" set VSVARSALLPATH=D:\Visual Studio 2012\VC\vcvarsall.bat
 echo Setting VS Path
 call "%VSVARSALLPATH%"
 echo Building Help Project

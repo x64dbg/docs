@@ -1,6 +1,8 @@
 @ECHO OFF
 
 REM Command file for Sphinx documentation
+set PATH=%PATH%;"C:\Users\Administrator\AppData\Local\Programs\Python\Python35\Scripts";C:\Users\Administrator\AppData\Local\Programs\Python
+set SPHINXBUILD=sphinx-build
 
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
