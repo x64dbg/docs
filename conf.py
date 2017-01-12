@@ -345,10 +345,8 @@ texinfo_documents = [
 #
 # texinfo_no_detailmenu = False
 
-github_doc_root = 'https://github.com/x64dbg/x64dbg/blob/development/'
 def setup(app):
     app.add_config_value('recommonmark_config', {
-            'url_resolver': lambda url: github_doc_root + url,
             'enable_auto_doc_ref': True,
             'enable_inline_math': False,
             'enable_auto_toc_tree': False

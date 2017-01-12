@@ -8,16 +8,16 @@ When a breakpoint is hit, x64dbg will do the following things:
 
 - Increment the *hit counter*;
 - Set the system variable `$breakpointcounter` to the value of *hit counter*;
-- If *break condition* is set, evaluate the [expression](./Expressions) (defaults to `1`);
+- If *break condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
 - If *fast resume* is set and *break condition* evaluated to `0`:
   - Resume execution of the debuggee (skip the next steps). This will also skip executing plugin callbacks and GUI updates.
-- If *log condition* is set, evaluate the [expression](./Expressions) (defaults to `1`);
-- If *command condition* is set, evaluate the [expression](./Expressions) (defaults to *break condition*);
+- If *log condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
+- If *command condition* is set, evaluate the [expression](./Expressions.rst) (defaults to *break condition*);
 - If *break condition* evaluated to `1` (or any value other than '0'):
   - Print the standard log message;
   - Execute plugin callbacks.
 - If *log text* is set and *log condition* evaluated to `1` (or any value other than '0'):
-  - Format and print the *log text* (see [String Formatting](./Formatting)).
+  - Format and print the *log text* (see [String Formatting](./Formatting.rst)).
 - If *command text* is set and *command condition* evaluated to `1`:
   - Set the system variable `$breakpointcondition` to the *break condition*;
   - Set the system variable `$breakpointlogcondition` to the *log condition*;
@@ -28,11 +28,11 @@ When a breakpoint is hit, x64dbg will do the following things:
 
 ## Hit counter
 
-A hit counter records how many times a breakpoint has been reached. It will be incremented unconditionally, even if fast resume is enabled on this breakpoint. It may be viewed at breakpoint view and reset with [ResetBreakpointHitCount](../commands/conditional-breakpoint-control/ResetBreakpointHitCount).
+A hit counter records how many times a breakpoint has been reached. It will be incremented unconditionally, even if fast resume is enabled on this breakpoint. It may be viewed at breakpoint view and reset with [ResetBreakpointHitCount](../commands/conditional-breakpoint-control/ResetBreakpointHitCount.md).
 
 ## Logging
 
-The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting) on how to format the log string.
+The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.rst) on how to format the log string.
 
 ## Notes
 
@@ -62,7 +62,7 @@ break condition=``tid()==1C0``
 
 ## See also
 
-- [Conditional Breakpoint Control](../commands/conditional-breakpoint-control/index)
-- [Expressions](./Expressions)
-- [Expression Functions](./Expression-functions)
-- [String Formatting](./Formatting)
+- [Conditional Breakpoint Control](../commands/conditional-breakpoint-control/index.rst)
+- [Expressions](./Expressions.rst)
+- [Expression Functions](./Expression-functions.md)
+- [String Formatting](./Formatting.rst)
