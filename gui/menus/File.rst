@@ -54,6 +54,18 @@ This allows you to export an uncompressed database.
 
 The relevant command for this action is :doc:`../../commands/user-database/dbsave`.
 
+----------
+Patch file
+----------
+
+Opens the patch dialog. You can view your patches and apply the patch to a file in the dialog.
+
+----------------
+Restart as Admin
+----------------
+
+It will restart x64dbg and the current debuggee with administrator privilege.
+
 ----
 Exit
 ----

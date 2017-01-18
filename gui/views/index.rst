@@ -12,3 +12,4 @@ This section describes the usage of the views in the user interface.
    Graph
    Log
    Notes
+   CallStack
