@@ -16,3 +16,4 @@ This section explains the basics of x64dbg. **Make sure to fully read this!**
    ConditionalBreakpoint
    ConditionalTracing
    Formatting
+   inability
