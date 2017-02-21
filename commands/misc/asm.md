@@ -6,7 +6,7 @@ Assemble an instruction.
 
 `arg1` Address to place the assembled instruction at.
 
-`arg2` Instruction text.
+`arg2` Instruction text. You can use [String Formatting](../../introduction/Formatting.rst) here.
 
 `[arg3]` When specified the remainder of the previous instruction will be filled with NOPs.
 
