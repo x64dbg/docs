@@ -4,7 +4,7 @@ Find assembled instruction.
 
 ## arguments
 
-`arg1` Instruction to look for (make sure to use quoted "mov eax, ebx" to ensure you actually search for that instruction).
+`arg1` Instruction to look for (make sure to use quoted "mov eax, ebx" to ensure you actually search for that instruction). You can use [String Formatting](../../introduction/Formatting.rst) here.
 
 `[arg2]` Address of/inside a memory page to look in. When not specified CIP will be used.
 
