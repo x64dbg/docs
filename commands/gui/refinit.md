@@ -4,7 +4,7 @@ Initialize reference view for command usage.
 
 ## arguments
 
-This command has no arguments.
+`[arg1]` The title of the new reference view.
 
 ## result
 

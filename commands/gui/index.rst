@@ -18,6 +18,7 @@ This section describes the commands that control various portions of the GUI.
    setfreezestack
    refinit
    refadd
+   refget
    EnableLog
    DisableLog
    ClearLog
