@@ -74,8 +74,13 @@ You may use functions in an expression. The following functions are defined by t
 
 ## Functions
 
-* `func.start` : Start of the function `addr` is part of, zero otherwise.
-* `func.end` : End of the function `addr` is part of, zero otherwise.
+* `func.start()` : Start of the function `addr` is part of, zero otherwise.
+* `func.end()` : End of the function `addr` is part of, zero otherwise.
+
+## References
+
+* `ref.count()` : Number of entries in the current reference view.
+* `ref.addr(index)` : Get the address of the reference at `index`. Zero on failure.
 
 ## Plugins
 
