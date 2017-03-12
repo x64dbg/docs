@@ -21,8 +21,6 @@ Debug Control
    StepOver
    eStepOver
    seStepOver
-   SingleStep
-   eSingleStep
    StepOut
    eStepOut
    skip

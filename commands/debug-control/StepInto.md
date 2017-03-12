@@ -4,7 +4,7 @@ Single Step (using Trap-Flag).
 
 ## arguments
 
-This command has no arguments.
+`[arg1]` The number of steps to take. If not specified `1` is used.
 
 ## result
 

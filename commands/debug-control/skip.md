@@ -4,7 +4,7 @@ Skip the next instruction. This command swallows the current exception (if pres
 
 ## arguments
 
-This command has no arguments.
+`[arg1]` The number of instructions to skip. If not specified `1` is used.
 
 ## result
 

@@ -4,7 +4,7 @@ Step over calls, **swallowing the current exception, skipping exception dispatch
 
 ## arguments
 
-This command has no arguments.
+`[arg1]` The number of steps to take. If not specified `1` is used.
 
 ## result
 

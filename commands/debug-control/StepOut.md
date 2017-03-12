@@ -4,7 +4,7 @@ Return from function by calling StepOver until the current instruction is a RET.
 
 ## arguments
 
-This command has no arguments
+`[arg1]` The number of times to step out. If not specified `1` is used.
 
 ## result
 
