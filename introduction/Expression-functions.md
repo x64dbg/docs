@@ -85,6 +85,13 @@ You may use functions in an expression. The following functions are defined by t
 * `ref.count()` : Number of entries in the current reference view.
 * `ref.addr(index)` : Get the address of the reference at `index`. Zero on failure.
 
+## Arguments
+
+This assumes the return address is on the stack (eg you are inside the function).
+
+* `arg.get(index)` : Gets the argument at `index` (zero-based).
+* `arg.set(index, value)` : Sets the argument at `index` (zero-based) to `value`.
+
 ## Plugins
 
 Plugins can register their own expression functions. See the plugin documentation for more details.
