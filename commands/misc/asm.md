@@ -12,4 +12,4 @@ Assemble an instruction.
 
 ## result
 
-$resultwill be set to the assembled instruction size. 0 on failure.
+$result will be set to the assembled instruction size. 0 on failure.

@@ -20,6 +20,9 @@ You may use functions in an expression. The following functions are defined by t
 * `mod.size(addr)` : Get the size of the module `addr`.
 * `mod.hash(addr)` : Get the hash of the module `addr`.
 * `mod.entry(addr)` : Get the entry address of the module `addr`.
+* `mod.system(addr)` : True if the module at `addr` is a system module. No module is a user module.
+* `mod.user(addr)` : True if the module at `addr` is a user module. No module is a user module.
+* `mod.main()` : Returns the base of the main module (debuggee). If this is a DLL it will return `0` until loaded.
 
 ## Process Information
 
