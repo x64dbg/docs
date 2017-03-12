@@ -4,7 +4,7 @@ Free the lock and allow the program to run, **passing all first-chance exception
 
 ## arguments
 
-This command has no arguments.
+`[arg1]` When specified, place a single-shot breakpoint at this location before running.
 
 ## results
 
