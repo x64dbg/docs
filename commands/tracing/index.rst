@@ -16,3 +16,4 @@ Tracing
    RunToUserCode
    TraceSetLog
    TraceSetCommand
+   TraceSetLogFile

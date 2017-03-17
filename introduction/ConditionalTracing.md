@@ -1,6 +1,6 @@
 # Conditional Tracing
 
-This section describes the conditional tracing capability in x64dbg.
+This section describes the [conditional tracing](../commands/tracing/index.rst) capability in x64dbg.
 
 ## Operations overview
 
@@ -14,7 +14,7 @@ When a trace step is hit, x64dbg will do the following things:
 - If *command condition* is set, evaluate the [expression](Expressions.rst) (defaults to *break condition*);
 - If *switch condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `0`)
 - If *log text* is set and *log condition* evaluated to `1`:
-  - Format and print the *log text* (see [String Formatting](Formatting.rst)).
+  - Format and print the *log text* (see [String Formatting](Formatting.rst)). To redirect the log to a file use [TraceSetLogFile](../commands/tracing/TraceSetLogFile.md).
 - If *command text* is set and *command condition* evaluated to `1`:
   - Set the system variable `$tracecondition` to the *break condition*;
   - Set the system variable `$tracelogcondition` to the *log condition*;
@@ -30,7 +30,7 @@ When a trace step is hit, x64dbg will do the following things:
 
 ## Logging
 
-The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.rst) on how to format the log string.
+The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.rst) on how to format the log string. If you are looking for logging the address and disassembly of all instructions traced you can use `{p:cip} {i:cip}`. To redirect the log to a file use [TraceSetLogFile](../commands/tracing/TraceSetLogFile.md).
 
 ## Trace record
 
