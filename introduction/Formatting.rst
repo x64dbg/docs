@@ -23,3 +23,9 @@ Examples
 
 - ``rax: {rax}`` formats to ``rax: 4C76``
 - ``password: {s:4*ecx+0x402000}`` formats to ``password: L"s3cret"``
+
+-------
+Plugins
+-------
+
+Plugins can use ``_plugin_registerformatfunction`` to register custom string formatting functions. The syntax is ``{@type;arg1;argN;...@expression}`` where ``type`` is the name of the registered function, ``arg?`` is any string and ``expression`` is any valid expression.
