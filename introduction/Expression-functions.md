@@ -23,6 +23,8 @@ You may use functions in an expression. The following functions are defined by t
 * `mod.system(addr)` : True if the module at `addr` is a system module. No module is a user module.
 * `mod.user(addr)` : True if the module at `addr` is a user module. No module is a user module.
 * `mod.main()` : Returns the base of the main module (debuggee). If this is a DLL it will return `0` until loaded.
+* `mod.rva(addr)` : Get the RVA of `addr`. If `addr` is not inside a module it will return `0`.
+* `mod.offset(addr)` : Get the file offset of `addr`. If `addr` is not inside a module it will return `0`.
 
 ## Process Information
 
