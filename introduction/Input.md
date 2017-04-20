@@ -30,6 +30,10 @@ You can read/write from/to a memory location by using one of the following expre
 - `[addr]` read a DWORD/QWORD from `addr`.
 - `n:[addr]` read n bytes from `addr`.
 - `seg:[addr]` read a DWORD/QWORD from a segment at `addr`.
+- `byte:[addr]` read a BYTE from `addr`.
+- `word:[addr]` read a WORD from `addr`.
+- `dword:[addr]` read a DWORD from `addr`.
+- `qword:[addr]` read a QWORD from `addr` (x64 only).
 
 ### Remarks
 
