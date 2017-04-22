@@ -26,6 +26,12 @@ Middle mouse button
 
 In disassembly view, pressing middle mouse button will copy the selected address to the clipboard.
 
+Select the entire function or block
+-----------------------------------
+
+You can select the entire function by double-clicking on the checkbox next to the disassembly. This checkbox can also be used to
+fold the block into a single line.
+
 Code page
 ---------
 
