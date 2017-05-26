@@ -1,4 +1,4 @@
-# refinit
+# reget
 
 Retrieve the address of a reference.
 
