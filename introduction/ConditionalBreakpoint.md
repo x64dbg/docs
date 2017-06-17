@@ -14,7 +14,7 @@ When a breakpoint is hit, x64dbg will do the following things:
 - If *log condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
 - If *command condition* is set, evaluate the [expression](./Expressions.rst) (defaults to *break condition*);
 - If *break condition* evaluated to `1` (or any value other than '0'):
-  - Print the standard log message;
+  - Print the standard log message; (if [the breakpoint is set to be silent](../commands/conditional-breakpoint-control/SetBreakpointSilent.md), standard log message is supressed.)
   - Execute plugin callbacks.
 - If *log text* is set and *log condition* evaluated to `1` (or any value other than '0'):
   - Format and print the *log text* (see [String Formatting](./Formatting.rst)).
