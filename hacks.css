@@ -1,5 +1,5 @@
 /* Hide search bar */
-#div[role=search] {
+div[role=search] {
     display: none;
 }
 /* This hacks some IE7(?) problems to make all things look decent.
