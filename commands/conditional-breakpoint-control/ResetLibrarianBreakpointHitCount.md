@@ -1,4 +1,4 @@
-# ResetExceptionBreakpointHitCount
+# ResetLibrarianBreakpointHitCount
 
 Resets the hit counter of a librarian breakpoint.
 
