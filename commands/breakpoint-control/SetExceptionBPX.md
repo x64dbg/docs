@@ -6,7 +6,7 @@ Set an exception breakpoint. If an exception breakpoint is active, all the excep
 
 `arg1` Exception name or code of the new exception breakpoint
 
-`[arg2]` Chance. Set to 1 to capture first-chance exceptions, 2 to capture second-chance exceptions, 3 to capture all exceptions. Default value is 1.
+`[arg2]` Chance. Set to `first`/`1` to capture first-chance exceptions, `second`/`2` to capture second-chance exceptions, `all`/`3` to capture all exceptions. Default value is `first`.
 
 ## result
 
