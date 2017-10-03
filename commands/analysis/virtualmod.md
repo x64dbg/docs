@@ -1,6 +1,6 @@
 # virtualmod
 
-Tell the debugger to treat a memory range as a module.
+Tell the debugger to treat a memory range as a virtual module.
 
 ## arguments
 
