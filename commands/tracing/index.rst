@@ -17,3 +17,5 @@ Tracing
    TraceSetLog
    TraceSetCommand
    TraceSetLogFile
+   StartRunTrace
+   StopRunTrace
