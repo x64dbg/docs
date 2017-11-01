@@ -68,6 +68,7 @@ You may use functions in an expression. The following functions are defined by t
 
 * `tr.enabled(addr)` : True if the trace record is enabled at `addr`.
 * `tr.hitcount(addr)` : Number of hits on the trace record at `addr`.
+* `tr.runtraceenabled()` : True if run trace is enabled.
 
 ## Byte/Word/Dword/Qword/Ptr
 

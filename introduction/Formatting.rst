@@ -17,6 +17,14 @@ Types
 - ``a`` **a**\ ddress info: ``00401010 <module.EntryPoint>``
 - ``i`` **i**\ nstruction text: ``jmp 0x77ac3c87``
 
+------------
+Complex Type
+------------
+
+``{mem;size@address}`` will print the ``size`` bytes starting at ``address`` in hex.
+
+``{winerror@code}`` will print the name of windows error code(returned with ``GetLastError()``) and the description of it(with ``FormatMessage``). It is similar to ErrLookup utility.
+
 --------
 Examples
 --------
@@ -28,4 +36,4 @@ Examples
 Plugins
 -------
 
-Plugins can use ``_plugin_registerformatfunction`` to register custom string formatting functions. The syntax is ``{type;arg1;arg2;argN@expression}`` where ``type`` is the name of the registered function, ``argN`` is any string (these are passed to the formatting function as arguments) and ``expression`` is any valid expression. An example (built-in): ``{mem;10@cip}`` will print the 0x10 bytes starting at ``cip`` in hex.
+Plugins can use ``_plugin_registerformatfunction`` to register custom string formatting functions. The syntax is ``{type;arg1;arg2;argN@expression}`` where ``type`` is the name of the registered function, ``argN`` is any string (these are passed to the formatting function as arguments) and ``expression`` is any valid expression.
