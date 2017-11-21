@@ -25,6 +25,8 @@ Complex Type
 
 ``{winerror@code}`` will print the name of windows error code(returned with ``GetLastError()``) and the description of it(with ``FormatMessage``). It is similar to ErrLookup utility.
 
+``{ntstatus@code}`` will print the name of NTSTATUS error code and the description of it(with ``FormatMessage``).
+
 --------
 Examples
 --------

@@ -36,7 +36,11 @@ The log can be formatted by x64dbg to log the current state of the program. See 
 
 ## Notes
 
+You can set a conditional breakpoint with GUI by setting a software breakpoint(key F2) first, then right-click on the instruction and select "Edit breakpoint" command from the context menu. Fill in the conditional expression and/or other information as necessary, then confirm and close the dialog.
+
 You should not use commands that can change the running state of the debuggee (such as `run`) inside the breakpoint command, because these commands are unstable when used here. You can use *break condition*, *command condition* or `$breakpointcondition` instead.
+
+If you don't know where the condition will become true, try [conditional tracing](./ConditionalTracing.md) instead!
 
 ## Examples
 
