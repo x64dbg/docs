@@ -38,6 +38,8 @@ If you use one of the trace record-based tracing options, the initial evaluation
 
 ## Notes
 
+You can start a conditional tracing by "Trace over until condition"/"Trace into until condition" commands in the [Debug menu](../gui/menus/Debug.rst).
+
 You should not use commands that can change the running state of the debuggee (such as `run`) inside the breakpoint command, because these commands are unstable when used here. You can use *break condition*, *command condition* or `$tracecondition` instead.
 
 ## See also
