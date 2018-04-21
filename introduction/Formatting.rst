@@ -21,7 +21,7 @@ Types
 Complex Type
 ------------
 
-``{mem;size@address}`` will print the ``size`` bytes starting at ``address`` in hex.
+``{mem:size@address}`` will print the ``size`` bytes starting at ``address`` in hex.
 
 ``{winerror@code}`` will print the name of windows error code(returned with ``GetLastError()``) and the description of it(with ``FormatMessage``). It is similar to ErrLookup utility.
 
