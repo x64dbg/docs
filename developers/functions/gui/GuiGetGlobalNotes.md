@@ -1,25 +1,32 @@
 # GuiGetGlobalNotes
 
-Function description.
+Returns into a variable a pointer to a string containing global notes and information that a user has made. The function GuiGetDebuggeeNotes can be used to get the local notes stored by a user for the target being debugged (the debuggee).
 
 ```c++
-Function definition.
+void GuiGetGlobalNotes(char** text)
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`text` A variable that will contain a pointer to a buffer on return. The pointer returned points to a string that will contain the global notes.
 
 ## Return Value
 
-Return value description.
+This function does not return a value. The string containing the notes is returned via the pointer supplied via the `text` parameter.
 
 ## Example
 
 ```c++
-Example code.
+char* text = nullptr;
+GuiGetGlobalNotes(&text);
+if(text)
+{
+	\\ do something with text
+}
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiSetGlobalNotes](./GuiSetGlobalNotes.md)
+- [GuiGetDebuggeeNotes](./GuiGetDebuggeeNotes.md)
+- [GuiSetDebuggeeNotes](./GuiSetDebuggeeNotes.md)
