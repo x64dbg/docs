@@ -33,3 +33,4 @@ Invoke GuiAddLogMessage, Addr szMsg
 ## Related functions
 
 - [GuiLogClear](./GuiLogClear.md)
+- [GuiAddStatusBarMessage](./GuiAddStatusBarMessage.md)

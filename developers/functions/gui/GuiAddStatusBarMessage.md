@@ -1,25 +1,25 @@
 # GuiAddStatusBarMessage
 
-Function description.
+Shows text in the statusbar, which can be used to inform the user.
 
 ```c++
-Function definition.
+void GuiAddStatusBarMessage(const char* msg);
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`msg` String containing the message to add to the status bar.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiAddStatusBarMessage("This text will be displayed in the statusbar.");
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiAddLogMessage](./GuiAddLogMessage.md)

@@ -1,9 +1,9 @@
 # GuiDisplayWarning
 
-Function description.
+Shows a warning dialog with title text and main message text.
 
 ```c++
-Function definition.
+void GuiDisplayWarning(const char* title, const char* text)
 ```
 
 ## Parameters
@@ -12,14 +12,15 @@ Function definition.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiDisplayWarning("Warning!", "Operation cannot be reversed.");
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiAddLogMessage](./GuiAddLogMessage.md)
+- [GuiAddStatusBarMessage](./GuiAddStatusBarMessage.md)
