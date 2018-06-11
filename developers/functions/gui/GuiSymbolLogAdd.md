@@ -3,23 +3,26 @@
 Function description.
 
 ```c++
-Function definition.
+void GuiSymbolLogAdd(const char* message);
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`message` String containing the message to add to the symbol log. Ensure that a carriage line and return feed are included with the string for it to properly display it. Encoding is UTF-8.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiSymbolLogAdd(&szMsg);
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiSymbolLogClear](./GuiSymbolLogClear.md)
+- [GuiSymbolRefreshCurrent](./GuiSymbolRefreshCurrent.md)
+- [GuiSymbolSetProgress](./GuiSymbolSetProgress.md)
+- [GuiSymbolUpdateModuleList](./GuiSymbolUpdateModuleList.md)

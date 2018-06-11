@@ -1,25 +1,28 @@
 # GuiSymbolSetProgress
 
-Function description.
+Sets the progress bar in the symbol view based on the integer value supplied. This can be used to convey to the user an operation and how close it is to completion, for example with searches.
 
 ```c++
-Function definition.
+void GuiSymbolSetProgress(int percent);
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`percent` an integer representing the percentage to set for the progress bar.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiSymbolSetProgress(50);
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiSymbolLogAdd](./GuiSymbolLogAdd.md)
+- [GuiSymbolLogClear](./GuiSymbolLogClear.md)
+- [GuiSymbolRefreshCurrent](./GuiSymbolRefreshCurrent.md)
+- [GuiSymbolUpdateModuleList](./GuiSymbolUpdateModuleList.md)

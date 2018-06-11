@@ -1,25 +1,47 @@
 # GuiSymbolUpdateModuleList
 
-Function description.
+Refreshes the symbol view modules list.
 
 ```c++
-Function definition.
+void GuiSymbolUpdateModuleList(int count, SYMBOLMODULEINFO* modules)
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`count` An integer representing the number of symbol module's to update.
+
+`modules` A SYMBOLMODULEINFO variable that will hold the symbol module information.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+// Build the vector of modules
+std::vector<SYMBOLMODULEINFO> modList;
+
+if(!SymGetModuleList(&modList))
+{
+	GuiSymbolUpdateModuleList(0, nullptr);
+	return;
+}
+
+// Create a new array to be sent to the GUI thread
+size_t moduleCount = modList.size();
+SYMBOLMODULEINFO* data = (SYMBOLMODULEINFO*)BridgeAlloc(moduleCount * sizeof(SYMBOLMODULEINFO));
+
+// Direct copy from std::vector data
+memcpy(data, modList.data(), moduleCount * sizeof(SYMBOLMODULEINFO));
+
+// Send the module data to the GUI for updating
+GuiSymbolUpdateModuleList((int)moduleCount, data);
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiSymbolLogAdd](./GuiSymbolLogAdd.md)
+- [GuiSymbolLogClear](./GuiSymbolLogClear.md)
+- [GuiSymbolRefreshCurrent](./GuiSymbolRefreshCurrent.md)
+- [GuiSymbolSetProgress](./GuiSymbolSetProgress.md)

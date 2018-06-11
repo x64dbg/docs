@@ -3,23 +3,26 @@
 Function description.
 
 ```c++
-Function definition.
+void GuiSymbolLogClear();
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+This function has no parameters.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiSymbolLogClear();
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiSymbolLogAdd](./GuiSymbolLogAdd.md)
+- [GuiSymbolRefreshCurrent](./GuiSymbolRefreshCurrent.md)
+- [GuiSymbolSetProgress](./GuiSymbolSetProgress.md)
+- [GuiSymbolUpdateModuleList](./GuiSymbolUpdateModuleList.md)

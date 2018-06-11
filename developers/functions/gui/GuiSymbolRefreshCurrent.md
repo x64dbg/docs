@@ -1,25 +1,28 @@
 # GuiSymbolRefreshCurrent
 
-Function description.
+Refreshes the symbol view list of symbols and exports.
 
 ```c++
-Function definition.
+void GuiSymbolRefreshCurrent();
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+This function has no parameters.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiSymbolRefreshCurrent();
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiSymbolLogAdd](./GuiSymbolLogAdd.md)
+- [GuiSymbolLogClear](./GuiSymbolLogClear.md)
+- [GuiSymbolSetProgress](./GuiSymbolSetProgress.md)
+- [GuiSymbolUpdateModuleList](./GuiSymbolUpdateModuleList.md)
