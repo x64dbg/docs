@@ -31,17 +31,11 @@
 # ones.
 extensions = [
     'sphinx.ext.todo',
+    'm2r'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-
-from recommonmark.parser import CommonMarkParser
-from recommonmark.transform import AutoStructify
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -346,9 +340,4 @@ texinfo_documents = [
 # texinfo_no_detailmenu = False
 
 def setup(app):
-    app.add_config_value('recommonmark_config', {
-            'enable_auto_doc_ref': True,
-            'enable_inline_math': False,
-            'enable_auto_toc_tree': False
-            }, True)
-    app.add_transform(AutoStructify)
+    pass
