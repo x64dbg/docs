@@ -1,25 +1,24 @@
 # GuiGetWindowHandle
 
-Function description.
+Obtains the main window handle for x64dg.
 
 ```c++
-Function definition.
+HWND GuiGetWindowHandle();
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+This function has no parameters.
 
 ## Return Value
 
-Return value description.
+Returns the main window handle for x6dbg as a HWND variable
 
 ## Example
 
 ```c++
-Example code.
+hWnd = GuiGetWindowHandle();
 ```
 
 ## Related functions
 
-- List of related functions
