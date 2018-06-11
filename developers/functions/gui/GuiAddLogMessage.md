@@ -1,6 +1,6 @@
 # GuiAddLogMessage
 
-Function description.
+Adds a message to the log. The message will be shown in the log window and on the status bar at the bottom of x64dbg.
 
 ```c++
 void GuiAddLogMessage(

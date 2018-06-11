@@ -1,25 +1,23 @@
 # GuiShowCpu
 
-Function description.
+Switches the focus and view of the GUI to the main disassembly window (CPU tab)
 
 ```c++
-Function definition.
+void GuiShowCpu();
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+This function has no parameters.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiShowCpu();
 ```
 
 ## Related functions
-
-- List of related functions

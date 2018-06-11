@@ -1,25 +1,25 @@
 # GuiLogClear
 
-Function description.
+Clears the log window of all text.
 
 ```c++
-Function definition.
+void GuiLogClear();
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+This function has no parameters.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiLogClear();
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiAddLogMessage](./GuiAddLogMessage)
