@@ -1,25 +1,35 @@
 # GuiReferenceGetRowCount
 
-Function description.
+Gets the total rows count in the current Reference View instance.
 
 ```c++
-Function definition.
+int GuiReferenceGetRowCount()
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+This function has no parameters.
 
 ## Return Value
 
-Return value description.
+Returns an integer value representing the total rows in the current Reference View instance.
 
 ## Example
 
 ```c++
-Example code.
+int iTotalRows = GuiReferenceGetRowCount();
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiReferenceAddColumn](./GuiReferenceAddColumn.md)
+- [GuiReferenceDeleteAllColumns](./GuiReferenceDeleteAllColumns.md)
+- [GuiReferenceGetCellContent](./GuiReferenceGetCellContent.md)
+- [GuiReferenceInitialize](./GuiReferenceInitialize.md)
+- [GuiReferenceReloadData](./GuiReferenceReloadData.md)
+- [GuiReferenceSetCellContent](./GuiReferenceSetCellContent.md)
+- [GuiReferenceSetCurrentTaskProgress](./GuiReferenceSetCurrentTaskProgress.md)
+- [GuiReferenceSetProgress](./GuiReferenceSetProgress.md)
+- [GuiReferenceSetRowCount](./GuiReferenceSetRowCount.md)
+- [GuiReferenceSetSearchStartCol](./GuiReferenceSetSearchStartCol.md)
+- [GuiReferenceSetSingleSelection](./GuiReferenceSetSingleSelection.md)

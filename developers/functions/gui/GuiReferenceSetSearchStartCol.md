@@ -1,25 +1,35 @@
 # GuiReferenceSetSearchStartCol
 
-Function description.
+Sets the search starting column in the current Reference View instance.
 
 ```c++
-Function definition.
+void GuiReferenceSetSearchStartCol(int col);
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`col` An integer representing the 0 based column to use for searching.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiReferenceSetSearchStartCol(1);
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiReferenceAddColumn](./GuiReferenceAddColumn.md)
+- [GuiReferenceDeleteAllColumns](./GuiReferenceDeleteAllColumns.md)
+- [GuiReferenceGetCellContent](./GuiReferenceGetCellContent.md)
+- [GuiReferenceGetRowCount](./GuiReferenceGetRowCount.md)
+- [GuiReferenceInitialize](./GuiReferenceInitialize.md)
+- [GuiReferenceReloadData](./GuiReferenceReloadData.md)
+- [GuiReferenceSetCellContent](./GuiReferenceSetCellContent.md)
+- [GuiReferenceSetCurrentTaskProgress](./GuiReferenceSetCurrentTaskProgress.md)
+- [GuiReferenceSetProgress](./GuiReferenceSetProgress.md)
+- [GuiReferenceSetRowCount](./GuiReferenceSetRowCount.md)
+- [GuiReferenceSetSingleSelection](./GuiReferenceSetSingleSelection.md)

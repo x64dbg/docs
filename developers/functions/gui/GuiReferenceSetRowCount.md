@@ -1,25 +1,35 @@
 # GuiReferenceSetRowCount
 
-Function description.
+Sets the total number of rows that the Reference View will contain.
 
 ```c++
-Function definition.
+void GuiReferenceSetRowCount(int count);
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`count` integer representing the total number of rows that the current Reference View will contain.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiReferenceSetRowCount(5);
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiReferenceAddColumn](./GuiReferenceAddColumn.md)
+- [GuiReferenceDeleteAllColumns](./GuiReferenceDeleteAllColumns.md)
+- [GuiReferenceGetCellContent](./GuiReferenceGetCellContent.md)
+- [GuiReferenceGetRowCount](./GuiReferenceGetRowCount.md)
+- [GuiReferenceInitialize](./GuiReferenceInitialize.md)
+- [GuiReferenceReloadData](./GuiReferenceReloadData.md)
+- [GuiReferenceSetCellContent](./GuiReferenceSetCellContent.md)
+- [GuiReferenceSetCurrentTaskProgress](./GuiReferenceSetCurrentTaskProgress.md)
+- [GuiReferenceSetProgress](./GuiReferenceSetProgress.md)
+- [GuiReferenceSetSearchStartCol](./GuiReferenceSetSearchStartCol.md)
+- [GuiReferenceSetSingleSelection](./GuiReferenceSetSingleSelection.md)

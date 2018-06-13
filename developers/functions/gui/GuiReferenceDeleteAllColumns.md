@@ -1,25 +1,35 @@
 # GuiReferenceDeleteAllColumns
 
-Function description.
+Removes all columns from the current Reference View instance.
 
 ```c++
-Function definition.
+void GuiReferenceDeleteAllColumns();
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+This function has no parameters.
 
 ## Return Value
 
-Return value description.
+This function does not return a value.
 
 ## Example
 
 ```c++
-Example code.
+GuiReferenceDeleteAllColumns();
 ```
 
 ## Related functions
 
-- List of related functions
+- [GuiReferenceAddColumn](./GuiReferenceAddColumn.md)
+- [GuiReferenceGetCellContent](./GuiReferenceGetCellContent.md)
+- [GuiReferenceGetRowCount](./GuiReferenceGetRowCount.md)
+- [GuiReferenceInitialize](./GuiReferenceInitialize.md)
+- [GuiReferenceReloadData](./GuiReferenceReloadData.md)
+- [GuiReferenceSetCellContent](./GuiReferenceSetCellContent.md)
+- [GuiReferenceSetCurrentTaskProgress](./GuiReferenceSetCurrentTaskProgress.md)
+- [GuiReferenceSetProgress](./GuiReferenceSetProgress.md)
+- [GuiReferenceSetRowCount](./GuiReferenceSetRowCount.md)
+- [GuiReferenceSetSearchStartCol](./GuiReferenceSetSearchStartCol.md)
+- [GuiReferenceSetSingleSelection](./GuiReferenceSetSingleSelection.md)
