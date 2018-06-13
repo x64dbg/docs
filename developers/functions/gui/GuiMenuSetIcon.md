@@ -37,12 +37,12 @@ GuiMenuSetIcon(hMenuDisasm,&rocket);
 
 Note: Plugin developers should make use of the plugin functions provided:
 
-- [plugin_menuadd](../../plugins/API/menuadd.rst)
-- [plugin_menuaddentry](../../plugins/API/menuaddentry.rst)
-- [plugin_menuaddseparator](../../plugins/API/menuaddseparator.rst)
-- [plugin_menuclear](../../plugins/API/menuclear.rst)
-- [plugin_menuentryseticon](../../plugins/API/menuentryseticon.rst)
-- [plugin_menuseticon](../../plugins/API/menuseticon.rst)
+- [\_plugin\_menuadd](../../plugins/API/menuadd.rst)
+- [\_plugin\_menuaddentry](../../plugins/API/menuaddentry.rst)
+- [\_plugin\_menuaddseparator](../../plugins/API/menuaddseparator.rst)
+- [\_plugin\_menuclear](../../plugins/API/menuclear.rst)
+- [\_plugin\_menuentryseticon](../../plugins/API/menuentryseticon.rst)
+- [\_plugin\_menuseticon](../../plugins/API/menuseticon.rst)
 
 
 
