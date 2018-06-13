@@ -33,8 +33,8 @@ hNewMenu = GuiMenuAdd(hMenu, &szMenuTitle);
 Note: Plugin developers should make use of the plugin functions provided:
 
 - [_plugin_menuadd](../../plugins/API/menuadd.rst)
-- [_plugin_menuaddentry](../../plugins/API/menuaddentry.rst
-- [_plugin_menuaddseparator](../../plugins/API/menuaddseparator.rst
-- [_plugin_menuclear](../../plugins/API/menuclear.rst
-- [_plugin_menuentryseticon](../../plugins/API/menuentryseticon.rst
-- [_plugin_menuseticon](../../plugins/API/menuseticon.rst
+- [_plugin_menuaddentry](../../plugins/API/menuaddentry.rst)
+- [_plugin_menuaddseparator](../../plugins/API/menuaddseparator.rst)
+- [_plugin_menuclear](../../plugins/API/menuclear.rst)
+- [_plugin_menuentryseticon](../../plugins/API/menuentryseticon.rst)
+- [_plugin_menuseticon](../../plugins/API/menuseticon.rst)
