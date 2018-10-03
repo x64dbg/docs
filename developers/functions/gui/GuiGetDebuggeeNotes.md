@@ -21,7 +21,7 @@ char* text = nullptr;
 GuiGetDebuggeeNotes(&text);
 if(text)
 {
-	\\ do something with text
+	// do something with text
 }
 ```
 

@@ -21,7 +21,7 @@ char* text = nullptr;
 GuiGetGlobalNotes(&text);
 if(text)
 {
-	\\ do something with text
+	// do something with text
 }
 ```
 
