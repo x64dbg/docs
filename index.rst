@@ -17,6 +17,7 @@ If you came here because someone told you to read the manual, start by reading *
    gui/index
    commands/index
    developers/index
+   licenses/index
 
 
 Indices and tables
