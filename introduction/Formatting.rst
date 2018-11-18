@@ -33,7 +33,7 @@ Examples
 
 - ``rax: {rax}`` formats to ``rax: 4C76``
 - ``password: {s:4*ecx+0x402000}`` formats to ``password: L"s3cret"``
-
+- ``log {x:bswap(rax)}`` if rax=0000000078D333E0 the result will be E033D37800000000 because of bswap fun which reverse the hex value
 -------
 Plugins
 -------
