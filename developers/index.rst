@@ -9,3 +9,5 @@ This section contains documentation intended to help developers to write code re
    
    plugins/index
    functions/index
+   tracefile
+   
