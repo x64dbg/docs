@@ -37,7 +37,7 @@ struct {
 
 `BlockFlagsAndOpcodeSize` is a bitfield. The most significant bit is ThreadId bit. When this bit is set, `ThreadId` field is available and indicates the thread id which executed the instruction. When this bit is clear, the thread id that executed the instruction is the same as last instruction, so it is not stored in file. The least 4 significant bits specify the length of `Opcode` field, in number of bytes. Other bits are reserved and set to 0. `Opcode` field contains the opcode of current instruction.
 
-`RegisterChangePosition` is an array of unsigned bytes. Each element indicates a pointer-sized integer in struct `REGDUMP` that is updated after execution of current instruction, as an offset to previous location. The absolute index is computed by adding the absolute index of previous element(or 0 if it is first element) with this relative index, and finally add 1 more. `RegisterChangeNewData` is an array of pointer-sized integers that contains the new value of register. `REGDUMP` structure is given below.
+`RegisterChangePosition` is an array of unsigned bytes. Each element indicates a pointer-sized integer in struct `REGDUMP` that is updated after execution of current instruction, as an offset to previous location. The absolute index is computed by adding the absolute index of previous element +1 (or 0 if it is first element) with this relative index. `RegisterChangeNewData` is an array of pointer-sized integers that contains the new value of register. `REGDUMP` structure is given below.
 
 ```c++
 typedef struct
