@@ -27,6 +27,18 @@ Complex Type
 
 ``{ntstatus@code}`` will print the name of NTSTATUS error code and the description of it(with ``FormatMessage``).
 
+``{ascii[;length]@address}`` will print the ASCII string at ``address`` with an optional ``length`` (in bytes).
+
+``{ansi[;length]@address}`` will print the ANSI string at ``address`` with an optional ``length`` (in bytes).
+
+``{utf8[;length]@address}`` will print the UTF-8 string at ``address`` with an optional ``length`` (in bytes).
+
+``{utf16[;length]@address}`` will print the UTF-16 string at ``address`` with an optional ``length`` (in words).
+
+``{disasm@address}`` will print the disassembly at ``address`` (equivalent to ``{i:address}``).
+
+``{modname@address}`` will print the name of the module at ``address``.
+
 --------
 Examples
 --------
@@ -34,6 +46,7 @@ Examples
 - ``rax: {rax}`` formats to ``rax: 4C76``
 - ``password: {s:4*ecx+0x402000}`` formats to ``password: L"s3cret"``
 - ``log {x:bswap(rax)}`` if rax=0000000078D333E0 the result will be E033D37800000000 because of bswap fun which reverse the hex value
+
 -------
 Plugins
 -------
