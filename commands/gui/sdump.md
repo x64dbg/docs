@@ -1,6 +1,6 @@
 # sdump
 
-Dump the at a certain position.
+Dump the stack at a certain position.
 
 ## arguments
 
