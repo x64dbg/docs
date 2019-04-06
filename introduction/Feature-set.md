@@ -32,7 +32,6 @@ This program is currently under active development. It supports many basic and a
 ## Advanced features
 
 *  Decompiler ([snowman](https://derevenets.com))
-*  [Yara](http://virustotal.github.io/yara/) pattern matching
 *  Import reconstructor integrated ([Scylla](https://github.com/NtQuery/Scylla))
 *  Analysis
 *  Conditional breakpoints and tracing with great flexibility

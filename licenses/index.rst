@@ -13,6 +13,5 @@ Licenses
    asmjitlicense
    janssonlicense
    lz4license
-   yaralicense
    snowmanlicense
    

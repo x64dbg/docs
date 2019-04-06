@@ -17,6 +17,4 @@ This section contains commands that are used to search data.
    reffindrange
    refstr
    modcallfind
-   yara
-   yaramod
    setmaxfindresult
