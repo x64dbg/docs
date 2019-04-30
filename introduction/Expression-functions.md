@@ -25,6 +25,7 @@ You may use functions in an expression. The following functions are defined by t
 * `mod.main()` : Returns the base of the main module (debuggee). If this is a DLL it will return `0` until loaded.
 * `mod.rva(addr)` : Get the RVA of `addr`. If `addr` is not inside a module it will return `0`.
 * `mod.offset(addr)` : Get the file offset of `addr`. If `addr` is not inside a module it will return `0`.
+* `mod.isexport(addr)` : True if `addr` is an exported function from a module.
 
 ## Process Information
 
@@ -63,6 +64,7 @@ You may use functions in an expression. The following functions are defined by t
 * `dis.brfalse(addr)` : Address of the next instruction if the instruction at `addr` is a conditional branch.
 * `dis.next(addr)` : Address of the next instruction from `addr`.
 * `dis.prev(addr)` : Address of the previous instruction from `addr`.
+* `dis.iscallsystem(addr)` : True if the instruction at `addr` goes to a system module.
 
 ## Trace record
 
