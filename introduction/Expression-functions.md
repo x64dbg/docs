@@ -97,6 +97,17 @@ This assumes the return address is on the stack (eg you are inside the function)
 * `arg.get(index)` : Gets the argument at `index` (zero-based).
 * `arg.set(index, value)` : Sets the argument at `index` (zero-based) to `value`.
 
+## Exceptions
+
+This is a set of functions to get information about the last exception. They can be used for exceptions breakpoints to construct more advanced conditions.
+
+* `ex.firstchance()` : Whether the last exception was a first chance exception.
+* `ex.addr()` : Last exception address.
+* `ex.code()` : Last exception code.
+* `ex.flags()` : Last exception flags.
+* `ex.infocount()` : Last exception information count (number of parameters).
+* `ex.info(index)` : Last exception information, zero if index is out of bounds.
+
 ## Plugins
 
 Plugins can register their own expression functions. See the plugin documentation for more details.

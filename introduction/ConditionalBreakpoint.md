@@ -6,6 +6,7 @@ This section describes the conditional breakpoint capability in x64dbg.
 
 When a breakpoint is hit, x64dbg will do the following things:
 
+- If the breakpoint is an exception breakpoint, set the system variable `$breakpointexceptionaddress` to the exception address;
 - Increment the *hit counter*;
 - Set the system variable `$breakpointcounter` to the value of *hit counter*;
 - If *break condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
