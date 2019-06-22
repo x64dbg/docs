@@ -16,6 +16,8 @@ This section contains commands that are used for analysis.
    analadv
    virtualmod
    symdownload
+   symload
+   symunload
    imageinfo
    GetRelocSize
    exhandlers
