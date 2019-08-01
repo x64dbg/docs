@@ -27,4 +27,4 @@ Example code.
 
 ## Related functions
 
-- DbgMemGetPageSize
+- [DbgMemGetPageSize](./DbgMemGetPageSize.md)
