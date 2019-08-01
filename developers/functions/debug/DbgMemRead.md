@@ -12,7 +12,7 @@ bool DbgMemRead(
 
 ## Parameters
 
-`va` Memory address to source<br>
+`va` Virtual address to source<br>
 `dest` Pointer to pre allocated buffer of size `size`<br>
 `size` Number of bytes that should be read
 
