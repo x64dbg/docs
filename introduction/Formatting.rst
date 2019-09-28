@@ -39,13 +39,22 @@ Complex Type
 
 ``{modname@address}`` will print the name of the module at ``address``.
 
+``{bswap;size@value}`` will byte-swap ``value`` for a specified ``size``.
+
 --------
 Examples
 --------
 
 - ``rax: {rax}`` formats to ``rax: 4C76``
 - ``password: {s:4*ecx+0x402000}`` formats to ``password: L"s3cret"``
-- ``log {x:bswap(rax)}`` if rax=0000000078D333E0 the result will be E033D37800000000 because of bswap fun which reverse the hex value
+- ``{x:bswap(rax)}`` where ``rax=0000000078D333E0`` formats to ``E033D37800000000`` because of bswap fun which reverse the hex value
+- ``{bswap;4@rax}`` where ``rax=1122334455667788`` formats to ``88776655``
+
+-------
+Logging
+-------
+
+When using the ``log`` command you should put quotes around the format string (``log "{mem;8@rax}"``) to avoid ambiguity with the ``;`` (which separates two commands). See https://github.com/x64dbg/x64dbg/issues/1931 for more details.
 
 -------
 Plugins
