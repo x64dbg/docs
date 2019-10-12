@@ -39,7 +39,7 @@ Complex Type
 
 ``{modname@address}`` will print the name of the module at ``address``.
 
-``{bswap;size@value}`` will byte-swap ``value`` for a specified ``size``.
+``{bswap[;size]@value}`` will byte-swap ``value`` for a specified ``size`` (size of pointer per default).
 
 --------
 Examples
