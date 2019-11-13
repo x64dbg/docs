@@ -9,6 +9,7 @@ This section contains commands to manipulate memory inside the debuggee.
    
    alloc
    Fill
+   memcpy
    free
    getpagerights
    setpagerights
