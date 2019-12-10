@@ -8,7 +8,7 @@ Set the watchdog mode of a watch item.
 
 `[arg2]` The watchdog mode. Possible values:
 
-* disabled : Watchdog is disableed.
+* disabled : Watchdog is disabled.
 * changed : Watchdog is triggered when the value is changed.
 * unchanged : Watchdog is triggered when the value is not changed.
 * istrue : Watchdog is triggered when the value is not 0.
