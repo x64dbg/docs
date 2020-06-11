@@ -3,21 +3,33 @@
 Function description.
 
 ```c++
-Function definition.
+bool DbgMemRead(
+  duint va,
+  void* dest,
+  duint size
+  );
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`va` Virtual address to source<br>
+`dest` Pointer to pre allocated buffer of size `size`<br>
+`size` Number of bytes that should be read
 
 ## Return Value
 
-Return value description.
+Returns true on success.
 
 ## Example
 
 ```c++
-Example code.
+// read user selected data from disassembly window
+SELECTIONDATA sel;
+GuiSelectionGet(GUI_DISASSEMBLY, &sel);
+uint16_t size = sel.end - sel.start + 1;
+uint8_t* dest = new uint8_t[size];
+bool success = DbgMemRead(sel.start, dest, size);
+// on success, the selected data is stored in dest
 ```
 
 ## Related functions
