@@ -26,6 +26,8 @@ When a breakpoint is hit, x64dbg will do the following things:
   - The *break condition* will be set to the value of `$breakpointcondition`. So if you modify this system variable in the script, you will be able to control whether the debuggee would break.
 - If *break condition* evaluated to `1` (or any value other than '0'):
   - Break the debuggee and wait for the user to resume.
+  
+If any expression is invalid, the condition will be triggered (That is, an invalid expression as condition will cause the breakpoint to always break, log and execute command).
 
 ## Hit counter
 
