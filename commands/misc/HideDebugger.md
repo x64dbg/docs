@@ -1,6 +1,6 @@
 # HideDebugger/dbh/hide
 
-Hide the debugger from (very) simple detection methods.
+Hide the debugger from (very) simple detection methods. The PEB will be modified so that `IsDebuggerPresent()` will return false.
 
 ## arguments
 

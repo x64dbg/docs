@@ -15,13 +15,13 @@ You may use functions in an expression. The following functions are defined by t
 
 ## Modules
 
-* `mod.party(addr)` : Get the party of the module `addr`. `0` is user module, `1` is system module.
+* `mod.party(addr)` : Get the party number of the module `addr`. `0` is user module, `1` is system module.
 * `mod.base(addr)` : Get the base address of the module `addr`.
 * `mod.size(addr)` : Get the size of the module `addr`.
 * `mod.hash(addr)` : Get the hash of the module `addr`.
 * `mod.entry(addr)` : Get the entry address of the module `addr`.
-* `mod.system(addr)` : True if the module at `addr` is a system module. No module is a user module.
-* `mod.user(addr)` : True if the module at `addr` is a user module. No module is a user module.
+* `mod.system(addr)` : True if the module at `addr` is a system module. False: module is a user module.
+* `mod.user(addr)` : True if the module at `addr` is a user module. False: module is NOT a user module.
 * `mod.main()` : Returns the base of the main module (debuggee). If this is a DLL it will return `0` until loaded.
 * `mod.rva(addr)` : Get the RVA of `addr`. If `addr` is not inside a module it will return `0`.
 * `mod.offset(addr)` : Get the file offset of `addr`. If `addr` is not inside a module it will return `0`.
@@ -35,7 +35,7 @@ You may use functions in an expression. The following functions are defined by t
 
 ## General Purpose
 
-* `bswap(value)` : Byte-swap `value`.
+* `bswap(value)` : Byte-swap `value`. For example, `bswap(44332211)` = 0x11223344.
 * `ternary(condition, val1, val2)` : If condition is nonzero, return `val1`, otherwise return `val2`.
 * `GetTickCount()` : Tick count of x64dbg.
 
@@ -74,16 +74,16 @@ You may use functions in an expression. The following functions are defined by t
 
 ## Byte/Word/Dword/Qword/Ptr
 
-* `ReadByte,Byte,byte(addr)` : Read a byte from `addr` and return the value.
-* `ReadWord,Word,word(addr)` : Read a word (2 bytes) from `addr` and return the value.
-* `ReadDword,Dword,dword(addr)` : Read a dword (4 bytes) from `addr` and return the value.
-* `ReadQword,Qword,qword(addr)` : Read a qword (8 bytes) from `addr` and return the value (only available on x64).
-* `ReadPtr,ReadPointer,ptr,Pointer,pointer(addr)` : Read a pointer (4/8 bytes) from `addr` and return the value.
+* `ReadByte(addr)`,`Byte(addr)`,`byte(addr)` : Read a byte from `addr` and return the value. Example: `byte(eax)` reads a byte from memory location `[eax]`.
+* `ReadWord(addr)`,`Word(addr)`,`word(addr)` : Read a word (2 bytes) from `addr` and return the value.
+* `ReadDword(addr)`,`Dword(addr)`,`dword(addr)` : Read a dword (4 bytes) from `addr` and return the value.
+* `ReadQword(addr)`,`Qword(addr)`,`qword(addr)` : Read a qword (8 bytes) from `addr` and return the value (only available on x64).
+* `ReadPtr(addr)`,`ReadPointer(addr)`,`ptr(addr)`,`Pointer(addr)`,`pointer(addr)` : Read a pointer (4/8 bytes) from `addr` and return the value.
 
 ## Functions
 
-* `func.start()` : Start of the function `addr` is part of, zero otherwise.
-* `func.end()` : End of the function `addr` is part of, zero otherwise.
+* `func.start()` : Return start of the function `addr` is part of, zero otherwise.
+* `func.end()` : Return end of the function `addr` is part of, zero otherwise.
 
 ## References
 

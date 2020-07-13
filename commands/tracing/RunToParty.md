@@ -4,8 +4,12 @@ Run the program until the program reaches somewhere belonging to the party numbe
 
 ## arguments
 
-`arg1` The party number. This value cannot be an expression.
+`arg1` The party number. This value cannot be an expression. Note: `0` is user module, `1` is system module.
 
 ## results
 
 This command does not set any result variables.
+
+## see also
+
+[RunToUserCode](RunToUserCode.md)

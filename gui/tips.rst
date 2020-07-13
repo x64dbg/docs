@@ -32,6 +32,8 @@ Select the entire function or block
 You can select the entire function by double-clicking on the checkbox next to the disassembly. This checkbox can also be used to
 fold the block into a single line.
 
+Note: when you select only 1 instruction, or if the function is not analyzed, the checkbox might not appear. In this case, please select the instruction you want to fold first.
+
 Code page
 ---------
 
@@ -40,4 +42,13 @@ You can use the codepage dialog(in the context menu of the dump view) to select 
 Change Window Title
 -------------------
 
-You can rename the windows of x64dbg by renaming "x64dbg.exe" or "x32dbg.exe" to another name. You should also rename the "x64dbg.ini" or "x32dbg.ini" to keep it the same name as the debugger.
+You can rename the windows of x64dbg by renaming "x64dbg.exe" or "x32dbg.exe" to another name, if the debuggee doesn't support running in a system with a window or process named as such.
+You should also rename the "x64dbg.ini" or "x32dbg.ini" to keep it the same name as the debugger.
+
+Search for strings
+------------------
+
+You can use the following methods to search for string:
+* Search for / Pattern: you will be asked to provide a string to search, and x64dbg will search for it and display the results in the references view.
+* Search for / Strings references: x64dbg will search all pointers that look like an ANSI or Unicode string and display the results in the references view. However, it only supports string in Latin language. **If you need to search for strings in other languages, please install appropriate plugins.**
+* Search for / Constant: search for a constant that is the first DWORD/QWORD of the string.
