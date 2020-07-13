@@ -49,6 +49,7 @@ Search for strings
 ------------------
 
 You can use the following methods to search for string:
-* Search for / Pattern: you will be asked to provide a string to search, and x64dbg will search for it and display the results in the references view.
-* Search for / Strings references: x64dbg will search all pointers that look like an ANSI or Unicode string and display the results in the references view. However, it only supports string in Latin language. **If you need to search for strings in other languages, please install appropriate plugins.**
-* Search for / Constant: search for a constant that is the first DWORD/QWORD of the string.
+
+ -  Search for / Pattern: you will be asked to provide a string to search, and x64dbg will search for it and display the results in the references view.
+ -  Search for / Strings references: x64dbg will search all pointers that look like an ANSI or Unicode string and display the results in the references view. However, it only supports string in Latin language. **If you need to search for strings in other languages, please install appropriate plugins.**
+ -  Search for / Constant: search for a constant that is the first DWORD/QWORD of the string.
