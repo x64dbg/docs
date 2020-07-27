@@ -4,7 +4,9 @@ These settings do not appear in settings dialog, nor can they be changed in x64d
 
 ## Engine
 ### AnimateInterval
-If set to a value of milliseconds, animation will proceed every specified milliseconds. Minimum value is 20ms.
+If set to a value of milliseconds, animation will proceed every specified milliseconds.
+
+Update: This setting has been added into settings dialog, and previous lower limit of 20ms has been removed.
 
 ### MaxSkipExceptionCount
 If set (default is 10000), during a run that ignores first-chance exceptions(example, [erun](../../commands/debug-control/erun)), it will only ignore that specified number of first-chance exceptions. After that the debuggee will pause when one more first-chance exception happens. If set to 0 first-chance exceptions will always be ignored during such runs.
