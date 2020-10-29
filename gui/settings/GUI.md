@@ -37,3 +37,31 @@ in the side bar for watched variables.
 
 When a debug event occurs, x64dbg will focus itself so you can view the state of the debuggee. In some circumstances
 this might not be desired. This option can be used to tell x64dbg not to focus itself when a debug event occurs.
+
+## Show RVA addresses in graph view
+When enabled in graph view the offset addresses are shown in front of the disassembly.
+
+## Graph zoom mode
+
+Allows to zoom graph view by holding <ctrl> and turning the mousewheel up and down.
+Note: Press G on the CPU tab press G to open graph view 
+
+## Show exit confirmation dialog
+
+When enabled the dialog
+"The debuggee is still running and will be terminated if you exit. Do you really want to exit?"
+is shown when you exit x64dbg but it's still attached to some process for debugging.
+
+## Disable auto completion in goto dialog
+
+Here you can turn of the auto completion that will suggest words as soon you start typing in the "Enter expression" dialog.  Go to/expression from the right click context menu  will bring up the "Enter expression" dialog. Note: That stting will be handy in case there are delays when typing.
+
+## Show ASCII/Unicode in address dump mode
+When enabled the column "ASCII" is added to the dump panels.
+Furthermore the view mode(right click) must be set to "Address" to see this effect.
+Note: The column "ASCII" must not be hidden.
+Right click on column header to bring up the 'Edit column' dialog to check.
+^^
+Note from the doc contributor: 
+However please don't ask why there is an option here
+when there is also that 'Edit column' dialog that does nearly the same thing.
