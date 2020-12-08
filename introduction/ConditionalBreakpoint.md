@@ -43,17 +43,19 @@ You can set a conditional breakpoint with GUI by setting a software breakpoint(k
 
 You should not use commands that can change the running state of the debuggee (such as `run`) inside the breakpoint command, because these commands are unstable when used here. You can use *break condition*, *command condition* or `$breakpointcondition` instead.
 
-If you don't know where the condition will become true, try [conditional tracing](./ConditionalTracing.md) instead!
-
 ## Examples
 
 **A conditional breakpoint which never breaks**
 
-*break condition*: `0`
+*break condition*: `0` (Useful if you only want to execute command or log data, but not pause the debuggee)
 
 **A conditional breakpoint which breaks only if EAX and ECX both equal to 1**
 
 *break condition*: `EAX==1 && ECX==1`
+
+**A conditional breakpoint which breaks only if the first argument is 1**
+
+*break condition*: `arg.get(0)==1`
 
 **A conditional breakpoint which breaks only if EAX is a valid address**
 
@@ -66,6 +68,10 @@ If you don't know where the condition will become true, try [conditional tracing
 **A conditional breakpoint which breaks only if executed by the thread 1C0**
 
 *break condition*: `tid()==1C0`
+
+## Comparison with Conditional Tracing
+
+A conditional breakpoint can only pause the debuggee when it is executed. It cannot pause the debuggee when the breakpoint is not hit even if the condition is satisfied. If you don't know where the condition will become true, try [conditional tracing](./ConditionalTracing.md) instead!
 
 ## See also
 
