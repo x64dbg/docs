@@ -1,25 +1,25 @@
 # DbgValFromString
 
-Function description.
+Evaluate the expression.
 
 ```c++
-Function definition.
+duint DbgValFromString(const char* string);
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`string` The [expression](../../../introduction/Expressions.rst) to evaluate in UTF-8 encoding.
 
 ## Return Value
 
-Return value description.
+The value of the expression.
 
 ## Example
 
 ```c++
-Example code.
+eip = DbgValFromString("cip");
 ```
 
 ## Related functions
 
-- List of related functions
+- [DbgValToString](./DbgValToString.md)

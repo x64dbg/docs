@@ -1,25 +1,27 @@
 # DbgValToString
 
-Function description.
+Set the variable to the value.
 
 ```c++
-Function definition.
+bool DbgValToString(const char* string, duint value);
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`string` The name of the thing to set in UTF-8 encoding.
+
+`value` The value to set.
 
 ## Return Value
 
-Return value description.
+`true` if the value was set successfully, `false` otherwise.
 
 ## Example
 
 ```c++
-Example code.
+DbgValToString("eax", 1);
 ```
 
 ## Related functions
 
-- List of related functions
+- [DbgValFromString](./DbgValFromString.md)

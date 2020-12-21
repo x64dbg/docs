@@ -1,25 +1,31 @@
 # DbgSetAutoCommentAt
 
-Function description.
+Set an auto comment at the given address.
 
 ```c++
-Function definition.
+bool DbgSetAutoCommentAt(duint addr, const char* text)
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`addr` The address to comment.
+
+`text` The auto comment in UTF-8 encoding.
 
 ## Return Value
 
-Return value description.
+`true` if the function is successful, `false` otherwise.
 
 ## Example
 
 ```c++
-Example code.
+DbgSetAutoCommentAt(DbgValFromString("dis.sel()"), "This is the currently selected instruction");
 ```
 
 ## Related functions
 
-- List of related functions
+- [DbgSetCommentAt](./DbgSetCommentAt.md)
+- [DbgSetAutoLabelAt](./DbgSetAutoLabelAt.md)
+- [DbgSetAutoBookmarkAt](./DbgSetAutoBookmarkAt.md)
+- [DbgSetLabelAt](./DbgSetLabelAt.md)
+- [DbgSetBookmarkAt](./DbgSetBookmarkAt.md)

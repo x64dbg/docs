@@ -1,18 +1,18 @@
 # DbgExit
 
-Function description.
+Used by x64dbg GUI to send exit signal to debugger and close the debugger.
 
 ```c++
-Function definition.
+void DbgExit()
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+No parameters
 
 ## Return Value
 
-Return value description.
+No return value.
 
 ## Example
 

@@ -1,25 +1,25 @@
 # DbgCmdExecDirect
 
-Function description.
+Execute the command on the calling thread.
 
 ```c++
-Function definition.
+bool DbgCmdExecDirect(const char* cmd)
 ```
 
 ## Parameters
 
-`param1` Parameter description.
+`cmd` The command string in UTF-8 encoding
 
 ## Return Value
 
-Return value description.
+`true` if the command is executed successfully, `false` otherwise.
 
 ## Example
 
 ```c++
-Example code.
+DbgCmdExecDirect("run");
 ```
 
 ## Related functions
 
-- List of related functions
+- [DbgCmdExec](./DbgCmdExec.md)
