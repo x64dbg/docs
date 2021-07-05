@@ -10,4 +10,4 @@ Get the address of an export inside a DLL.
 
 ## result
 
-The $resultvariable is set to the export address. When the export is not found, $resultwill be set to 0.
+The $result variable is set to the export address. When the export is not found, $result will be set to 0.
