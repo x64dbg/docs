@@ -41,6 +41,10 @@ Complex Type
 
 ``{bswap[;size]@value}`` will byte-swap ``value`` for a specified ``size`` (size of pointer per default).
 
+``{label@address}`` will print the (auto)label at ``address``.
+
+``{comment@address}`` will print the (auto)comment at ``address``.
+
 --------
 Examples
 --------
