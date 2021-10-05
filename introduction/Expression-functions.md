@@ -39,6 +39,13 @@ You may use functions in an expression. The following functions are defined by t
 * `ternary(condition, val1, val2)` : If condition is nonzero, return `val1`, otherwise return `val2`.
 * `GetTickCount()` : Tick count of x64dbg.
 
+## Strings
+
+* `utf8(str)` : A UTF-8 string.
+* `utf16(str)` : A UTF-16 string.
+* `strstr(str1, str2)` : Find a substring. For example, `strstr(utf8(addr), "abc")`.
+* `streq(str1, str2)` : Compare two strings. For example, `strcmp(utf8(addr), "abc")`.
+
 ## Memory
 
 * `mem.valid(addr)` : True if `addr` is a valid memory address.
