@@ -4,6 +4,10 @@ Documentation repository for [x64dbg](http://x64dbg.com) at [Read the Docs](http
 
 ## Building
 
-1. `pip install sphinx recommonmark==0.4.0 sphinx_rtd_theme==0.2.5b2`
-2. Add `relpath = relpath.replace(os.path.sep, '/')` to `C:\Python27\Lib\site-packages\recommonmark\transform.py` line `63`
+1. Download https://github.com/x64dbg/docs/releases/download/python27-portable/python-2.7.18.amd64.portable.7z
+2. Extract to the `python-2.7.18.amd64.portable` folder
 3. run `makechm.bat`. It will build the .CHM help file.
+
+Note: The following patch was applied:
+
+Add `relpath = relpath.replace(os.path.sep, '/')` after `C:\Python27\Lib\site-packages\recommonmark\transform.py` line `63`
