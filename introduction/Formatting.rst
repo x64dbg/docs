@@ -53,6 +53,7 @@ Examples
 
 - ``rax: {rax}`` formats to ``rax: 4C76``
 - ``password: {s:4*ecx+0x402000}`` formats to ``password: L"s3cret"``
+- ``function type: {mem;1@[ebp]+0xa}`` formats to ``function type: 01``
 - ``{x:bswap(rax)}`` where ``rax=0000000078D333E0`` formats to ``E033D37800000000`` because of bswap fun which reverse the hex value
 - ``{bswap;4@rax}`` where ``rax=1122334455667788`` formats to ``88776655``
 
