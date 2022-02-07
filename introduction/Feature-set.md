@@ -6,7 +6,7 @@ This program is currently under active development. It supports many basic and a
 
 *  Full-featured debugging of DLL and EXE files ([TitanEngine Community Edition](https://bitbucket.org/titanengineupdate/titanengine-update))
 *  32-bit and 64-bit Windows support from Windows XP to Windows 10
-*  Built-in assembler ([XEDParse](https://github.com/x64dbg/XEDParse)/[Keystone](http://www.keystone-engine.org)/[asmjit](https://github.com/asmjit))
+*  Built-in assembler ([XEDParse](https://github.com/x64dbg/XEDParse)/[asmjit](https://github.com/asmjit))
 *  Fast disassembler ([Zydis](https://zydis.re))
 *  C-like expression parser
 *  Logging
@@ -31,7 +31,6 @@ This program is currently under active development. It supports many basic and a
 
 ## Advanced features
 
-*  Decompiler ([snowman](https://derevenets.com))
 *  Import reconstructor integrated ([Scylla](https://github.com/NtQuery/Scylla))
 *  Analysis
 *  Conditional breakpoints and tracing with great flexibility
