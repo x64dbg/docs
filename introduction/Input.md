@@ -18,7 +18,7 @@ Variables optionally start with a `$` and can only store one DWORD (QWORD on x64
 
 All registers of all sizes up to 32-bit (eg: RAX, EAX, AL) can be used as variables.
 
-XMM, YMM, ZMM or any other 64-bit registers may not, but they may be logged via the [String Formatting](https://help.x64dbg.com/en/latest/introduction/Formatting.html) `f` type.
+XMM, YMM, ZMM or any other 64-bit registers may not be used as variables, but they may be logged via the [String Formatting](https://help.x64dbg.com/en/latest/introduction/Formatting.html) `f` type.
 
 ### Remarks
 
