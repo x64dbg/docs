@@ -16,10 +16,10 @@ Types
 - ``x`` he\ **x**: ``3C28A``
 - ``a`` **a**\ ddress info: ``00401010 <module.EntryPoint>``
 - ``i`` **i**\ nstruction text: ``jmp 0x77ac3c87``
-- ``f`` single precision floating-point pointer or register: If ``10001234`` is an address of a single precision floating-point number 3.14, ``{f:10001234}`` will print ``3.14``. It can also accept XMM and YMM registers: ``{f:XMM0}`` prints the single precision floating-point number at XMM0 bit 31:0, ``{f:YMM7[7]}`` prints the single precision floating-point number at YMM7 bit 255:224.
+- ``f`` single precision floating-point pointer or register: If ``10001234`` is an address of a single precision floating-point number 3.14, ``{f:10001234}`` will print ``3.14``. It can also accept XMM and YMM registers: ``{f:XMM0}`` prints the single precision floating-point number at XMM0 bit 31:0, ``{f:YMM7[7]}`` prints the single precision floating-point number at YMM7 bit 255:224. x87 and AVX-512 registers are currently not supported.
 - ``F`` double precision floating-point pointer or register: Similar to ``f``, except that the data is interpreted as double precision floating-point number. It can also accept XMM and YMM registers: ``{F:YMM7[3]}`` prints the double precision floating-point number at YMM7 bit 255:192.
 
-**Note**: XMM and YMM registers may only be used with the ``f`` single precision floating-point type. (Issue 2826 links to details about why)
+**Note**: XMM and YMM registers may only be used with the ``f``/``F`` floating-point type. (Issue 2826 links to details about why)
 
 ------------
 Complex Type

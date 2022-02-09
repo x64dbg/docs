@@ -16,9 +16,9 @@ Variables optionally start with a `$` and can only store one DWORD (QWORD on x64
 
 ## Registers
 
-All registers of all sizes up to 32-bit (eg: RAX, EAX, AL) can be used as variables.
+All registers of all sizes, except floating-point registers (eg: RAX, EAX, AL) can be used as variables.
 
-XMM, YMM, ZMM or any other 64-bit registers may not be used as variables, but they may be logged via the [String Formatting](https://help.x64dbg.com/en/latest/introduction/Formatting.html) `f` type.
+Floating-point registers like XMM0, YMM0 or ST(0) may not be used as variables, but they may be logged via the [String Formatting](https://help.x64dbg.com/en/latest/introduction/Formatting.html) floating-point type. AVX-512 registers are currently not supported.
 
 ### Remarks
 
