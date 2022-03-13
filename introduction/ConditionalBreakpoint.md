@@ -69,6 +69,10 @@ You should not use commands that can change the running state of the debuggee (s
 
 *break condition*: `tid()==1C0`
 
+**A conditional breakpoint which breaks only if ECX points to a UTF-16 string containing "foo"**
+
+*break condition*: `strstr(utf16(ECX), "foo")`
+
 ## Comparison with Conditional Tracing
 
 A conditional breakpoint can only pause the debuggee when it is executed. It cannot pause the debuggee when the breakpoint is not hit even if the condition is satisfied. If you don't know where the condition will become true, try [conditional tracing](./ConditionalTracing.md) instead!
