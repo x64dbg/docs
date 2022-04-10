@@ -2,6 +2,16 @@
 
 You may use functions in an expression. The following functions are defined by the debugger:
 
+## Strings
+
+- `utf8(addr)` : Reads a UTF-8 string from `addr` and returns the string value.
+- `utf16(addr)` : Reads a UTF-16 string from `addr` and returns the string value.
+- `strstr(str1, str2)` : Find a substring. Example: `strstr(utf8(addr), "abc")`.
+- `streq(str1, str2)` : Compare two strings. Example: `streq(utf8(addr), "abc")`.
+- `strlen(str)` : Calculates the length of a string.
+
+The functions `utf8` and `utf16` can be used as inputs for other functions that take `str` arguments. All expressions have to evaluate to a number, so `utf8(rax)` is not a valid expresion and cannot be used as a trace condition for example.
+
 ## GUI Interaction
 
 * `disasm.sel()`/`dis.sel()` : Get the selected address in the disassembly view.
@@ -26,25 +36,20 @@ You may use functions in an expression. The following functions are defined by t
 * `mod.rva(addr)` : Get the RVA of `addr`. If `addr` is not inside a module it will return `0`.
 * `mod.offset(addr)` : Get the file offset of `addr`. If `addr` is not inside a module it will return `0`.
 * `mod.isexport(addr)` : True if `addr` is an exported function from a module.
+* `mod.fromname(str)` : Gets the module base for `str`. `0` if the module is not found. Example: `mod.fromname("ntdll.dll")`.
 
 ## Process Information
 
 * `peb()` : Get PEB address.
 * `teb()` : Get TEB address.
 * `tid()` : Get the current thread ID.
+* `kusd()`,`KUSD()`, `KUSER_SHARED_DATA()` : Get the address of `KUSER_SHARED_DATA` (`0x7FFE0000`).
 
 ## General Purpose
 
 * `bswap(value)` : Byte-swap `value`. For example, `bswap(44332211)` = 0x11223344.
 * `ternary(condition, val1, val2)` : If condition is nonzero, return `val1`, otherwise return `val2`.
 * `GetTickCount()` : Tick count of x64dbg.
-
-## Strings
-
-* `utf8(str)` : A UTF-8 string.
-* `utf16(str)` : A UTF-16 string.
-* `strstr(str1, str2)` : Find a substring. For example, `strstr(utf8(addr), "abc")`.
-* `streq(str1, str2)` : Compare two strings. For example, `streq(utf8(addr), "abc")`.
 
 ## Memory
 
@@ -72,6 +77,9 @@ You may use functions in an expression. The following functions are defined by t
 * `dis.next(addr)` : Address of the next instruction from `addr`.
 * `dis.prev(addr)` : Address of the previous instruction from `addr`.
 * `dis.iscallsystem(addr)` : True if the instruction at `addr` goes to a system module.
+* `dis.mnemonic(addr)` : Returns the mnemonic `str` for `addr`. Example: `str.streq(dis.mnemonic(cip), "cpuid")`.
+* `dis.text(addr)` : Returns the instruction text as a string `addr`. Can be used for conditions, for example: `strstr(dis.text(rip), "rbx")`. **Note**: the instruction text might not exactly match the formatting in the GUI.
+* `dis.match(addr, str)` : True if the instruction at `addr` matches the regex in `str`. Example: `dis.match(rip, "test.+, 0x1")`. You can use `dis.text` to see what you can match on.
 
 ## Trace record
 
@@ -109,12 +117,18 @@ This assumes the return address is on the stack (eg you are inside the function)
 This is a set of functions to get information about the last exception. They can be used for exceptions breakpoints to construct more advanced conditions.
 
 * `ex.firstchance()` : Whether the last exception was a first chance exception.
-* `ex.addr()` : Last exception address.
+* `ex.addr()` : Last exception address. For example the address of the instruction that caused the exception.
 * `ex.code()` : Last exception code.
 * `ex.flags()` : Last exception flags.
 * `ex.infocount()` : Last exception information count (number of parameters).
-* `ex.info(index)` : Last exception information, zero if index is out of bounds.
+* `ex.info(index)` : Last exception information, zero if index is out of bounds. For access violations or memory breakpoints `ex.info(1)` contains the address of the accessed memory (see [EXCEPTION_RECORD.ExceptionInformation](https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-exception_record) for details).
 
 ## Plugins
 
-Plugins can register their own expression functions. See the plugin documentation for more details.
+Plugins can register their own expression functions. You can find an example in the [StackContains](https://github.com/mrexodia/StackContains/blob/315c55381676201ace4cf88bfcb684e62489b129/StackContains/plugin.cpp#L5-L39) plugin. Relevant functions:
+
+- `_plugin_registerexprfunction`
+
+- `_plugin_registerexprfunctionex`
+
+- `_plugin_unregisterexprfunction`
