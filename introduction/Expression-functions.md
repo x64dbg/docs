@@ -10,7 +10,7 @@ You may use functions in an expression. The following functions are defined by t
 - `streq(str1, str2)` : Compare two strings. Example: `streq(utf8(addr), "abc")`.
 - `strlen(str)` : Calculates the length of a string.
 
-The functions `utf8` and `utf16` can be used as inputs for other functions that take `str` arguments. All expressions have to evaluate to a number, so `utf8(rax)` is not a valid expresion and cannot be used as a trace condition for example.
+The functions `utf8` and `utf16` can be used as inputs for other functions that take `str` arguments. The expression `utf8(rax)` does not return a number, so it cannot be used as a trace condition for example.
 
 ## GUI Interaction
 
