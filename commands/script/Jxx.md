@@ -8,8 +8,8 @@ There are various branches that can react on the flags set by the `cmp` (and may
 * branch if equal - `je`/`ife(q)`/`jz`/`ifz`
 * branch if smaller - `jb`/`ifb`/`jl`/`ifl`
 * branch if bigger - `ja`/`ifa`/`jg`/`ifg`
-* branch if bigger/equal - `jbe`/`ifbe(q)`/`jle`/`ifle(q)`
-* branch if smaller/equal - `jae`/`ifae(q)`/`jge`/`ifge(q)`
+* branch if smaller/equal - `jbe`/`ifbe(q)`/`jle`/`ifle(q)`
+* branch if bigger/equal - `jae`/`ifae(q)`/`jge`/`ifge(q)`
 
 arguments
 ---------
