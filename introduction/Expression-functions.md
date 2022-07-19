@@ -43,7 +43,7 @@ The functions `utf8` and `utf16` can be used as inputs for other functions that 
 * `peb()` : Get PEB address.
 * `teb()` : Get TEB address.
 * `tid()` : Get the current thread ID.
-* `kusd()`,`KUSD()`, `KUSER_SHARED_DATA()` : Get the address of `KUSER_SHARED_DATA` (`0x7FFE0000`).
+* `kusd()`,`KUSD()`,`KUSER_SHARED_DATA()` : Get the address of `KUSER_SHARED_DATA` (`0x7FFE0000`).
 
 ## General Purpose
 
@@ -81,11 +81,11 @@ The functions `utf8` and `utf16` can be used as inputs for other functions that 
 * `dis.text(addr)` : Returns the instruction text as a string `addr`. Can be used for conditions, for example: `strstr(dis.text(rip), "rbx")`. **Note**: the instruction text might not exactly match the formatting in the GUI.
 * `dis.match(addr, str)` : True if the instruction at `addr` matches the regex in `str`. Example: `dis.match(rip, "test.+, 0x1")`. You can use `dis.text` to see what you can match on.
 
-## Trace record
+## Tracing
 
-* `tr.enabled(addr)` : True if the trace record is enabled at `addr`.
-* `tr.hitcount(addr)` : Number of hits on the trace record at `addr`.
-* `tr.runtraceenabled()` : True if run trace is enabled.
+* `tr.enabled(addr)` : True if the trace coverage is enabled at `addr`.
+* `tr.hitcount(addr)` : Number of hits in the trace coverage at `addr`.
+* `tr.isrecording()`,`tr.runtraceenabled()` : True if trace recording is enabled.
 
 ## Byte/Word/Dword/Qword/Ptr
 

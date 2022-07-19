@@ -1,6 +1,6 @@
-# TraceIntoIntoTraceRecord/tiit
+# TraceIntoIntoTraceCoverage/TraceIntoIntoTraceRecord/tiit
 
-Perform StepInto until the program reaches somewhere inside the trace record.
+Perform StepInto until the program reaches somewhere inside the trace coverage.
 
 ## arguments
 

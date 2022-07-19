@@ -1,6 +1,6 @@
-# StartRunTrace/opentrace
+# StartTraceRecording/StartRunTrace/opentrace
 
-Start recording a run trace with a specified file. The file will also be opened in the trace view. Note you need to use [TraceIntoConditional](./TraceIntoConditional.md) or other command to actually trace the program.
+Start recording a trace to the specified file. The file will also be opened in the trace view. Note you need to use [TraceIntoConditional](./TraceIntoConditional.md) or other command to actually trace the program and record instructions.
 
 ## arguments
 

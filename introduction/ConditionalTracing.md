@@ -28,27 +28,15 @@ When a trace step is hit, x64dbg will do the following things:
 - If *switch condition* evaluated to `1`:
   - Switch (invert) the step type. If you are tracing *in* it will switch to *out* (and the other way around). This allows you to for example not trace into system module calls with the condition `mod.party(dis.branchdest(cip)) == 1` or not trace into certain calls.
 
-In addition to the above operations, x64dbg also updates the run trace in the trace view and the trace record. The updates to the run trace in the trace view and the trace record are performed every time the debuggee is paused or traced, not just limited to conditional tracing.
+In addition to the above operations, x64dbg also has the ability to record traced instructions to the trace view and to update the trace coverage. This happens every time the debugger steps or pauses, also if you do it manually.
 
 ## Logging
 
-The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.rst) on how to format the log string. If you are looking for logging the address and disassembly of all instructions traced you can use `{p:cip} {i:cip}`. To redirect the log to a file use [TraceSetLogFile](../commands/tracing/TraceSetLogFile.md), or via the graphical dialog.
+The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.rst) on how to format the log string. If you are looking for logging the address and disassembly of all instructions traced you can use `{p:cip} {i:cip}`. To redirect the log to a file use [TraceSetLogFile](../commands/tracing/TraceSetLogFile.md), or use the graphical interface.
 
-An alternative way to record all instruction traced in the trace view is by enabling run trace. Right click in the trace view and click *Start Run Trace*, then start tracing.
+## Trace coverage
 
-![Start Run Trace](https://user-images.githubusercontent.com/2458265/93716466-4e7dd600-fb70-11ea-9df2-0a4e4a05bec2.png)
-
-![Select stored file](https://user-images.githubusercontent.com/2458265/93716470-5473b700-fb70-11ea-95db-52b538d5d9fd.png)
-
-![Menu Trace over](https://user-images.githubusercontent.com/2458265/93716476-5dfd1f00-fb70-11ea-9386-aed74c600e6b.png)
-
-![Trace over](https://user-images.githubusercontent.com/2458265/93716480-66555a00-fb70-11ea-9247-0905296937ad.png)
-
-![Trace view](https://user-images.githubusercontent.com/2458265/93716488-6e14fe80-fb70-11ea-9341-60f3e5d4a70d.png)
-
-## Trace record
-
-If you use one of the trace record-based tracing options such as [TraceIntoBeyondTraceRecord](../commands/tracing/TraceIntoBeyondTraceRecord.md), the initial evaluation of *break condition* includes the type of trace record tracing that you specified. The normal *break condition* can be used to break before the trace record condition is satisfied. If you want to include trace record in your condition for full control, you can use the [expression functions](./Expression-functions.md).
+If you use one of the trace coverage-based tracing options such as [TraceIntoBeyondTraceCoverage](../commands/tracing/TraceIntoBeyondTraceRecord.md), the initial evaluation of *break condition* includes the type of trace coverage tracing that you specified. The normal *break condition* can be used to break before the trace coverage condition is satisfied. If you want to include trace coverage in your condition for full control, you can use the [expression functions](./Expression-functions.md).
 
 ## Notes
 

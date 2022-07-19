@@ -1,6 +1,6 @@
-# TraceOverIntoTraceRecord/toit
+# TraceOverIntoTraceCoverage/TraceOverIntoTraceRecord/toit
 
-Perform StepOver until the program reaches somewhere inside the trace record.
+Perform StepOver until the program reaches somewhere inside the trace coverage.
 
 ## arguments
 

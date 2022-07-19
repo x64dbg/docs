@@ -1,6 +1,6 @@
-# TraceOverBeyondTraceRecord/tobt
+# TraceOverBeyondTraceCoverage,TraceOverBeyondTraceRecord/tobt
 
-Perform StepOver until the program reaches somewhere outside the trace record.
+Perform StepOver until the program reaches somewhere outside the trace coverage.
 
 ## arguments
 

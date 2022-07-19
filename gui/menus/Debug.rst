@@ -164,9 +164,9 @@ Animate command
 
 Pop up a dialog to enter a command, and execute that command at a steady frequency.
 
-------------
-Trace Record
-------------
+--------------
+Trace Coverage
+--------------
 
 ---------------------
 Undo last instruction

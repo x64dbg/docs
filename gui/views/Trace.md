@@ -9,13 +9,13 @@ You can double-click on columns to perform quick operation:
 * Disassembly: follow in disassembly.
 * Comments: set comments.
 
-## Start Run Trace
+## Start trace recording
 
-To enable trace logging into trace view, you first enable it via "**Start Run Trace**" menu. It will pop up a dialog allowing you to save the recorded instructions into a file. The default location of this file is in the database directory.
+To enable trace logging into trace view, you first enable it via "**Start trace recording**" menu item. It will pop up a dialog allowing you to save the recorded instructions to a file. The default location of this file is in the database directory.
 
-Once started, every instruction you stepped or traced will appear immediately in Trace view. Instructions executed while the debuggee is running or stepping over will not appear here.
+Once started, every instruction you stepped or traced will appear immediately in Trace view. If you let the application run the executed instructions will not be recorded.
 
-## Stop Run Trace
+## Stop trace recording
 
 This menu can stop recording instructions.
 

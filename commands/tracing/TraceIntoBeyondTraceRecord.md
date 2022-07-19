@@ -1,8 +1,8 @@
-# TraceIntoBeyondTraceRecord/tibt
+# TraceIntoBeyondTraceCoverage/TraceIntoBeyondTraceRecord/tibt
 
-Perform [StepInto](StepInto.md) until the program reaches somewhere outside the trace record. This is similar to `ticnd tr.hitcount(cip)==0&&arg1, arg2` except that it achieves higher performance by avoiding the expression function invocation.
+Perform [StepInto](StepInto.md) until the program reaches somewhere outside the trace coverage. This is similar to `ticnd tr.hitcount(cip)==0&&arg1, arg2` except that it achieves higher performance by avoiding the expression function invocation.
 
-Usage example: If you want to find out the forking point of the program when different inputs are provided, first enable or re-enable trace record to clean trace record data.
+Usage example: If you want to find out the forking point of the program when different inputs are provided, first enable or re-enable trace coverage to clean trace coverage data.
 Then you trace while input A is provided. Finally you provide input B and execute `TraceIntoBeyondTraceRecord` command. The program will be paused where the instruction is never executed before.
 
 ## arguments

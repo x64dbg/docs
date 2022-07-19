@@ -1,6 +1,6 @@
-# StopRunTrace/tc
+# StopTraceRecording/StopRunTrace/tc
 
-Stops recording a run trace and closes file.
+Stops trace recording and closes the file.
 
 ## arguments
 
