@@ -9,6 +9,7 @@ This section explains the basics of x64dbg. **Make sure to fully read this!**
    :maxdepth: 2
    
    Feature-set
+   Glossary
    Input
    Expressions
    Expression-functions
@@ -17,4 +18,4 @@ This section explains the basics of x64dbg. **Make sure to fully read this!**
    ConditionalTracing
    Formatting
    Commandline
-   inability
+   Inability
