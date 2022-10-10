@@ -14,3 +14,4 @@ This section contains commands to manipulate memory inside the debuggee.
    getpagerights
    setpagerights
    savedata
+   minidump
