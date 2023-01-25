@@ -1,7 +1,9 @@
 Commands
 ========
 
-This is the documentation of x64dbg commands.
+Commands have the following format (notice the arguments are **comma separated**):
+
+``command arg1, arg2, argN``
 
 FAQ:
 

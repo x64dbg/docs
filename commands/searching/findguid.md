@@ -13,3 +13,17 @@ Find references to GUID. The referenced GUID must be registered in the system, o
 ## results
 
 Set `$result` to `1` if any GUID is found, `0` otherwise.
+
+## remarks
+
+The contents of the reference view can be iterated in a script with the `ref.addr` [expression function](../../introduction/Expression-functions.md):
+
+```
+i = 0
+loop:
+  addr = ref.addr(i)
+  log "reference {d:i} = {p:addr}"
+  i++
+  cmp i, ref.count()
+  jne loop
+```

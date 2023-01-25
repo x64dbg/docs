@@ -2,7 +2,7 @@
 Expressions
 ===========
 
-The debugger allows usage of basic expressions. Just type an expression in the command window and the result will be displayed in the console. Apart from calculations, it allows quick variable changes using a C-like syntax.
+The debugger allows usage of basic expressions. Apart from calculations, it allows variable assignment using a C-like syntax. You can play around with expressions by typing them in the command bar, or using the calculator (`Help -> Calculator` menu).
 
 -----
 Input

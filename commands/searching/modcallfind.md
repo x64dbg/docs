@@ -11,3 +11,17 @@ Find all inter-modular calls.
 ## result
 
 The `$result` variable is set to the number of inter-modular calls found.
+
+## remarks
+
+The contents of the reference view can be iterated in a script with the `ref.addr` [expression function](../../introduction/Expression-functions.md):
+
+```
+i = 0
+loop:
+  addr = ref.addr(i)
+  log "reference {d:i} = {p:addr}"
+  i++
+  cmp i, ref.count()
+  jne loop
+```

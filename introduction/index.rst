@@ -6,11 +6,9 @@ This section explains the basics of x64dbg. **Make sure to fully read this!**
 **Contents:**
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
-   Feature-set
-   Glossary
-   Input
+   Values
    Expressions
    Expression-functions
    Variables
@@ -19,3 +17,5 @@ This section explains the basics of x64dbg. **Make sure to fully read this!**
    Formatting
    Commandline
    Inability
+   Feature-set
+   Glossary
