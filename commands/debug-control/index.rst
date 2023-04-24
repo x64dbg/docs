@@ -25,3 +25,5 @@ Debug Control
    eStepOut
    skip
    InstrUndo
+   StepUser
+   StepSystem
