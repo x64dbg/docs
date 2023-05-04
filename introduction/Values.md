@@ -50,7 +50,7 @@ User-defined labels and symbols are a valid expressions (they resolve to the add
 
 ### DLL exports
 
-Type `GetProcAddress` and it will automatically be resolved to the actual address of the function. To explicitly define from which module to load the API, use: `[module].dll:[api]` or `[module]:[api]`. In a similar way you can resolve ordinals, try `[module]:[ordinal]`. Another macro allows you to get the loaded base of a module. When `[module]` is an empty string (`:myexport` for example), the module that is currently selected in the CPU will be used. Using a `.` instead of a `:` is equivalent.
+Type `GetProcAddress` and it will automatically be resolved to the actual address of the function. To explicitly define from which module to load the API, use: `module.dll:api` or `module:api`. In a similar way you can resolve ordinals, try `module:ordinal`. Another macro allows you to get the loaded base of a module. When `module` is an empty string (`:myexport` for example), the module that is currently selected in the CPU will be used. Using a `.` instead of a `:` is equivalent.
 
 ```
 ntdll.dll:ZwContinue
@@ -69,12 +69,21 @@ kernel32?EnterCriticalSection // resolves to the export in kernel32
 
 ### Loaded module bases
 
-If you want to access the loaded module base, you can write: `[module]`, `[module]:0`, `[module]:base`, `[module]:imagebase` or `[module]:header`.
+If you want to access the loaded module base, you can write: `module`, `module:0`, `module:base`, `module:imagebase` or `module:header`.
 
 ### RVA/File offset
 
-If you want to access a module RVA you can either write `[module] + [rva]` or you can write `[module]:$[rva]`. If you want to convert a file offset to a VA you can use `[module]:#[offset]`. When `[module]` is an empty string (`:$123` for example), the module that is currently selected in the CPU will be used. 
+If you want to access a module RVA you can either write `module + rva` or you can write `module:$rva`. If you want to convert a file offset to a VA you can use `module:#offset`. When `module` is an empty string (`:$123` for example), the module that is currently selected in the CPU will be used.
+
+```
+// File offset 0x400
+ntdll.dll:#400
+:#400
+// RVA 0x1000
+ntdll.dll:$1000 // RVA 0x1000
+:$1000
+```
 
 ### Module entry points
 
-To access a module entry point you can write `[module]:entry`, `[module]:oep` or `[module]:ep`. Notice that when there are exports with the names `entry`, `oep` or `ep` the address of these will be returned instead.
+To access a module entry point you can write `module:entry`, `module:oep` or `module:ep`. Notice that when there are exports with the names `entry`, `oep` or `ep` the address of these will be returned instead.
