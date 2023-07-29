@@ -5,7 +5,7 @@ This function allows you to hash some data. It is used by x64dbg in various plac
 
 ::
 
-    bool _plugin_hash(
+    duint _plugin_hash(
     const void* data, //data to hash
     duint size //size (in bytes) of the data to hash
     );

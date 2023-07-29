@@ -9,18 +9,24 @@ This section contains information about the `_plugin_` prefixed functions export
    
    debugpause
    debugskipexceptions
+   hash
    logprintf
    logputs
    menuadd
    menuaddentry
    menuaddseparator
    menuclear
-   menuentryseticon
    menuentrysetchecked
+   menuentryseticon
    menuseticon
    registercallback
    registercommand
+   registerexprfunction
+   registerexprfunctionex
+   registerformatfunction
+   startscript
    unregistercallback
    unregistercommand
+   unregisterexprfunction
+   unregisterformatfunction
    waituntilpaused
-   hash

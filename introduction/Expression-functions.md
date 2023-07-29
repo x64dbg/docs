@@ -49,7 +49,8 @@ The functions `utf8` and `utf16` can be used as inputs for other functions that 
 
 * `bswap(value)` : Byte-swap `value`. For example, `bswap(44332211)` = 0x11223344.
 * `ternary(condition, val1, val2)` : If condition is nonzero, return `val1`, otherwise return `val2`.
-* `GetTickCount()` : Tick count of x64dbg.
+* `GetTickCount()` : The Windows API `GetTickCount()`, a timer that increases every 1ms.
+* `isdebuggerfocused()` : Check if x64dbg is focused. Return `1` when x64dbg is focused, otherwise return `0`.
 
 ## Memory
 
@@ -94,6 +95,8 @@ The functions `utf8` and `utf16` can be used as inputs for other functions that 
 * `ReadDword(addr)`,`Dword(addr)`,`dword(addr)` : Read a dword (4 bytes) from `addr` and return the value.
 * `ReadQword(addr)`,`Qword(addr)`,`qword(addr)` : Read a qword (8 bytes) from `addr` and return the value (only available on x64).
 * `ReadPtr(addr)`,`ReadPointer(addr)`,`ptr(addr)`,`Pointer(addr)`,`pointer(addr)` : Read a pointer (4/8 bytes) from `addr` and return the value.
+
+These expression functions return `0` when `addr` is not valid.
 
 ## Functions
 
