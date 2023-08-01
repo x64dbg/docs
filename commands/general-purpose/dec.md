@@ -1,4 +1,4 @@
-# dec
+﻿# dec
 
 Decrease a value.
 
@@ -8,4 +8,4 @@ Decrease a value.
 
 ## result
 
-This command does not set any result variables.
+This command does not set any result variables.

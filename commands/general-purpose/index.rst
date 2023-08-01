@@ -29,3 +29,4 @@ This section contains various commands that are used for calculations etc.
    test
    cmp
    mov
+   movdqu
