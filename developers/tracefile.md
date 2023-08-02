@@ -1,5 +1,5 @@
 # x64dbg trace file format specification
-x64dbg trace file is a binary file that contains all information about program execution. Each trace file is composed of 3 parts: **Magic word**, **JSON header** and  **binary trace blocks**. x64dbg trace file is little-endian.
+x64dbg trace file is a binary file that contains all information about program execution. Each trace file is composed of 3 parts: **Magic word**, **JSON header** and **binary trace blocks**. x64dbg trace file is little-endian.
 ## Magic word
 Every trace file will begin with 4 bytes, "TRAC" (encoded in ASCII).
 ## Header
@@ -54,11 +54,11 @@ typedef struct
 } REGDUMP;
 ```
 
-For example, `ccx` is the second member of regcontext. On x64 architecture, it is at byte offset 8 and on x86 architecture it is at byte offset 4. On both architecture, it is at index 1 and `cax` is at index 0. Therefore, when `RegisterChangePosition[0]` = 0, `RegisterChangeNewData[0]` contains the new value of `cax`. If `RegisterChangePosition[1]` = 0, `RegisterChangeNewData[1]` contains the new value of `ccx`, since the absolute index is computed by 0+0+1=1. The use of relative indexing helps achieve better data compression if a lossless compression is then applied to trace file, and also allow future expansion of `REGDUMP` structure without increasing size of `RegisterChanges` and `RegisterChangePosition` beyond a byte. Note: the file reader can locate the address of the instruction using `cip` register in this structure.
+For example, `ccx` is the second member of `regcontext`. On x64 architecture, it is at byte offset 8 and on x86 architecture it is at byte offset 4. On both architectures, it is at index 1 and `cax` is at index 0. Therefore, when `RegisterChangePosition[0]` = 0, `RegisterChangeNewData[0]` contains the new value of `cax`. If `RegisterChangePosition[1]` = 0, `RegisterChangeNewData[1]` contains the new value of `ccx`, since the absolute index is computed by 0+0+1=1. The use of relative indexing helps achieve better data compression if a lossless compression is then applied to trace file, and also allow future expansion of `REGDUMP` structure without increasing size of `RegisterChanges` and `RegisterChangePosition` beyond a byte. Note: the file reader can locate the address of the instruction using `cip` register in this structure.
 
-x64dbg will save all registers at the start of trace, and every 512 instructions(this number might be changed in future versions to have different tradeoff between speed and space). A block with all registers saved will have `RegisterChanges`=172 on 64-bit platform and 216 on 32-bit platform. This allows x64dbg trace file to be randomly accessed. x64dbg might be unable to open a trace file that has a sequence of instruction longer than an implementation-defined limit without all registers saved.
+x64dbg will save all registers at the start of trace, and every 512 instructions (this number might be changed in future versions to have different tradeoff between speed and space). A block with all registers saved will have `RegisterChanges`=172 on 64-bit platform and 216 on 32-bit platform. This allows x64dbg trace file to be randomly accessed. x64dbg might be unable to open a trace file that has a sequence of instruction longer than an implementation-defined limit without all registers saved.
 
-`MemoryAccessFlags` is an array of bytes that indicates properties of memory access. Currently, only bit 0 is defined and all other bits are reserved and set to 0. When bit 0 is set, it indicates the memory is not changed(This could mean it is read, or it is overwritten with identical value), so `MemoryAccessNewData` will not have an entry for this memory access. The file reader may use a disassembler to determine the true type of memory access.
+`MemoryAccessFlags` is an array of bytes that indicates properties of memory access. Currently, only bit 0 is defined and all other bits are reserved and set to 0. When bit 0 is set, it indicates the memory is not changed (This could mean it is read, or it is overwritten with identical value), so `MemoryAccessNewData` will not have an entry for this memory access. The file reader may use a disassembler to determine the true type of memory access.
 
 `MemoryAccessAddress` is an array of pointers that indicates the address of memory access.
 
