@@ -8,7 +8,7 @@ Initializes the debugger. This command will load the executable (do some basic c
 
 `[arg2]` Commandline to create the process with.
 
-`[arg3]` Current folder (passed to the `CreateProcess` API).
+`[arg3]` Current folder (passed to the `CreateProcess` API) (this is also sometimes called 'working directory' or 'current directory')
 
 ## result
 
