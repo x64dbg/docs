@@ -4,13 +4,16 @@ You may use functions in an expression. The following functions are defined by t
 
 ## Strings
 
+- `ansi(addr)` : Reads an ANSI string from `addr` and returns the string value.
 - `utf8(addr)` : Reads a UTF-8 string from `addr` and returns the string value.
 - `utf16(addr)` : Reads a UTF-16 string from `addr` and returns the string value.
 - `strstr(str1, str2)` : Find a substring. Example: `strstr(utf8(addr), "abc")`.
 - `streq(str1, str2)` : Compare two strings. Example: `streq(utf8(addr), "abc")`.
 - `strlen(str)` : Calculates the length of a string.
 
-The functions `utf8` and `utf16` can be used as inputs for other functions that take `str` arguments. The expression `utf8(rax)` does not return a number, so it cannot be used as a trace condition for example.
+The functions `ansi`/`utf8`/`utf16` can be used as inputs for other functions that take `str` arguments. If the `addr` cannot be read an empty string is returned. If you want to fail you can use the `.strict` variants (for example `utf8.strict(rax)`).
+
+The expression `utf8(rax)` does not return a number, so it cannot be used as a trace condition for example.
 
 ## GUI Interaction
 
