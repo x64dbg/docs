@@ -53,7 +53,9 @@ The expression `utf8(rax)` does not return a number, so it cannot be used as a t
 * `bswap(value)` : Byte-swap `value`. For example, `bswap(44332211)` = 0x11223344.
 * `ternary(condition, val1, val2)` : If condition is nonzero, return `val1`, otherwise return `val2`.
 * `GetTickCount()` : The Windows API `GetTickCount()`, a timer that increases every 1ms.
+* `rdtsc()` : The result of the `RDTSC` instruction, a CPU timer. Only 32-bit result is returned in 32-bit environment.
 * `isdebuggerfocused()` : Check if x64dbg is focused. Return `1` when x64dbg is focused, otherwise return `0`.
+* `isdebuggeefocused()` : Check if the debugged program is focused. Return `1` when the debugged program is focused, otherwise return `0`.
 
 ## Memory
 
