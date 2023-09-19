@@ -37,6 +37,7 @@ This section contains information about the Graphical User Interface GUI functio
    GuiMenuClear
    GuiMenuSetEntryIcon
    GuiMenuSetIcon
+   GuiOpenTraceFile
    GuiReferenceAddColumn
    GuiReferenceDeleteAllColumns
    GuiReferenceGetCellContent
