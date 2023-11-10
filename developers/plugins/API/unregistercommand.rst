@@ -6,8 +6,8 @@ This function removes a command set by a plugin. It is only possible to remove c
 ::
 
     bool _plugin_unregistercommand( 
-    int pluginHandle, //plugin handle
-    const char* command //command name
+        int pluginHandle, //plugin handle
+        const char* command //command name
     ); 
 
 ----------

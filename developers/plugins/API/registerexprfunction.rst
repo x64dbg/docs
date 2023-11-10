@@ -6,11 +6,11 @@ This function registers an expression function defined by a plugin, so that user
 ::
 
     bool _plugin_registerexprfunction(
-    int pluginHandle,                //plugin handle
-    const char* name,                //name of expresison function
-	int argc,                        //number of arguments
-    CBPLUGINEXPRFUNCTION cbFunction, //callback function
-	void* userdata                   //user data
+        int pluginHandle,                //plugin handle
+        const char* name,                //name of expresison function
+        int argc,                        //number of arguments
+        CBPLUGINEXPRFUNCTION cbFunction, //callback function
+        void* userdata                   //user data
     ); 
 
 ----------

@@ -4,8 +4,8 @@ This function removes all entries and child menus from a menu. It will not remov
 
 ::
 
-    bool  _plugin_menuclear ( 
-    int hMenu //menu handle of the menu to clear  
+    bool  _plugin_menuclear( 
+        int hMenu //menu handle of the menu to clear  
     );
 
 Parameters

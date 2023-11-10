@@ -7,10 +7,10 @@ This function registers a command for usage inside scripts or the command bar.
 ::
 
     bool _plugin_registercommand( 
-    int pluginHandle, //plugin handle
-    const char* command, //command name
-    CBPLUGINCOMMAND cbCommand, //function that is called when the command is executed
-    bool debugonly //restrict the command to debug-only
+        int pluginHandle, //plugin handle
+        const char* command, //command name
+        CBPLUGINCOMMAND cbCommand, //function that is called when the command is executed
+        bool debugonly //restrict the command to debug-only
     );
 
 ----------

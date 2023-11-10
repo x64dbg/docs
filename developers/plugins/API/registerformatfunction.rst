@@ -6,10 +6,10 @@ This function registers a format function defined by a plugin, so that users can
 ::
 
     bool _plugin_registerformatfunction(
-    int pluginHandle,                  //plugin handle
-	const char* type,                  //the name of format function
-    CBPLUGINFORMATFUNCTION cbFunction, //callback function
-	void* userdata                     //user data
+        int pluginHandle,                  //plugin handle
+        const char* type,                  //the name of format function
+        CBPLUGINFORMATFUNCTION cbFunction, //callback function
+        void* userdata                     //user data
     ); 
 
 ----------

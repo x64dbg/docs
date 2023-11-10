@@ -6,7 +6,7 @@ Creates a new thread to run the callback function asynchronously.
 ::
 
     void _plugin_startscript(
-    CBPLUGINSCRIPT cbScript //callback
+        CBPLUGINSCRIPT cbScript //callback
     );
 
 ----------

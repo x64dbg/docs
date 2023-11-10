@@ -4,10 +4,10 @@ This function sets the checked state of a menu entry. Notice that this function 
 
 ::
 
-    void _plugin_menuentrysetchecked (
-    int pluginHandle, //plugin handle
-    int hEntry, //handle of the menu entry
-    bool checked //new checked state
+    void _plugin_menuentrysetchecked(
+        int pluginHandle, //plugin handle
+        int hEntry, //handle of the menu entry
+        bool checked //new checked state
     ); 
 
 Parameters

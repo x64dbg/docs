@@ -6,8 +6,8 @@ This function removes a string format function registered by a plugin. It is onl
 ::
 
     bool _plugin_unregisterformatfunction( 
-    int pluginHandle, //plugin handle
-    const char* type  //string format function name
+        int pluginHandle, //plugin handle
+        const char* type  //string format function name
     ); 
 
 ----------

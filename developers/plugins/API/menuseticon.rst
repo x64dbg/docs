@@ -4,9 +4,9 @@ This function sets an icon to a menu.
 
 ::
 
-    void _plugin_menuseticon (
-    int hMenu, //handle of the menu
-    const ICONDATA* icon //icon data
+    void _plugin_menuseticon(
+        int hMenu, //handle of the menu
+        const ICONDATA* icon //icon data
     ); 
 
 Parameters

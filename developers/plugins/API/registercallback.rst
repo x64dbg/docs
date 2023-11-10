@@ -6,9 +6,9 @@ This function registers an event callback for a plugin. Every plugin can have it
 ::
 
     void _plugin_registercallback(
-    int pluginHandle, //plugin handle
-    CBTYPE cbType, //event type
-    CBPLUGIN cbPlugin //callback function
+        int pluginHandle, //plugin handle
+        CBTYPE cbType, //event type
+        CBPLUGIN cbPlugin //callback function
     ); 
 
 ----------

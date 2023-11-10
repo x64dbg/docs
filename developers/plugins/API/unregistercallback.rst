@@ -6,8 +6,8 @@ This plugin unregisters a previously set callback. It is only possible to remove
 ::
 
     bool _plugin_unregistercallback( 
-    int pluginHandle, //plugin handle
-    CBTYPE cbType //callback type to remove
+        int pluginHandle, //plugin handle
+        CBTYPE cbType //callback type to remove
     ); 
 
 Parameters 

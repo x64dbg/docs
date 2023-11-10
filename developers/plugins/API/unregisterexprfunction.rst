@@ -6,8 +6,8 @@ This function removes an expression function registered by a plugin. It is only 
 ::
 
     bool _plugin_unregisterexprfunction( 
-    int pluginHandle, //plugin handle
-    const char* name //expression function name
+        int pluginHandle, //plugin handle
+        const char* name //expression function name
     ); 
 
 ----------

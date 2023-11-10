@@ -20,7 +20,7 @@ This function does not return a value.
 notesFile = String(szProgramDir) + "\\notes.txt";
 String text;
 if(!FileExists(notesFile.c_str()) || FileHelper::ReadAllText(notesFile, text))
-	GuiSetGlobalNotes(text.c_str());
+    GuiSetGlobalNotes(text.c_str());
 ```
 
 ## Related functions

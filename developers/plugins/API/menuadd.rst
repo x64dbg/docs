@@ -6,8 +6,8 @@ This function adds a new child menu to a menu.
 ::
 
     int _plugin_menuadd(
-    int hMenu, //menu handle to add the new child menu to
-    const char* title //child menu title
+        int hMenu, //menu handle to add the new child menu to
+        const char* title //child menu title
     );
 
 ----------

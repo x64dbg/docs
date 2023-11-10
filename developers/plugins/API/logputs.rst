@@ -6,7 +6,7 @@ This function prints a single line to the log window.
 ::
 
     void _plugin_logputs(
-    const char* text //text to print
+        const char* text //text to print
     ); 
 
 ----------

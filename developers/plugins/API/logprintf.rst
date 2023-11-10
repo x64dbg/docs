@@ -7,8 +7,8 @@ This function prints a message to the log window.
 ::
 
     void _plugin_logprintf(
-    const char* format, //format string
-    ... //additional arguments
+        const char* format, //format string
+        ... //additional arguments
     ); 
 
 ----------

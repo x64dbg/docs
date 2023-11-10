@@ -6,7 +6,7 @@ This function returns sets if the debugger should skip first-chance exceptions. 
 ::
 
    void _plugin_debugskipexceptions(
-   bool skip //skip flag
+      bool skip //skip flag
    );
 
 ----------

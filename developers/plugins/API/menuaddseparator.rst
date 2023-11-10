@@ -6,7 +6,7 @@ This function adds a new child menu to a menu.
 ::
 
     bool _plugin_menuaddseparator(
-    int hMenu //menu handle to add the separator to 
+        int hMenu //menu handle to add the separator to 
     );
 
 Parameters

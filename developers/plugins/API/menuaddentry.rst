@@ -6,9 +6,9 @@ This function adds a menu entry to a menu.
 ::
 
     bool _plugin_menuaddentry(
-    int hMenu, //menu handle to add the new child menu to
-    int hEntry, //plugin-wide identifier for the menu entry
-    const char* title //menu entry title
+        int hMenu, //menu handle to add the new child menu to
+        int hEntry, //plugin-wide identifier for the menu entry
+        const char* title //menu entry title
     );
 
 Parameters 

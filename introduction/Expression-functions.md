@@ -4,9 +4,9 @@ You may use functions in an expression. The following functions are defined by t
 
 ## Strings
 
-- `ansi(addr)` : Reads an ANSI string from `addr` and returns the string value.
-- `utf8(addr)` : Reads a UTF-8 string from `addr` and returns the string value.
-- `utf16(addr)` : Reads a UTF-16 string from `addr` and returns the string value.
+- `ansi(addr[, count])` : Reads a null-terminated ANSI string from `addr` and returns the string value. When a `count` is specified the string will be truncated.
+- `utf8(addr[, count])` : Reads a null-terminated UTF-8 string from `addr` and returns the string value. When a `count` is specified the string will be truncated.
+- `utf16(addr[, count])` : Reads a null-terminated UTF-16 string from `addr` and returns the string value. When a `count` is specified the string will be truncated.
 - `strstr(str1, str2)` : Find a substring. Example: `strstr(utf8(addr), "abc")`.
 - `streq(str1, str2)` : Compare two strings. Example: `streq(utf8(addr), "abc")`.
 - `strlen(str)` : Calculates the length of a string.
