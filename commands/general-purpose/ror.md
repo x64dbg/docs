@@ -1,6 +1,6 @@
 # ror
 
-Binary ROR a value.
+Binary ROR (rotate right) a value.
 
 ## arguments
 

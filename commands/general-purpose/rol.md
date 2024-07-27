@@ -1,6 +1,6 @@
 # rol
 
-Binary ROL a value.
+Binary ROL (rotate left) a value.
 
 ## arguments
 
