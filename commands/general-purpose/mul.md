@@ -1,6 +1,6 @@
 # mul
 
-Multiply two values.
+Multiply two values and store the lower part of result into `arg1`.
 
 ## arguments
 
