@@ -1,6 +1,6 @@
 # bswap
 
-Perform a `bswap` operation.
+Perform a `bswap` operation: The byte order of the destination is inverted, so the last byte becomes the first.
 
 ## arguments
 
