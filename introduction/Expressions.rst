@@ -4,11 +4,11 @@ Expressions
 
 The debugger allows usage of basic expressions. Apart from calculations, it allows variable assignment using a C-like syntax. You can play around with expressions by typing them in the command bar, or using the calculator (`Help -> Calculator` menu).
 
------
-Input
------
+------
+Values
+------
 
-The basic input (numbers/variables) can be used as constants in expressions, see :doc:`Input` for more information.
+All values can be used as constants in expressions, see :doc:`Values` for more information and examples.
 
 ---------
 Operators
