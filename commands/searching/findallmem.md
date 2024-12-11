@@ -6,7 +6,7 @@ Find all occurrences of a pattern in the entire memory map.
 
 `arg1` The address to start searching from.
 
-`arg2` The byte pattern to search for. This byte pattern can contain wildcards (?) for example: `EB0?90??8D`. You can use [String Formatting](../../introduction/Formatting.rst) here.
+`arg2` The byte pattern to search for. This byte pattern can contain wildcards (?) for example: `EB0?90??8D`. You can use [String Formatting](../../introduction/Formatting.md) here.
 
 `[arg3]` The size of the data to search in. Default is the entire memory map (`-1`).
 

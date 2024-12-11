@@ -9,16 +9,16 @@ When a breakpoint is hit, x64dbg will do the following things:
 - Set the system variable `$breakpointexceptionaddress` to the address that triggered the breakpoint (memory location);
 - Increment the *hit counter*;
 - Set the system variable `$breakpointcounter` to the value of *hit counter*;
-- If *break condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
+- If *break condition* is set, evaluate the [expression](./Expressions.md) (defaults to `1`);
 - If *fast resume* is set and *break condition* evaluated to `0`:
   - Resume execution of the debuggee (skip the next steps). This will also skip executing plugin callbacks and GUI updates.
-- If *log condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
-- If *command condition* is set, evaluate the [expression](./Expressions.rst) (defaults to `1`);
+- If *log condition* is set, evaluate the [expression](./Expressions.md) (defaults to `1`);
+- If *command condition* is set, evaluate the [expression](./Expressions.md) (defaults to `1`);
 - If *break condition* evaluated to `1` (or any value other than '0'):
   - Print the standard log message; (if [the breakpoint is set to be silent](../commands/conditional-breakpoint-control/SetBreakpointSilent.md), standard log message is supressed.)
   - Execute plugin callbacks.
 - If *log text* is set and *log condition* evaluated to `1` (or any value other than '0'):
-  - Format and print the *log text* (see [String Formatting](./Formatting.rst)).
+  - Format and print the *log text* (see [String Formatting](./Formatting.md)).
 - If *command text* is set and *command condition* evaluated to `1`:
   - Set the system variable `$breakpointcondition` to the *break condition*;
   - Set the system variable `$breakpointlogcondition` to the *log condition*;
@@ -35,7 +35,7 @@ A hit counter records how many times a breakpoint has been reached. It will be i
 
 ## Logging
 
-The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.rst) on how to format the log string.
+The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.md) on how to format the log string.
 
 ## Notes
 
@@ -80,6 +80,6 @@ A conditional breakpoint can only pause the debuggee when it is executed. It can
 ## See also
 
 - [Conditional Breakpoint Control](../commands/conditional-breakpoint-control/index.rst)
-- [Expressions](./Expressions.rst)
+- [Expressions](./Expressions.md)
 - [Expression Functions](./Expression-functions.md)
-- [String Formatting](./Formatting.rst)
+- [String Formatting](./Formatting.md)

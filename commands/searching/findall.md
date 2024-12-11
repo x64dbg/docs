@@ -6,7 +6,7 @@ Find all occurrences of a pattern in a memory page.
 
 `arg1` The address to start searching from. Notice that the searching will stop when the end of the memory page this address resides in has been reached. This means you cannot search the complete process memory without enumerating the memory pages first. You can use [findallmem](./findallmem.md) to search for a pattern in the whole memory.
 
-`arg2` The byte pattern to search for. This byte pattern can contain wildcards (?) for example: `EB0?90??8D`. You can use [String Formatting](../../introduction/Formatting.rst) here.
+`arg2` The byte pattern to search for. This byte pattern can contain wildcards (?) for example: `EB0?90??8D`. You can use [String Formatting](../../introduction/Formatting.md) here.
 
 `[arg3]` The size of the data to search in. Default is the size of the memory region.
 

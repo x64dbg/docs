@@ -6,7 +6,7 @@ Set a label.
 
 `arg1` Address to set the label at (preferably inside a module).
 
-`arg2` Label text. You can use [String Formatting](../../introduction/Formatting.rst) here.
+`arg2` Label text. You can use [String Formatting](../../introduction/Formatting.md) here.
 
 ## result
 

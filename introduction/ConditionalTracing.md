@@ -8,12 +8,12 @@ When a trace step is hit, x64dbg will do the following things:
 
 - Increment the *trace counter*;
 - Set the system variable `$tracecounter` to the value of *trace counter*;
-- If *break condition* is set, evaluate the [expression](Expressions.rst) (defaults to `0`);
+- If *break condition* is set, evaluate the [expression](Expressions.md) (defaults to `0`);
 - Execute plugin callbacks (allowing plugins to change the *break condition*);
-- If *log condition* is set, evaluate the [expression](Expressions.rst) (defaults to `1`);
-- If *command condition* is set, evaluate the [expression](Expressions.rst) (defaults to *break condition*);
+- If *log condition* is set, evaluate the [expression](Expressions.md) (defaults to `1`);
+- If *command condition* is set, evaluate the [expression](Expressions.md) (defaults to *break condition*);
 - If *log text* is set and *log condition* evaluated to `1`:
-  - Format and print the *log text* (see [String Formatting](Formatting.rst)). To redirect the log to a file use [TraceSetLogFile](../commands/tracing/TraceSetLogFile.md).
+  - Format and print the *log text* (see [String Formatting](Formatting.md)). To redirect the log to a file use [TraceSetLogFile](../commands/tracing/TraceSetLogFile.md).
 - If *command text* is set and *command condition* evaluated to `1`:
   - Set the system variable `$tracecondition` to the *break condition*;
   - Set the system variable `$tracelogcondition` to the *log condition*;
@@ -27,7 +27,7 @@ In addition to the above operations, x64dbg also has the ability to record trace
 
 ## Logging
 
-The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.rst) on how to format the log string. If you are looking for logging the address and disassembly of all instructions traced you can use `{p:cip} {i:cip}`. To redirect the log to a file use [TraceSetLogFile](../commands/tracing/TraceSetLogFile.md), or use the graphical interface.
+The log can be formatted by x64dbg to log the current state of the program. See [formatting](./Formatting.md) on how to format the log string. If you are looking for logging the address and disassembly of all instructions traced you can use `{p:cip} {i:cip}`. To redirect the log to a file use [TraceSetLogFile](../commands/tracing/TraceSetLogFile.md), or use the graphical interface.
 
 ## Trace coverage
 
@@ -44,6 +44,6 @@ When you use *Trace Over*, the debuggee would not be paused inside the calls tha
 ## See also
 
 - [Tracing](../commands/tracing/index.rst)
-- [Expressions](Expressions.rst)
+- [Expressions](Expressions.md)
 - [Expression Functions](Expression-functions.md)
-- [String Formatting](Formatting.rst)
+- [String Formatting](Formatting.md)

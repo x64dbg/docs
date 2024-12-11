@@ -1,6 +1,6 @@
 # Values
 
-A lot of [commands](../commands/index.rst) accept [expressions](./Expressions.rst) and values as arguments. Below is a list of all the value formats supported. You can play around with these by typing them in the command bar, or using the calculator (`Help -> Calculator` menu).
+A lot of [commands](../commands/index.rst) accept [expressions](./Expressions.md) and values as arguments. Below is a list of all the value formats supported. You can play around with these by typing them in the command bar, or using the calculator (`Help -> Calculator` menu).
 
 ## Numbers
 
@@ -14,7 +14,7 @@ Variables optionally start with a `$` and can only store one DWORD (QWORD on x64
 
 All registers of all sizes, except floating-point registers (eg: RAX, EAX, AL) can be used as variables.
 
-Floating-point registers like XMM0, YMM0 or ST(0) may not be used as variables, but they may be logged via the [String Formatting](https://help.x64dbg.com/en/latest/introduction/Formatting.html) floating-point type. AVX-512 registers are currently not supported.
+Floating-point registers like XMM0, YMM0 or ST(0) may not be used as variables, but they may be logged via the [String Formatting](./Formatting.md) floating-point type. AVX-512 registers are currently not supported.
 
 ### Remarks
 

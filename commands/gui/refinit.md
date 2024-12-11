@@ -4,7 +4,7 @@ Initialize reference view for command usage.
 
 ## arguments
 
-`[arg1]` The title of the new reference view. You can use [String Formatting](../../introduction/Formatting.rst) here.
+`[arg1]` The title of the new reference view. You can use [String Formatting](../../introduction/Formatting.md) here.
 
 ## result
 

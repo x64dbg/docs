@@ -8,7 +8,7 @@ duint DbgValFromString(const char* string);
 
 ## Parameters
 
-`string` The [expression](../../../introduction/Expressions.rst) to evaluate in UTF-8 encoding.
+`string` The [expression](../../../introduction/Expressions.md) to evaluate in UTF-8 encoding.
 
 ## Return Value
 

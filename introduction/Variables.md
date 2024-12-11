@@ -17,7 +17,7 @@ myvar = 1234
 $myvar = 1234
 ```
 
-All of the above set a USER variable `myvar` to the [value](./Input.md) `0x1234`. You can also use the C-style assignment operators (see the [expression](./Expressions.rst) documentation for a full list of supported operators):
+All of the above set a USER variable `myvar` to the [value](./Values.md) `0x1234`. You can also use the C-style assignment operators (see the [expression](./Expressions.md) documentation for a full list of supported operators):
 
 ```
 myvar += 0x10
