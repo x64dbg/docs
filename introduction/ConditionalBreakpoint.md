@@ -29,7 +29,7 @@ When a breakpoint is hit, x64dbg will do the following things:
   
 If any expression is invalid, the condition will be triggered (That is, an invalid expression as condition will cause the breakpoint to always break, log and execute command).
 
-**Warning: All numbers in expressions are interpreted as hex by default!** For decimal numbers use `.123`.
+**Warning: All numbers in expressions are interpreted as hex by default!** For decimal use `.123`.
 
 ## Hit counter
 
