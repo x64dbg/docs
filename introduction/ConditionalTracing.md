@@ -25,7 +25,7 @@ When a trace step is hit, x64dbg will do the following things:
 
 In addition to the above operations, x64dbg also has the ability to record traced instructions to the trace view and to update the trace coverage. This happens every time the debugger steps or pauses, also if you do it manually.
 
-**Warning: All numbers in expressions are interpreted as hex by default!** For decimal numbers use `.123`.
+**Warning: All numbers in expressions are interpreted as hex by default!** For decimal use `.123`.
 
 ## Logging
 
