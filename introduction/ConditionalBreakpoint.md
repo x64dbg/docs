@@ -29,6 +29,8 @@ When a breakpoint is hit, x64dbg will do the following things:
   
 If any expression is invalid, the condition will be triggered (That is, an invalid expression as condition will cause the breakpoint to always break, log and execute command).
 
+**Warning: All numbers in expressions are interpreted as hex by default!** For decimal numbers use `.123`.
+
 ## Hit counter
 
 A hit counter records how many times a breakpoint has been reached. It will be incremented unconditionally, even if fast resume is enabled on this breakpoint. It may be viewed at breakpoint view and reset with [ResetBreakpointHitCount](../commands/conditional-breakpoint-control/ResetBreakpointHitCount.md).

@@ -6,6 +6,8 @@ The debugger allows usage of basic expressions. Apart from calculations, it allo
 
 All values can be used as constants in expressions, see [values](./Values.md) for more information and examples.
 
+**Warning: All numbers in expressions are interpreted as hex by default!** For decimal numbers use `.123`.
+
 ## Operators
 
 You can use the following operators in your expression. They are processed in the following order:
