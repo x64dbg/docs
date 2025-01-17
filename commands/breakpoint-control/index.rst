@@ -17,6 +17,7 @@ This section contains breakpoint control (set/delete/enable/disable) commands.
    EnableHardwareBreakpoint
    DisableHardwareBreakpoint
    SetMemoryBPX
+   SetMemoryRangeBPX
    DeleteMemoryBPX
    EnableMemoryBreakpoint
    DisableMemoryBreakpoint
