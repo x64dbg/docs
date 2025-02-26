@@ -2,7 +2,7 @@
 
 This section explains the simple string formatter built into x64dbg.
 
-The basic syntax is `{?:expression}` where `?` is the optional type of the expression. To output `{` or `}` in the result, escape them as `{{` or `}}`.
+The basic syntax is `{?:expression}` where `?` is the optional type of the [expression](./Expressions.md). To output `{` or `}` in the result, escape them as `{{` or `}}`.
 
 ## Types
 
@@ -41,6 +41,7 @@ The basic syntax is `{?:expression}` where `?` is the optional type of the expre
 - `{x:bswap(rax)}` where `rax=0000000078D333E0` formats to `E033D37800000000` because of bswap fun which reverse the hex value
 - `{bswap;4@rax}` where `rax=1122334455667788` formats to `88776655`
 - `mnemonic: {dis.mnemonic(dis.sel())}` formats to `mnemonic: push`
+- `return address: `{a:[rsp]}` formats to `00401010 <module.myfunction+N>`
 
 ## Logging
 
