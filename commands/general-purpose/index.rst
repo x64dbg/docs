@@ -12,6 +12,7 @@ This section contains various commands that are used for calculations etc.
    add
    sub
    mul
+   mulhi
    div
    and
    or
@@ -24,6 +25,8 @@ This section contains various commands that are used for calculations etc.
    shl
    shr
    sar
+   popcnt
+   lzcnt
    push
    pop
    test
