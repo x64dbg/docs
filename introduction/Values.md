@@ -14,7 +14,7 @@ Variables optionally start with a `$` and can only store one DWORD (QWORD on x64
 
 All registers of all sizes, except floating-point registers (eg: RAX, EAX, AL) can be used as variables.
 
-Floating-point registers like XMM0, YMM0 or ST(0) may not be used as variables, but they may be logged via the [String Formatting](./Formatting.md) floating-point type. AVX-512 registers are currently not supported.
+Floating-point registers like XMM0, YMM0, ZMM0, K0 or ST(0) may not be used as variables, but they may be logged via the [String Formatting](./Formatting.md) floating-point type. Commands [`movdqu`](../commands/general-purpose/movdqu.md), [`vmovdqu`](../commands/general-purpose/vmovdqu.md), [`kmovd`](../commands/general-purpose/vmovdqu.md) can also be used to access floating-point registers.
 
 ### Remarks
 
@@ -37,7 +37,7 @@ You can read/write from/to a memory location by using one of the following expre
 - `dword:[addr]` read a DWORD from `addr`.
 - `qword:[addr]` read a QWORD from `addr` (x64 only).
 
-- `n` is the amount of bytes to read, this can be anything smaller than 4 on x32 and smaller than 8 on x64 when specified, otherwise there will be an error.
+- `n` is the amount of bytes to read, this can be anything not greater than 4 on x32 and not greater than 8 on x64 when specified, otherwise there will be an error.
 - `seg` can be `gs`, `es`, `cs`, `fs`, `ds`, `ss`. Only `fs` and `gs` have an effect.
 
 Dereferencing an invalid address causes an error, which can be problematic for [conditional breakpoints](./ConditionalBreakpoint.md) or when scripting. You can use the `ReadByte(addr)` family of [expression functions](./Expression-functions.md) to return 0 on error instead.

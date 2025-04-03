@@ -33,3 +33,5 @@ This section contains various commands that are used for calculations etc.
    cmp
    mov
    movdqu
+   vmovdqu
+   kmovd
