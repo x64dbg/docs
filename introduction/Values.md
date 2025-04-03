@@ -14,7 +14,7 @@ Variables optionally start with a `$` and can only store one DWORD (QWORD on x64
 
 All registers of all sizes, except floating-point registers (eg: RAX, EAX, AL) can be used as variables.
 
-Floating-point registers like XMM0, YMM0, ZMM0, K0 or ST(0) may not be used as variables, but they may be logged via the [String Formatting](./Formatting.md) floating-point type. Commands [`movdqu`](../commands/general-purpose/movdqu.md), [`vmovdqu`](../commands/general-purpose/vmovdqu.md), [`kmovd`](../commands/general-purpose/vmovdqu.md) can also be used to access floating-point registers.
+Floating-point registers like XMM0, YMM0, ZMM0, K0 or ST(0) may not be used as variables, but they may be logged via the [String Formatting](./Formatting.md) floating-point type. Commands [`movdqu`](../commands/general-purpose/movdqu.md), [`vmovdqu`](../commands/general-purpose/vmovdqu.md), [`kmovd`](../commands/general-purpose/kmovd.md) can also be used to access floating-point registers.
 
 ### Remarks
 
