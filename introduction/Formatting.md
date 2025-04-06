@@ -22,7 +22,9 @@ The basic syntax is `{?:expression}` where `?` is the optional type of the [expr
 
 - `{mem;size@address}` will print the `size` bytes starting at `address` in hex.
 - `{winerror@code}` will print the name of windows error code(returned with `GetLastError()`) and the description of it(with `FormatMessage`). It is similar to ErrLookup utility.
+- `{winerrorname@code}` will print the name of windows error code(returned with `GetLastError()`) only.
 - `{ntstatus@code}` will print the name of NTSTATUS error code and the description of it(with `FormatMessage`).
+- `{ntstatusname@code}` will print the name of NTSTATUS error code only.
 - `{ascii[;length]@address}` will print the ASCII string at `address` with an optional `length` (in bytes).
 - `{ansi[;length]@address}` will print the ANSI (local codepage) string at `address` with an optional `length` (in bytes).
 - `{utf8[;length]@address}` will print the UTF-8 string at `address` with an optional `length` (in bytes).
