@@ -1,3 +1,41 @@
 _build*/
 *.chm
 python-2.7.18.amd64.portable/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.py[cod]
+__pycache__/
+
+# Claude
+.claude/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package manager
+# Note: Do not ignore poetry.lock or uv.lock
