@@ -1,3 +1,5 @@
+# This repository was moved to https://github.com/x64dbg/x64dbg/tree/development/docs
+
 # docs
 
 Documentation repository for [x64dbg](http://x64dbg.com) at [Read the Docs](https://readthedocs.org/projects/x64dbg).
